@@ -5,41 +5,44 @@ import org.jsfml.window.VideoMode;
 import org.jsfml.window.event.Event;
 
 public class Main {
-
+	// Set 3 variables, the window's width, height and title
 	public static final int WIDTH = 640, HEIGHT = 480;
-	public static final String TITLE = "JSFML Window";	// Set 3 variables, the window's width, height and title
+	public static final String TITLE = "JSFML Window"; 
 
-	private VideoMode mode;					// I don't really know how to explain what this is, so just add it.  In a way, it's the window's parameters
-	private RenderWindow window;				// A render target (something for you to put sprites on).  A window, in this case
+	// Creates objects
+	private VideoMode mode;
+	private RenderWindow window;
 
 	public Main() {
 		createObjects();
 
+		// Loops while the window is open
 		while (window.isOpen()) {
 			draw();
 			input();
 		}
 	}
 
+	// Initialises objects
 	public void createObjects() {
 		mode	= new VideoMode(WIDTH, HEIGHT);
 		window	= new RenderWindow();
 
-		window.create(mode, TITLE);			// Draws the RenderWindow with the three parameters we set at the beginning
-								// You can also add another param, which is Window.FULLSCREEN.
+		window.create(mode, TITLE);	// Draws window
 	}
 
+	// Draws objects onto the render target (window)
 	public void draw() {
-		window.clear();					// This clears the window so that you don't get duplicate sprites whenever something moves
-		// Put window.draw(drawable object) to draw stuff.  Read up on sprites, textures and images to find out more
+		window.clear();
 		window.display();
 	}
 
+	// Listens to key events.  Exits when close is requested
 	public void input() {
-		for (Event event : window.pollEvents()) {	// If you want a key event for moving sprites, put it outside this for loop
+		for (Event event : window.pollEvents()) {
 			if (event.type == Event.Type.CLOSED || Keyboard.isKeyPressed(Key.ESCAPE)) {
-				window.close();			// Closes the window when close is requested
-				System.exit(0);			// Exits the program with a clean exit
+				window.close();
+				System.exit(0);
 			}
 		}
 	}
