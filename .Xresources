@@ -1,0 +1,43 @@
+URxvt.termName:		rxvt
+URxvt.background:	#111
+URxvt.foreground:	#AAA
+URxvt.tabbed.tabbar-fg:	#AAA
+URxvt.tabbed.tabbar-bg:	#111
+URxvt.tabbed.tab-fg:	#111
+URxvt.tabbed.tab-bg:	#AAA
+
+URxvt.scrollBar:	false
+
+URxvt.font:		xft:Tewi:size=8
+URxvt.boldFont:		xft:Tewi-bold:size=8
+
+URxvt.perl-ext-common:	default,matcher,tabbed
+URxvt.url-launcher:	/usr/bin/firefox
+URxvt.matcher.button:	1
+
+!Colours
+
+!Black
+*color0: #111
+*color8: #627369
+!Red
+*color1: #924445
+*color9: #803536
+!Green
+*color2: #456140
+*color10: #33642A
+!Yellow
+*color3: #DAB257
+*color11: #AC8E46
+!Blue
+*color4: #657386
+*color12: #334E72
+!Magenta
+*color5: #977F94
+*color13: #7A6A78
+!Cyan
+*color6: #7DB9BA
+*color14: #5F9898
+!White
+*color7: #AAA
+*color15: #f6f6f5
