@@ -250,6 +250,3 @@
 
 /*----- Fix for white flash on new tab -----*/
 tabbrowser tabpanels, #appcontent > #content { background: var(--bg-light) !important; }
-
-
-
