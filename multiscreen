@@ -1,9 +1,15 @@
 #!/bin/bash
 
 case $1 in
-	-on) 
+	-right) 
 		xrandr --output HDMI1 --right-of eDP1 --mode 1920x1080 
 	   	echo "Monitor switched on";;
+    -left) 
+        xrandr --output HDMI1 --left-of eDP1 --mode 1920x1080 
+        echo "Monitor switched on";;
+    -project) 
+        xrandr --output HDMI1 --same-as eDP1 --mode 1920x1080 
+        echo "Monitor switched on";;
 	-off)
 		xrandr --output HDMI1 --off
 		echo "Monitor switched off";;
