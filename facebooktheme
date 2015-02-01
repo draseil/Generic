@@ -1,0 +1,8 @@
+@-moz-document domain(facebook.com) {
+  * {
+    border: none !important;
+  }
+  #pagelet_navigation, #rightCol, #pagelet_dock, ._3zm-, button[title="Find friends"], .fbChatSidebar {
+    display: none !important;
+  }
+}

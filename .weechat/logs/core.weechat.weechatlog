@@ -1,0 +1,522 @@
+2015-01-27 19:33:58		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-27 19:34:06		All servers:
+2015-01-27 19:34:06		   freenode
+2015-01-27 19:34:14		irc: server iotek created
+2015-01-27 19:34:52		script: downloading list of scripts...
+2015-01-27 19:34:52		script: 279 scripts for WeeChat 1.1
+2015-01-27 19:34:52		perl: loading script "/home/theemptyabyss/.weechat/perl/buffers.pl"
+2015-01-27 19:34:52		perl: registered script "buffers", version 5.0 (Sidebar with list of buffers)
+2015-01-27 19:34:52		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2015-01-27 19:34:52		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2015-01-27 19:34:52		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2015-01-27 19:34:52		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2015-01-27 19:35:01		script: script "iset" not found
+2015-01-27 19:35:05		perl: loading script "/home/theemptyabyss/.weechat/perl/iset.pl"
+2015-01-27 19:35:05		perl: registered script "iset", version 3.6 (Interactive Set for configuration options)
+2015-01-27 19:35:05		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2015-01-27 19:35:05		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2015-01-27 19:35:05		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2015-01-27 19:35:05		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2015-01-27 19:35:33		Option changed: weechat.bar.status.filling_left_right = horizontal  (default: vertical)
+2015-01-27 19:35:37		Option changed: weechat.bar.status.filling_left_right = vertical
+2015-01-27 19:35:42		Option changed: weechat.bar.status.hidden = on  (default: off)
+2015-01-27 19:35:50		Option changed: weechat.bar.title.hidden = on  (default: off)
+2015-01-27 19:36:16		Option changed: buffers.color.current_bg = default  (default: red)
+2015-01-27 19:36:20		Option changed: buffers.color.current_fg = white  (default: lightcyan)
+2015-01-27 19:36:24		Option changed: buffers.color.default_fg = 7  (default: default)
+2015-01-27 19:36:43		Option changed: buffers.color.hotlist_highlight_fg = red  (default: magenta)
+2015-01-27 19:36:47		Option changed: buffers.color.hotlist_message_fg = magenta  (default: yellow)
+2015-01-27 19:36:55		Option changed: buffers.color.hotlist_private_fg = red  (default: lightgreen)
+2015-01-27 19:37:32		Option changed: weechat.bar.isetbar.hidden = on
+2015-01-27 19:37:35		Option changed: weechat.bar.isetbar.hidden = off  (default: on)
+2015-01-27 19:37:41		Option changed: weechat.bar.nicklist.hidden = on  (default: off)
+2015-01-27 19:38:15		Option changed: buffers.color.none_channel_fg = 7  (default: default)
+2015-01-27 19:38:35		Option changed: buffers.look.show_number = off  (default: on)
+2015-01-27 19:38:48		Option changed: weechat.bar.buffers.position = right  (default: left)
+2015-01-27 19:39:28		Option changed: weechat.bar.buffers.separator = off  (default: on)
+2015-01-27 19:39:35		Option changed: weechat.bar.isetbar.separator = off  (default: on)
+2015-01-27 19:39:44		Option changed: weechat.bar.nicklist.separator = off  (default: on)
+2015-01-27 19:39:56		Option changed: buffers.look.prefix_bufname = " "  (default: "")
+2015-01-27 19:40:17	=!=	irc: unable to create temporary server "afternet" because the creation of temporary servers with command /connect is currently disabled
+2015-01-27 19:40:17	=!=	irc: if you want to create a standard server, use the command "/server add" (see /help server); if you really want to create a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-01-27 19:40:27		irc: server afternet created
+2015-01-27 19:41:35		Option changed: weechat.look.prefix_suffix = ""  (default: "|")
+2015-01-27 19:47:02		Option changed: weechat.look.buffer_time_format = ""  (default: "%H:%M:%S")
+2015-01-27 19:47:48		Option changed: weechat.bar.input.items = "────,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2015-01-27 19:47:57		Option changed: weechat.bar.input.color_delim = default  (default: cyan)
+2015-01-27 19:50:36		Option changed: weechat.look.prefix_join = "──>"  (default: "-->")
+2015-01-27 19:50:38		Option changed: weechat.look.prefix_network = "──"  (default: "--")
+2015-01-27 19:50:41		Option changed: weechat.look.prefix_quit = "<──"  (default: "<--")
+2015-01-27 19:52:52		Option changed: weechat.color.chat_highlight = red  (default: yellow)
+2015-01-27 19:52:56		Option changed: weechat.color.chat_highlight_bg = default  (default: magenta)
+2015-01-27 19:55:17		Option changed: weechat.color.chat_nick_colors = "cyan"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2015-01-27 20:00:37		Option changed: irc.look.server_buffer = independent  (default: merge_with_core)
+2015-01-27 20:00:58	=!=	Error: failed to set option "irc.look.server_buffer"
+2015-01-27 20:01:06		Option changed: irc.look.server_buffer = merge_without_core  (default: merge_with_core)
+2015-01-27 20:01:22		Option changed: irc.look.server_buffer = independent  (default: merge_with_core)
+2015-01-27 20:09:25		Option changed: irc.server_default.default_msg_part = "Check out muh site! http://85.5.16.85/"  (default: "WeeChat %v")
+2015-01-27 20:09:32		Option changed: irc.server_default.default_msg_quit = "Check out muh site! http://85.5.16.85/"  (default: "WeeChat %v")
+2015-01-27 20:09:48		Option changed: irc.server_default.nicks = "liesard,liesard_,liesard__"  (default: "")
+2015-01-27 20:10:54		Option changed: buffers.color.hotlist_low_fg = 7  (default: white)
+2015-01-27 20:13:00		Option changed: irc.look.part_closes_buffer = on  (default: off)
+2015-01-27 20:13:12		Option changed: irc.look.pv_buffer = merge_all  (default: independent)
+2015-01-27 20:13:39		Option changed: irc.look.pv_buffer = merge_by_server  (default: independent)
+2015-01-27 20:13:47		Option changed: irc.look.pv_buffer = independent
+2015-01-27 20:14:18		Option changed: irc.server_default.username = "liesard"  (default: "")
+2015-01-27 20:14:33		Option changed: iset.color.bg_selected = cyan  (default: red)
+2015-01-27 20:21:40		Option changed: irc.look.server_buffer = merge_with_core
+2015-01-27 20:21:49		Option changed: irc.look.server_buffer = merge_with_core
+2015-01-27 20:30:39		Option changed: weechat.bar.input.items = "────, input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2015-01-27 20:30:43		Option changed: weechat.bar.input.items = "────,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2015-01-27 21:01:48	=!=	irc: unable to create temporary server "rizon" because the creation of temporary servers with command /connect is currently disabled
+2015-01-27 21:01:48	=!=	irc: if you want to create a standard server, use the command "/server add" (see /help server); if you really want to create a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-01-27 21:01:56		irc: server rizon created
+2015-01-27 21:04:01		Option changed: weechat.look.window_title = "WeeChat"  (default: "WeeChat ${info:version}")
+2015-01-27 21:05:48		Option changed: buffers.color.hotlist_message_fg = cyan  (default: yellow)
+2015-01-27 21:06:18		irc: server pesterchum created
+2015-01-27 21:52:10		fifo: pipe closed
+2015-01-27 21:52:18		script: 279 scripts for WeeChat 1.1
+2015-01-27 21:52:18		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-27 21:53:00		Option changed: logger.look.backlog = 0  (default: 20)
+2015-01-28 00:47:23		fifo: pipe closed
+2015-01-28 00:47:24		script: 279 scripts for WeeChat 1.1
+2015-01-28 00:47:24		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-28 01:02:45		fifo: pipe closed
+2015-01-28 11:13:47		script: 279 scripts for WeeChat 1.1
+2015-01-28 11:13:47		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-28 11:41:48	perl	warning: Use of uninitialized value $cmd_array[0] in string ne at /home/theemptyabyss/.weechat/perl/autoload/iset.pl line 263.
+2015-01-28 11:42:22		Option changed: weechat.look.nick_prefix = "<"  (default: "")
+2015-01-28 11:42:27		Option changed: weechat.look.nick_prefix = ""
+2015-01-28 11:54:12		Option changed: weechat.look.prefix_same_nick = " "  (default: "")
+2015-01-28 12:01:19		fifo: pipe closed
+2015-01-28 12:45:09		script: 279 scripts for WeeChat 1.1
+2015-01-28 12:45:09		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-28 13:17:03		fifo: pipe closed
+2015-01-28 16:19:59		script: 279 scripts for WeeChat 1.1
+2015-01-28 16:19:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-28 16:21:36		Option changed: irc.look.server_buffer = independent  (default: merge_with_core)
+2015-01-28 16:30:31	=!=	irc: unable to create temporary server "code" because the creation of temporary servers with command /connect is currently disabled
+2015-01-28 16:30:31	=!=	irc: if you want to create a standard server, use the command "/server add" (see /help server); if you really want to create a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2015-01-28 16:32:50		Option changed: buffers.look.whitelist_buffers = " "  (default: "")
+2015-01-28 16:32:54		Option changed: buffers.look.whitelist_buffers = ">  "  (default: "")
+2015-01-28 16:32:59		Option changed: buffers.look.whitelist_buffers = ""
+2015-01-28 16:36:22		Option changed: weechat.look.prefix_buffer_align = left  (default: right)
+2015-01-28 16:36:26		Option changed: weechat.look.prefix_buffer_align = right
+2015-01-28 16:40:38		perl: loading script "/home/theemptyabyss/.weechat/perl/beep.pl"
+2015-01-28 16:40:38		perl: registered script "beep", version 1.1 (Beep (terminal bell) and/or run command on highlight/private message or new DCC)
+2015-01-28 18:51:23		fifo: pipe closed
+2015-01-28 22:53:37		script: downloading list of scripts...
+2015-01-28 22:53:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-28 22:53:39		script: 279 scripts for WeeChat 1.1
+2015-01-28 22:54:04		Option changed: weechat.look.prefix_align_max = 20  (default: 0)
+2015-01-28 22:55:05		Option changed: weechat.bar.input.items = "          └─,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2015-01-28 22:55:24		Option changed: weechat.look.prefix_suffix = "│"  (default: "|")
+2015-01-28 22:55:37		Option changed: weechat.look.prefix_align_min = 20  (default: 0)
+2015-01-28 22:55:42		Option changed: weechat.look.prefix_align_min = 15  (default: 0)
+2015-01-28 22:56:02		Option changed: weechat.look.prefix_align_min = 10  (default: 0)
+2015-01-28 22:56:17		Option changed: weechat.bar.input.items = "           └─,input_text"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2015-01-28 22:56:32		Option changed: weechat.look.prefix_align_max = 10  (default: 0)
+2015-01-28 22:56:42		Option changed: weechat.color.chat_nick_prefix = white  (default: green)
+2015-01-28 22:56:51		Option changed: weechat.color.chat_prefix_suffix = white  (default: green)
+2015-01-28 22:57:00		Option changed: weechat.color.chat_prefix_suffix = black  (default: green)
+2015-01-28 22:57:04		Option changed: weechat.color.chat_nick_prefix = green
+2015-01-28 22:57:10		Option changed: weechat.color.chat_prefix_network = black  (default: magenta)
+2015-01-28 22:57:31		Option changed: weechat.bar.input.color_fg = black  (default: default)
+2015-01-28 22:57:35		Option changed: weechat.bar.input.color_delim = black  (default: default)
+2015-01-28 22:57:39		Option changed: weechat.bar.input.color_fg = default
+2015-01-28 22:58:30		Option changed: weechat.bar.input.color_delim = default
+2015-01-28 22:58:38		Option changed: weechat.color.chat_prefix_suffix = default  (default: green)
+2015-01-28 23:05:45		Option changed: weechat.color.separator = black  (default: blue)
+2015-01-28 23:05:54		Option changed: weechat.look.separator_horizontal = " "  (default: "-")
+2015-01-28 23:07:06		Option changed: weechat.look.separator_horizontal = "-"
+2015-01-28 23:07:47		Option changed: weechat.look.read_marker_string = " "  (default: "- ")
+2015-01-28 23:13:22		fifo: pipe closed
+2015-01-29 12:41:53		script: 279 scripts for WeeChat 1.1
+2015-01-29 12:41:53		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 13:04:16		fifo: pipe closed
+2015-01-29 13:29:45		script: 279 scripts for WeeChat 1.1
+2015-01-29 13:29:45		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 16:06:31		fifo: pipe closed
+2015-01-29 17:38:29		script: 279 scripts for WeeChat 1.1
+2015-01-29 17:38:29		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 18:09:31		fifo: pipe closed
+2015-01-29 18:12:46		script: 279 scripts for WeeChat 1.1
+2015-01-29 18:12:46		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 18:42:00		fifo: pipe closed
+2015-01-29 19:26:00		script: 279 scripts for WeeChat 1.1
+2015-01-29 19:26:00		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 19:59:42		fifo: pipe closed
+2015-01-29 22:09:36		script: 279 scripts for WeeChat 1.1
+2015-01-29 22:09:36		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 22:14:47		fifo: pipe closed
+2015-01-29 22:20:10		script: 279 scripts for WeeChat 1.1
+2015-01-29 22:20:10		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 22:20:12		All servers:
+2015-01-29 22:20:12		   freenode
+2015-01-29 22:20:12		   iotek
+2015-01-29 22:20:12		   afternet
+2015-01-29 22:20:12		   rizon
+2015-01-29 22:20:12		   pesterchum
+2015-01-29 22:20:18		[irc]  /server  list|listfull [<server>]
+2015-01-29 22:20:18		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2015-01-29 22:20:18		                copy|rename <server> <new_name>
+2015-01-29 22:20:18		                reorder <server> [<server>...]
+2015-01-29 22:20:18		                del|keep <server>
+2015-01-29 22:20:18		                deloutq|jump|raw
+2015-01-29 22:20:18		list, add or remove IRC servers
+2015-01-29 22:20:18		    list: list servers (without argument, this list is displayed)
+2015-01-29 22:20:18		listfull: list servers with detailed info for each server
+2015-01-29 22:20:18		     add: create a new server
+2015-01-29 22:20:18		  server: server name, for internal and display use
+2015-01-29 22:20:18		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2015-01-29 22:20:18		    temp: create temporary server (not saved)
+2015-01-29 22:20:18		  option: set option for server (for boolean option, value can be omitted)
+2015-01-29 22:20:18		nooption: set boolean option to 'off' (for example: -nossl)
+2015-01-29 22:20:18		    copy: duplicate a server
+2015-01-29 22:20:18		  rename: rename a server
+2015-01-29 22:20:18		 reorder: reorder list of servers
+2015-01-29 22:20:18		    keep: keep server in config file (for temporary servers only)
+2015-01-29 22:20:18		     del: delete a server
+2015-01-29 22:20:18		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2015-01-29 22:20:18		    jump: jump to server buffer
+2015-01-29 22:20:18		     raw: open buffer with raw IRC data
+2015-01-29 22:20:18		Examples:
+2015-01-29 22:20:18		  /server listfull
+2015-01-29 22:20:18		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2015-01-29 22:20:18		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2015-01-29 22:20:18		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2015-01-29 22:20:18		  /server add freenode3 chat.freenode.net -password=mypass
+2015-01-29 22:20:18		  /server copy oftc oftcbis
+2015-01-29 22:20:18		  /server rename oftc newoftc
+2015-01-29 22:20:18		  /server reorder oftc freenode
+2015-01-29 22:20:18		  /server del freenode
+2015-01-29 22:20:18		  /server deloutq
+2015-01-29 22:20:36		All servers:
+2015-01-29 22:20:36		Server: freenode [not connected]
+2015-01-29 22:20:36		  addresses. . . . . . : 'chat.freenode.net/6667'
+2015-01-29 22:20:36		  proxy. . . . . . . . :   ('')
+2015-01-29 22:20:36		  ipv6 . . . . . . . . :   (on)
+2015-01-29 22:20:36		  ssl. . . . . . . . . :   (off)
+2015-01-29 22:20:36		  ssl_cert . . . . . . :   ('')
+2015-01-29 22:20:36		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2015-01-29 22:20:36		  ssl_dhkey_size . . . :   (2048)
+2015-01-29 22:20:36		  ssl_fingerprint. . . :   ('')
+2015-01-29 22:20:36		  ssl_verify . . . . . :   (on)
+2015-01-29 22:20:36		  password . . . . . . :   (hidden)
+2015-01-29 22:20:36		  capabilities . . . . :   ('')
+2015-01-29 22:20:36		  sasl_mechanism . . . :   ('plain')
+2015-01-29 22:20:36		  sasl_username. . . . :   ('')
+2015-01-29 22:20:36		  sasl_password. . . . :   (hidden)
+2015-01-29 22:20:36		  sasl_timeout . . . . :   (15 seconds)
+2015-01-29 22:20:36		  sasl_fail. . . . . . :   ('continue')
+2015-01-29 22:20:36		  autoconnect. . . . . :   (off)
+2015-01-29 22:20:36		  autoreconnect. . . . :   (on)
+2015-01-29 22:20:36		  autoreconnect_delay. :   (10 seconds)
+2015-01-29 22:20:36		  nicks. . . . . . . . :   ('liesard,liesard_,liesard__')
+2015-01-29 22:20:36		  username . . . . . . :   ('liesard')
+2015-01-29 22:20:36		  realname . . . . . . :   ('')
+2015-01-29 22:20:36		  local_hostname . . . :   ('')
+2015-01-29 22:20:36		  command. . . . . . . :   ('')
+2015-01-29 22:20:36		  command_delay. . . . :   (0 seconds)
+2015-01-29 22:20:36		  autojoin . . . . . . :   ('')
+2015-01-29 22:20:36		  autorejoin . . . . . :   (off)
+2015-01-29 22:20:36		  autorejoin_delay . . :   (30 seconds)
+2015-01-29 22:20:36		  connection_timeout . :   (60 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_high :   (2 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_low. :   (2 seconds)
+2015-01-29 22:20:36		  away_check . . . . . :   (0 minutes)
+2015-01-29 22:20:36		  away_check_max_nicks :   (25)
+2015-01-29 22:20:36		  default_msg_kick . . :   ('')
+2015-01-29 22:20:36		  default_msg_part . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  default_msg_quit . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  notify . . . . . . . :   ('')
+2015-01-29 22:20:36		Server: iotek [not connected]
+2015-01-29 22:20:36		  addresses. . . . . . : 'irc.iotek.org'
+2015-01-29 22:20:36		  proxy. . . . . . . . :   ('')
+2015-01-29 22:20:36		  ipv6 . . . . . . . . :   (on)
+2015-01-29 22:20:36		  ssl. . . . . . . . . :   (off)
+2015-01-29 22:20:36		  ssl_cert . . . . . . :   ('')
+2015-01-29 22:20:36		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2015-01-29 22:20:36		  ssl_dhkey_size . . . :   (2048)
+2015-01-29 22:20:36		  ssl_fingerprint. . . :   ('')
+2015-01-29 22:20:36		  ssl_verify . . . . . :   (on)
+2015-01-29 22:20:36		  password . . . . . . :   (hidden)
+2015-01-29 22:20:36		  capabilities . . . . :   ('')
+2015-01-29 22:20:36		  sasl_mechanism . . . :   ('plain')
+2015-01-29 22:20:36		  sasl_username. . . . :   ('')
+2015-01-29 22:20:36		  sasl_password. . . . :   (hidden)
+2015-01-29 22:20:36		  sasl_timeout . . . . :   (15 seconds)
+2015-01-29 22:20:36		  sasl_fail. . . . . . :   ('continue')
+2015-01-29 22:20:36		  autoconnect. . . . . :   (off)
+2015-01-29 22:20:36		  autoreconnect. . . . :   (on)
+2015-01-29 22:20:36		  autoreconnect_delay. :   (10 seconds)
+2015-01-29 22:20:36		  nicks. . . . . . . . :   ('liesard,liesard_,liesard__')
+2015-01-29 22:20:36		  username . . . . . . :   ('liesard')
+2015-01-29 22:20:36		  realname . . . . . . :   ('')
+2015-01-29 22:20:36		  local_hostname . . . :   ('')
+2015-01-29 22:20:36		  command. . . . . . . :   ('')
+2015-01-29 22:20:36		  command_delay. . . . :   (0 seconds)
+2015-01-29 22:20:36		  autojoin . . . . . . :   ('')
+2015-01-29 22:20:36		  autorejoin . . . . . :   (off)
+2015-01-29 22:20:36		  autorejoin_delay . . :   (30 seconds)
+2015-01-29 22:20:36		  connection_timeout . :   (60 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_high :   (2 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_low. :   (2 seconds)
+2015-01-29 22:20:36		  away_check . . . . . :   (0 minutes)
+2015-01-29 22:20:36		  away_check_max_nicks :   (25)
+2015-01-29 22:20:36		  default_msg_kick . . :   ('')
+2015-01-29 22:20:36		  default_msg_part . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  default_msg_quit . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  notify . . . . . . . :   ('')
+2015-01-29 22:20:36		Server: afternet [not connected]
+2015-01-29 22:20:36		  addresses. . . . . . : 'irc.afternet.org'
+2015-01-29 22:20:36		  proxy. . . . . . . . :   ('')
+2015-01-29 22:20:36		  ipv6 . . . . . . . . :   (on)
+2015-01-29 22:20:36		  ssl. . . . . . . . . :   (off)
+2015-01-29 22:20:36		  ssl_cert . . . . . . :   ('')
+2015-01-29 22:20:36		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2015-01-29 22:20:36		  ssl_dhkey_size . . . :   (2048)
+2015-01-29 22:20:36		  ssl_fingerprint. . . :   ('')
+2015-01-29 22:20:36		  ssl_verify . . . . . :   (on)
+2015-01-29 22:20:36		  password . . . . . . :   (hidden)
+2015-01-29 22:20:36		  capabilities . . . . :   ('')
+2015-01-29 22:20:36		  sasl_mechanism . . . :   ('plain')
+2015-01-29 22:20:36		  sasl_username. . . . :   ('')
+2015-01-29 22:20:36		  sasl_password. . . . :   (hidden)
+2015-01-29 22:20:36		  sasl_timeout . . . . :   (15 seconds)
+2015-01-29 22:20:36		  sasl_fail. . . . . . :   ('continue')
+2015-01-29 22:20:36		  autoconnect. . . . . :   (off)
+2015-01-29 22:20:36		  autoreconnect. . . . :   (on)
+2015-01-29 22:20:36		  autoreconnect_delay. :   (10 seconds)
+2015-01-29 22:20:36		  nicks. . . . . . . . :   ('liesard,liesard_,liesard__')
+2015-01-29 22:20:36		  username . . . . . . :   ('liesard')
+2015-01-29 22:20:36		  realname . . . . . . :   ('')
+2015-01-29 22:20:36		  local_hostname . . . :   ('')
+2015-01-29 22:20:36		  command. . . . . . . :   ('')
+2015-01-29 22:20:36		  command_delay. . . . :   (0 seconds)
+2015-01-29 22:20:36		  autojoin . . . . . . :   ('')
+2015-01-29 22:20:36		  autorejoin . . . . . :   (off)
+2015-01-29 22:20:36		  autorejoin_delay . . :   (30 seconds)
+2015-01-29 22:20:36		  connection_timeout . :   (60 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_high :   (2 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_low. :   (2 seconds)
+2015-01-29 22:20:36		  away_check . . . . . :   (0 minutes)
+2015-01-29 22:20:36		  away_check_max_nicks :   (25)
+2015-01-29 22:20:36		  default_msg_kick . . :   ('')
+2015-01-29 22:20:36		  default_msg_part . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  default_msg_quit . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  notify . . . . . . . :   ('')
+2015-01-29 22:20:36		Server: rizon [not connected]
+2015-01-29 22:20:36		  addresses. . . . . . : 'irc.rizon.net'
+2015-01-29 22:20:36		  proxy. . . . . . . . :   ('')
+2015-01-29 22:20:36		  ipv6 . . . . . . . . :   (on)
+2015-01-29 22:20:36		  ssl. . . . . . . . . :   (off)
+2015-01-29 22:20:36		  ssl_cert . . . . . . :   ('')
+2015-01-29 22:20:36		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2015-01-29 22:20:36		  ssl_dhkey_size . . . :   (2048)
+2015-01-29 22:20:36		  ssl_fingerprint. . . :   ('')
+2015-01-29 22:20:36		  ssl_verify . . . . . :   (on)
+2015-01-29 22:20:36		  password . . . . . . :   (hidden)
+2015-01-29 22:20:36		  capabilities . . . . :   ('')
+2015-01-29 22:20:36		  sasl_mechanism . . . :   ('plain')
+2015-01-29 22:20:36		  sasl_username. . . . :   ('')
+2015-01-29 22:20:36		  sasl_password. . . . :   (hidden)
+2015-01-29 22:20:36		  sasl_timeout . . . . :   (15 seconds)
+2015-01-29 22:20:36		  sasl_fail. . . . . . :   ('continue')
+2015-01-29 22:20:36		  autoconnect. . . . . :   (off)
+2015-01-29 22:20:36		  autoreconnect. . . . :   (on)
+2015-01-29 22:20:36		  autoreconnect_delay. :   (10 seconds)
+2015-01-29 22:20:36		  nicks. . . . . . . . :   ('liesard,liesard_,liesard__')
+2015-01-29 22:20:36		  username . . . . . . :   ('liesard')
+2015-01-29 22:20:36		  realname . . . . . . :   ('')
+2015-01-29 22:20:36		  local_hostname . . . :   ('')
+2015-01-29 22:20:36		  command. . . . . . . :   ('')
+2015-01-29 22:20:36		  command_delay. . . . :   (0 seconds)
+2015-01-29 22:20:36		  autojoin . . . . . . :   ('')
+2015-01-29 22:20:36		  autorejoin . . . . . :   (off)
+2015-01-29 22:20:36		  autorejoin_delay . . :   (30 seconds)
+2015-01-29 22:20:36		  connection_timeout . :   (60 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_high :   (2 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_low. :   (2 seconds)
+2015-01-29 22:20:36		  away_check . . . . . :   (0 minutes)
+2015-01-29 22:20:36		  away_check_max_nicks :   (25)
+2015-01-29 22:20:36		  default_msg_kick . . :   ('')
+2015-01-29 22:20:36		  default_msg_part . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  default_msg_quit . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  notify . . . . . . . :   ('')
+2015-01-29 22:20:36		Server: pesterchum [not connected]
+2015-01-29 22:20:36		  addresses. . . . . . : 'irc.mindfang.org'
+2015-01-29 22:20:36		  proxy. . . . . . . . :   ('')
+2015-01-29 22:20:36		  ipv6 . . . . . . . . :   (on)
+2015-01-29 22:20:36		  ssl. . . . . . . . . :   (off)
+2015-01-29 22:20:36		  ssl_cert . . . . . . :   ('')
+2015-01-29 22:20:36		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2015-01-29 22:20:36		  ssl_dhkey_size . . . :   (2048)
+2015-01-29 22:20:36		  ssl_fingerprint. . . :   ('')
+2015-01-29 22:20:36		  ssl_verify . . . . . :   (on)
+2015-01-29 22:20:36		  password . . . . . . :   (hidden)
+2015-01-29 22:20:36		  capabilities . . . . :   ('')
+2015-01-29 22:20:36		  sasl_mechanism . . . :   ('plain')
+2015-01-29 22:20:36		  sasl_username. . . . :   ('')
+2015-01-29 22:20:36		  sasl_password. . . . :   (hidden)
+2015-01-29 22:20:36		  sasl_timeout . . . . :   (15 seconds)
+2015-01-29 22:20:36		  sasl_fail. . . . . . :   ('continue')
+2015-01-29 22:20:36		  autoconnect. . . . . :   (off)
+2015-01-29 22:20:36		  autoreconnect. . . . :   (on)
+2015-01-29 22:20:36		  autoreconnect_delay. :   (10 seconds)
+2015-01-29 22:20:36		  nicks. . . . . . . . :   ('liesard,liesard_,liesard__')
+2015-01-29 22:20:36		  username . . . . . . :   ('liesard')
+2015-01-29 22:20:36		  realname . . . . . . :   ('')
+2015-01-29 22:20:36		  local_hostname . . . :   ('')
+2015-01-29 22:20:36		  command. . . . . . . :   ('')
+2015-01-29 22:20:36		  command_delay. . . . :   (0 seconds)
+2015-01-29 22:20:36		  autojoin . . . . . . :   ('')
+2015-01-29 22:20:36		  autorejoin . . . . . :   (off)
+2015-01-29 22:20:36		  autorejoin_delay . . :   (30 seconds)
+2015-01-29 22:20:36		  connection_timeout . :   (60 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_high :   (2 seconds)
+2015-01-29 22:20:36		  anti_flood_prio_low. :   (2 seconds)
+2015-01-29 22:20:36		  away_check . . . . . :   (0 minutes)
+2015-01-29 22:20:36		  away_check_max_nicks :   (25)
+2015-01-29 22:20:36		  default_msg_kick . . :   ('')
+2015-01-29 22:20:36		  default_msg_part . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  default_msg_quit . . :   ('Check out muh site! http://85.5.16.85/')
+2015-01-29 22:20:36		  notify . . . . . . . :   ('')
+2015-01-29 22:21:30	=!=	You can not write text in this buffer
+2015-01-29 22:21:31		fifo: pipe closed
+2015-01-29 22:42:00		script: 279 scripts for WeeChat 1.1
+2015-01-29 22:42:00		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-29 23:45:52		fifo: pipe closed
+2015-01-30 12:46:56		script: downloading list of scripts...
+2015-01-30 12:46:56		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-30 12:46:56		script: 279 scripts for WeeChat 1.1
+2015-01-30 13:04:56		fifo: pipe closed
+2015-01-30 19:20:30		script: 279 scripts for WeeChat 1.1
+2015-01-30 19:20:30		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-30 19:59:48		fifo: pipe closed
+2015-01-30 20:30:58		script: 279 scripts for WeeChat 1.1
+2015-01-30 20:30:58		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-30 21:32:32		fifo: pipe closed
+2015-01-30 21:32:43		script: 279 scripts for WeeChat 1.1
+2015-01-30 21:32:43		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-30 21:34:21		fifo: pipe closed
+2015-01-31 11:45:40		script: 279 scripts for WeeChat 1.1
+2015-01-31 11:45:40		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-31 11:45:58		fifo: pipe closed
+2015-01-31 18:49:29		script: downloading list of scripts...
+2015-01-31 18:49:29		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-31 18:49:30		script: 279 scripts for WeeChat 1.1
+2015-01-31 18:49:31		fifo: pipe closed
+2015-01-31 18:53:09		script: 279 scripts for WeeChat 1.1
+2015-01-31 18:53:09		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-31 19:52:40		fifo: pipe closed
+2015-01-31 19:52:54		script: 279 scripts for WeeChat 1.1
+2015-01-31 19:52:54		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-01-31 21:29:20		fifo: pipe closed
+2015-02-01 10:37:39		script: 279 scripts for WeeChat 1.1
+2015-02-01 10:37:39		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-01 10:39:39		fifo: pipe closed
+2015-02-01 10:39:42		script: 279 scripts for WeeChat 1.1
+2015-02-01 10:39:42		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-01 10:39:46		fifo: pipe closed
+2015-02-01 10:40:00		script: 279 scripts for WeeChat 1.1
+2015-02-01 10:40:00		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-01 10:45:25		Option changed: buffers.look.core_to_front = on  (default: off)
+2015-02-01 10:45:29		Option changed: buffers.look.core_to_front = off
+2015-02-01 10:45:48		Option changed: buffers.look.hotlist_counter = on  (default: off)
+2015-02-01 10:45:53		Option changed: buffers.look.hotlist_counter = off
+2015-02-01 10:45:59		Option changed: buffers.look.indenting = on  (default: off)
+2015-02-01 10:46:52		Option changed: buffers.look.prefix_bufname = ""
+2015-02-01 10:46:55		Option changed: buffers.look.prefix_bufname = " "  (default: "")
+2015-02-01 10:47:22		Option changed: buffers.look.short_names = off  (default: on)
+2015-02-01 10:47:27		Option changed: buffers.look.short_names = on
+2015-02-01 10:48:11		Option changed: buffers.look.sort = name  (default: number)
+2015-02-01 10:48:15		Option changed: buffers.look.sort = number
+2015-02-01 11:45:10		Option changed: irc.look.display_join_message = "332,333"  (default: "329,332,333,366")
+2015-02-01 11:45:27		Option changed: irc.look.display_join_message = "332,333"  (default: "329,332,333,366")
+2015-02-01 11:48:52		Option changed: irc.look.display_host_join = off  (default: on)
+2015-02-01 11:48:59		Option changed: irc.look.display_host_join_local = off  (default: on)
+2015-02-01 11:49:46		Option changed: irc.look.display_join_message = "332"  (default: "329,332,333,366")
+2015-02-01 11:52:39		Option changed: irc.look.display_host_quit = off  (default: on)
+2015-02-01 11:53:00		fifo: pipe closed
+2015-02-01 11:53:04		script: 279 scripts for WeeChat 1.1
+2015-02-01 11:53:04		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-01 11:54:57	=!=	Error: unknown command "/mpc" (type /help for help)
+2015-02-01 11:55:06		[core]
+2015-02-01 11:55:06		  away     debug    key      proxy    set      window 
+2015-02-01 11:55:06		  bar      eval     layout   quit     unset  
+2015-02-01 11:55:06		  buffer   filter   mouse    reload   upgrade
+2015-02-01 11:55:06		  color    help     mute     repeat   uptime 
+2015-02-01 11:55:06		  command  history  plugin   save     version
+2015-02-01 11:55:06		  cursor   input    print    secure   wait   
+2015-02-01 11:55:06		[alias]
+2015-02-01 11:55:06		  AAWAY    BYE      IG       MSGBUF   SIGNOFF  W      
+2015-02-01 11:55:06		  alias    C        J        MUB      T        WC     
+2015-02-01 11:55:06		  AME      CHAT     K        N        UB       WI     
+2015-02-01 11:55:06		  AMSG     CL       KB       Q        UMODE    WII    
+2015-02-01 11:55:06		  ANICK    CLOSE    LEAVE    REDRAW   unalias  WW     
+2015-02-01 11:55:06		  BEEP     EXIT     M        SAY      V      
+2015-02-01 11:55:06		[ruby]
+2015-02-01 11:55:06		  ruby
+2015-02-01 11:55:06		[xfer]
+2015-02-01 11:55:06		  me  xfer
+2015-02-01 11:55:06		[relay]
+2015-02-01 11:55:06		  relay
+2015-02-01 11:55:06		[python]
+2015-02-01 11:55:06		  python
+2015-02-01 11:55:06		[aspell]
+2015-02-01 11:55:06		  aspell
+2015-02-01 11:55:06		[perl]
+2015-02-01 11:55:06		  buffers_detach     iset             
+2015-02-01 11:55:06		  buffers_whitelist  perl             
+2015-02-01 11:55:06		[lua]
+2015-02-01 11:55:06		  lua
+2015-02-01 11:55:06		[tcl]
+2015-02-01 11:55:06		  tcl
+2015-02-01 11:55:06		[charset]
+2015-02-01 11:55:06		  charset
+2015-02-01 11:55:06		[trigger]
+2015-02-01 11:55:06		  trigger
+2015-02-01 11:55:06		[irc]
+2015-02-01 11:55:06		  admin       join        ping        stats     
+2015-02-01 11:55:06		  allchan     kick        pong        summon    
+2015-02-01 11:55:06		  allpv       kickban     query       time      
+2015-02-01 11:55:06		  allserv     kill        quiet       topic     
+2015-02-01 11:55:06		  ban         links       quote       trace     
+2015-02-01 11:55:06		  connect     list        reconnect   unban     
+2015-02-01 11:55:06		  ctcp        lusers      rehash      unquiet   
+2015-02-01 11:55:06		  cycle       map         remove      userhost  
+2015-02-01 11:55:06		  dcc         me          restart     users     
+2015-02-01 11:55:06		  dehalfop    mode        sajoin      version   
+2015-02-01 11:55:06		  deop        motd        samode      voice     
+2015-02-01 11:55:06		  devoice     msg         sanick      wallchops 
+2015-02-01 11:55:06		  die         names       sapart      wallops   
+2015-02-01 11:55:06		  disconnect  nick        saquit      who       
+2015-02-01 11:55:06		  halfop      notice      server      whois     
+2015-02-01 11:55:06		  ignore      notify      service     whowas    
+2015-02-01 11:55:06		  info        op          servlist  
+2015-02-01 11:55:06		  invite      oper        squery    
+2015-02-01 11:55:06		  ison        part        squit     
+2015-02-01 11:55:06		[guile]
+2015-02-01 11:55:06		  guile
+2015-02-01 11:55:06		[exec]
+2015-02-01 11:55:06		  exec
+2015-02-01 11:55:06		[logger]
+2015-02-01 11:55:06		  logger
+2015-02-01 11:55:06		[script]
+2015-02-01 11:55:06		  script
+2015-02-01 11:55:18		python: loading script "/home/theemptyabyss/.weechat/python/mpc.py"
+2015-02-01 11:55:18		python: registered script "mpc", version 0.3 (mpc for weechat)
+2015-02-01 11:55:39		Option changed: plugins.var.python.mpc.format = "/me is listening to: $artist - $title_or_file"
+2015-02-01 12:04:54		Option changed: irc.server_default.default_msg_quit = "Check out muh site! http://85.5.16.85/"  (default: "WeeChat %v")
+2015-02-01 12:15:27		fifo: pipe closed
+2015-02-01 16:38:36		script: 279 scripts for WeeChat 1.1
+2015-02-01 16:38:36		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-01 17:07:04		fifo: pipe closed
+2015-02-01 17:55:13		script: 279 scripts for WeeChat 1.1
+2015-02-01 17:55:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2015-02-01 19:09:02		script: downloading list of scripts...
+2015-02-01 19:09:03		script: 279 scripts for WeeChat 1.1
+2015-02-01 19:09:03		script: script "nickcolor.pl" not found
+2015-02-01 19:09:15		script: script "nickcolors.pl" not found
+2015-02-01 19:52:15		fifo: pipe closed

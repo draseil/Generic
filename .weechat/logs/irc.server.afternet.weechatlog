@@ -1,0 +1,119 @@
+2015-01-27 19:40:29	--	irc: connecting to server irc.afternet.org/6667...
+2015-01-27 19:40:29	--	irc: connected to irc.afternet.org/6667 (109.74.195.116)
+2015-01-27 19:40:30	--	*** Looking up your hostname
+2015-01-27 19:40:30	--	*** Found your hostname
+2015-01-27 19:40:30	--	Welcome to the AfterNET IRC Network, theemptyabyss
+2015-01-27 19:40:30	--	Your host is London.UK.AfterNET.Org, running version u2.10.12.14+Nefarious(2.0.0)
+2015-01-27 19:40:30	--	This server was created Tue Jul 1 2014 at 01:47:25 EDT
+2015-01-27 19:40:30	--	London.UK.AfterNET.Org u2.10.12.14+Nefarious(2.0.0) adgiknoqswxzBDHLNORWX abCcDdhikLlMmNnOopQRrSsTtvZz bhkLlov
+2015-01-27 19:40:30	--	WHOX WALLCHOPS WALLHOPS WALLVOICES USERIP CPRIVMSG CNOTICE NAMESX UHNAMES SILENCE=25 WATCH=128 MODES=6 MAXCHANNELS=50 :are supported by this server
+2015-01-27 19:40:30	--	MAXBANS=50 NICKLEN=30 MAXNICKLEN=30 TOPICLEN=250 AWAYLEN=250 KICKLEN=250 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=# PREFIX=(ohv)@%+ STATUSMSG=@%+ CHANMODES=be,k,Ll,aCcDdiMmNnOpQRrSsTtZz CASEMAPPING=rfc1459 :are supported by this server
+2015-01-27 19:40:30	--	NETWORK=AfterNET MAXLIST=b:50,e:45 ELIST=CT EXCEPTS=e MAXEXCEPTS=45 EXTBANS=~,acjnqrmM :are supported by this server
+2015-01-27 19:40:30	--	There are 521 users and 444 invisible on 14 servers
+2015-01-27 19:40:30	--	31 :operator(s) online
+2015-01-27 19:40:30	--	347 :channels formed
+2015-01-27 19:40:30	--	I have 138 clients and 1 servers
+2015-01-27 19:40:30	--	Current local users: 138 Max: 574
+2015-01-27 19:40:30	--	Current global users: 965 Max: 1579
+2015-01-27 19:40:30	--	London.UK.AfterNET.Org: Highest connection count: 472 (471 clients)
+2015-01-27 19:40:30	--	- London.UK.AfterNET.Org Message of the Day -
+2015-01-27 19:40:30	--	See http://www.afternet.org for information about this network.
+2015-01-27 19:40:30	--	Type /MOTD to read the AUP before continuing using this service.
+2015-01-27 19:40:30	--	The message of the day was last changed: 2010-3-10 23:48
+2015-01-27 19:40:30	--	End of /MOTD command.
+2015-01-27 19:40:30	--	London.UK.AfterNET.Org: on 1 ca 1(6) ft 10(10)
+2015-01-27 19:40:30	--	AN-E3AE415.static.wline.lns.sme.cust.swisscom.ch :is now your hidden host
+2015-01-27 19:40:30	--	User mode [+x] by theemptyabyss
+2015-01-27 19:40:33	--	You are now known as liesard
+2015-01-27 19:40:38	--	MSG(nickserv): identify **************
+2015-01-27 19:40:39	--	liesard.Users.AfterNET.Org :is now your hidden host
+2015-01-27 19:40:39	--	NickServ (NickServ@x3.afternet.services): I recognize you.
+2015-01-27 21:52:24	──	irc: connecting to server irc.afternet.org/6667...
+2015-01-27 21:52:24	──	irc: connected to irc.afternet.org/6667 (188.138.25.77)
+2015-01-27 21:52:24	──	*** Looking up your hostname
+2015-01-27 21:52:25	──	*** Found your hostname
+2015-01-27 21:52:25	──	Welcome to the AfterNET IRC Network, liesard
+2015-01-27 21:52:25	──	Your host is Gaffel.FR.AfterNET.Org, running version u2.10.12.14+Nefarious(2.0.0)
+2015-01-27 21:52:25	──	This server was created Mon Dec 15 2014 at 01:47:37 UTC
+2015-01-27 21:52:25	──	Gaffel.FR.AfterNET.Org u2.10.12.14+Nefarious(2.0.0) adgiknoqswxzBDHLNORWX abCcDdhikLlMmNnOopQRrSsTtvZz bhkLlov
+2015-01-27 21:52:25	──	WHOX WALLCHOPS WALLHOPS WALLVOICES USERIP CPRIVMSG CNOTICE NAMESX UHNAMES SILENCE=25 WATCH=128 MODES=6 MAXCHANNELS=50 :are supported by this server
+2015-01-27 21:52:25	──	MAXBANS=50 NICKLEN=30 MAXNICKLEN=30 TOPICLEN=250 AWAYLEN=250 KICKLEN=250 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=# PREFIX=(ohv)@%+ STATUSMSG=@%+ CHANMODES=be,k,Ll,aCcDdiMmNnOpQRrSsTtZz CASEMAPPING=rfc1459 :are supported by this server
+2015-01-27 21:52:25	──	NETWORK=AfterNET MAXLIST=b:50,e:45 ELIST=CT EXCEPTS=e MAXEXCEPTS=45 EXTBANS=~,acjnqrmM :are supported by this server
+2015-01-27 21:52:25	──	There are 536 users and 440 invisible on 14 servers
+2015-01-27 21:52:25	──	19 :operator(s) online
+2015-01-27 21:52:25	──	348 :channels formed
+2015-01-27 21:52:25	──	I have 90 clients and 1 servers
+2015-01-27 21:52:25	──	Current local users: 90 Max: 161
+2015-01-27 21:52:25	──	Current global users: 976 Max: 1017
+2015-01-27 21:52:25	──	Gaffel.FR.AfterNET.Org: Highest connection count: 162 (161 clients)
+2015-01-27 21:52:25	──	- Gaffel.FR.AfterNET.Org Message of the Day -
+2015-01-27 21:52:25	──	See http://www.afternet.org for information about this network.
+2015-01-27 21:52:25	──	Type /MOTD to read the AUP before continuing using this service.
+2015-01-27 21:52:25	──	The message of the day was last changed: 2014-12-11 16:41
+2015-01-27 21:52:25	──	End of /MOTD command.
+2015-01-27 21:52:25	──	Gaffel.FR.AfterNET.Org: on 1 ca 1(6) ft 10(10)
+2015-01-27 21:52:25	──	AN-E3AE415.static.wline.lns.sme.cust.swisscom.ch :is now your hidden host
+2015-01-27 21:52:25	──	User mode [+x] by liesard
+2015-01-27 21:52:30	──	MSG(nickserv): identify **************
+2015-01-27 21:52:30	──	liesard.Users.AfterNET.Org :is now your hidden host
+2015-01-27 21:52:30	──	NickServ (NickServ@x3.afternet.services): I recognize you.
+2015-01-28 00:05:56	──	irc: disconnected from server
+2015-02-01 10:37:44	──	irc: connecting to server irc.afternet.org/6667...
+2015-02-01 10:37:44	──	irc: connected to irc.afternet.org/6667 (54.72.198.237)
+2015-02-01 10:37:44	──	*** Looking up your hostname
+2015-02-01 10:37:44	──	*** Found your hostname
+2015-02-01 10:37:44	──	Welcome to the AfterNET IRC Network, liesard
+2015-02-01 10:37:44	──	Your host is Hyperion.IE.AfterNET.Org, running version u2.10.12.14+Nefarious(2.0.0)
+2015-02-01 10:37:44	──	This server was created Tue Jul 1 2014 at 05:47:29 UTC
+2015-02-01 10:37:44	──	Hyperion.IE.AfterNET.Org u2.10.12.14+Nefarious(2.0.0) adgiknoqswxzBDHLNORWX abCcDdhikLlMmNnOopQRrSsTtvZz bhkLlov
+2015-02-01 10:37:44	──	WHOX WALLCHOPS WALLHOPS WALLVOICES USERIP CPRIVMSG CNOTICE NAMESX UHNAMES SILENCE=25 WATCH=128 MODES=6 MAXCHANNELS=50 :are supported by this server
+2015-02-01 10:37:44	──	MAXBANS=50 NICKLEN=30 MAXNICKLEN=30 TOPICLEN=250 AWAYLEN=250 KICKLEN=250 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=# PREFIX=(ohv)@%+ STATUSMSG=@%+ CHANMODES=be,k,Ll,aCcDdiMmNnOpQRrSsTtZz CASEMAPPING=rfc1459 :are supported by this server
+2015-02-01 10:37:44	──	NETWORK=AfterNET MAXLIST=b:50,e:45 ELIST=CT EXCEPTS=e MAXEXCEPTS=45 EXTBANS=~,acjnqrmM :are supported by this server
+2015-02-01 10:37:44	──	There are 467 users and 397 invisible on 14 servers
+2015-02-01 10:37:44	──	31 :operator(s) online
+2015-02-01 10:37:44	──	341 :channels formed
+2015-02-01 10:37:44	──	I have 88 clients and 1 servers
+2015-02-01 10:37:44	──	Current local users: 88 Max: 285
+2015-02-01 10:37:44	──	Current global users: 864 Max: 1503
+2015-02-01 10:37:44	──	Hyperion.IE.AfterNET.Org: Highest connection count: 286 (285 clients)
+2015-02-01 10:37:44	──	- Hyperion.IE.AfterNET.Org Message of the Day -
+2015-02-01 10:37:44	──	See http://www.afternet.org for information about this network.
+2015-02-01 10:37:44	──	Type /MOTD to read the AUP before continuing using this service.
+2015-02-01 10:37:44	──	The message of the day was last changed: 2013-6-17 21:54
+2015-02-01 10:37:44	──	End of /MOTD command.
+2015-02-01 10:37:44	──	Hyperion.IE.AfterNET.Org: on 1 ca 1(6) ft 10(10)
+2015-02-01 10:37:44	──	AN-4E93B5AC.cust.bluewin.ch :is now your hidden host
+2015-02-01 10:37:44	──	User mode [+x] by liesard
+2015-02-01 10:37:49	──	MSG(nickserv): identify **************
+2015-02-01 10:37:49	──	liesard.Users.AfterNET.Org :is now your hidden host
+2015-02-01 10:37:49	──	NickServ (NickServ@x3.afternet.services): I recognize you.
+2015-02-01 10:40:23	──	irc: connecting to server irc.afternet.org/6667...
+2015-02-01 10:40:23	──	irc: connected to irc.afternet.org/6667 (54.72.198.237)
+2015-02-01 10:40:23	──	*** Looking up your hostname
+2015-02-01 10:40:24	──	*** Found your hostname
+2015-02-01 10:40:24	──	Welcome to the AfterNET IRC Network, liesard
+2015-02-01 10:40:24	──	Your host is Hyperion.IE.AfterNET.Org, running version u2.10.12.14+Nefarious(2.0.0)
+2015-02-01 10:40:24	──	This server was created Tue Jul 1 2014 at 05:47:29 UTC
+2015-02-01 10:40:24	──	Hyperion.IE.AfterNET.Org u2.10.12.14+Nefarious(2.0.0) adgiknoqswxzBDHLNORWX abCcDdhikLlMmNnOopQRrSsTtvZz bhkLlov
+2015-02-01 10:40:24	──	WHOX WALLCHOPS WALLHOPS WALLVOICES USERIP CPRIVMSG CNOTICE NAMESX UHNAMES SILENCE=25 WATCH=128 MODES=6 MAXCHANNELS=50 :are supported by this server
+2015-02-01 10:40:24	──	MAXBANS=50 NICKLEN=30 MAXNICKLEN=30 TOPICLEN=250 AWAYLEN=250 KICKLEN=250 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=# PREFIX=(ohv)@%+ STATUSMSG=@%+ CHANMODES=be,k,Ll,aCcDdiMmNnOpQRrSsTtZz CASEMAPPING=rfc1459 :are supported by this server
+2015-02-01 10:40:24	──	NETWORK=AfterNET MAXLIST=b:50,e:45 ELIST=CT EXCEPTS=e MAXEXCEPTS=45 EXTBANS=~,acjnqrmM :are supported by this server
+2015-02-01 10:40:24	──	There are 465 users and 397 invisible on 14 servers
+2015-02-01 10:40:24	──	31 :operator(s) online
+2015-02-01 10:40:24	──	341 :channels formed
+2015-02-01 10:40:24	──	I have 87 clients and 1 servers
+2015-02-01 10:40:24	──	Current local users: 87 Max: 285
+2015-02-01 10:40:24	──	Current global users: 862 Max: 1503
+2015-02-01 10:40:24	──	Hyperion.IE.AfterNET.Org: Highest connection count: 286 (285 clients)
+2015-02-01 10:40:24	──	- Hyperion.IE.AfterNET.Org Message of the Day -
+2015-02-01 10:40:24	──	See http://www.afternet.org for information about this network.
+2015-02-01 10:40:24	──	Type /MOTD to read the AUP before continuing using this service.
+2015-02-01 10:40:24	──	The message of the day was last changed: 2013-6-17 21:54
+2015-02-01 10:40:24	──	End of /MOTD command.
+2015-02-01 10:40:24	──	Hyperion.IE.AfterNET.Org: on 1 ca 1(6) ft 10(10) tr
+2015-02-01 10:40:24	──	AN-4E93B5AC.cust.bluewin.ch :is now your hidden host
+2015-02-01 10:40:24	──	User mode [+x] by liesard
+2015-02-01 10:40:29	──	MSG(nickserv): identify **************
+2015-02-01 10:40:29	──	liesard.Users.AfterNET.Org :is now your hidden host
+2015-02-01 10:40:29	──	NickServ (NickServ@x3.afternet.services): I recognize you.
+2015-02-01 11:50:37	──	irc: disconnected from server

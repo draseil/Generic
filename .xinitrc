@@ -18,10 +18,12 @@ compton &
 xbindkeys &
 mpd &
 nm-applet &
+ssh-agent
 xrdb ~/.Xresources
-feh --bg-fill ~/Pictures/Wallpapers/DanganRonpa01.jpg
+feh --bg-fill ~/Pictures/wallpapers/photos/01.png
 while :; do sleep 120; ~/bin/checkBattery; done &
-while :; do echo $(wname $(lsw)) %{r}$(date); sleep 1; done | bar -pd -g 1920x20+0+0 -B#FF303438 -F#FFDDDDDD &
+while :; do echo " `window_names` %{c}`date_format` %{r}`now_playing` "; sleep 1; done | bar -pd -g 1920x20+0+0 -B#FF303440 -F#FFDDDDDD -f -*-terminus-medium-*-*-*-*-*-*-*-*-*-*-* &
+
 focus_watcher &
 # exec dwm
 # exec i3

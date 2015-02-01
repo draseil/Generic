@@ -1,45 +1,45 @@
-URxvt.termName:		rxvt
-URxvt.background:	#303438
-URxvt.foreground:	#DDD
-URxvt.tabbed.tabbar-fg:	#AAA
-URxvt.tabbed.tabbar-bg:	#111
-URxvt.tabbed.tab-fg:	#111
-URxvt.tabbed.tab-bg:	#AAA
+URxvt.termName: rxvt
 
-URxvt.internalBorder:	20
+URxvt.background: #303640
+URxvt.foreground: #DDD
 
-URxvt.scrollBar:	false
+URxvt.tabbed.tabbar-fg: #AAA
+URxvt.tabbed.tabbar-bg: #111
+URxvt.tabbed.tab-fg: #111
+URxvt.tabbed.tab-bg: #AAA
 
-URxvt.font:			xft:Tewi:size=8
-URxvt.boldFont:		xft:Tewi-bold:size=8
+URxvt.internalBorder: 15
+URxvt.scrollBar: false
+URxvt.font: xft:Tewi:size=8
+URxvt.boldFont: xft:Tewi-bold:size=8
 
-URxvt.perl-ext-common:	default,matcher
-URxvt.url-launcher:	/usr/bin/firefox
-URxvt.matcher.button:	1
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
 
 !Colours
 
-!Black
-*color0: #111
-*color8: #627369
-!Red
-*color1: #924445
-*color9: #803536
-!Green
-*color2: #456140
-*color10: #33642A
-!Yellow
-*color3: #DAB257
-*color11: #AC8E46
-!Blue
-*color4: #6573F6
-*color12: #336EB2
-!Magenta
-*color5: #977F94
-*color13: #7A6A78
-!Cyan
-*color6: #7DB9BA
-*color14: #5F9898
-!White
-*color7: #AAA
-*color15: #f6f6f5
+!black
+*color0: #000
+*color8: #222
+!red
+*color1: #803536
+*color9: #924445
+!green
+*color2: #4e8a3a
+*color10: #4da132
+!yellow
+*color3: #8c6e43
+*color11: #b28c55
+!blue
+*color4: #58698c
+*color12: #7086b2
+!magenta
+*color5: #7b5e7d
+*color13: #9c77b2
+!cyan
+*color6: #66808c
+*color14: #82a2b2
+!white
+*color7: #8c8b8b
+*color15: #b8b8c8

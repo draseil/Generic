@@ -1,0 +1,32 @@
+mpd_host	= "85.5.16.85"
+# mpd_host	= "localhost"
+mpd_port	= "6600"
+mpd_music_dir	= "/home/theemptyabyss/Music/"
+lyrics_directory= "/home/theemptyabyss/.ncmpcpp/lyrics/"
+
+main_window_color = white
+enable_window_title = no
+
+header_visibility = no
+playlist_display_mode = classic
+song_list_format = $8%n - {$3%a$9} - {$7%b (%y)$9} - {$6%t$9} $R %l
+song_status_format = $8%a - %t
+now_playing_prefix = "$8 > "
+now_playing_suffix = " < "
+progressbar_color = white
+progressbar_look = "━|─"
+
+audio_output {
+	type	"fifo"
+	name	"my_fifo"
+	path	"/tmp/mpd.fifo"
+	format	"44100:16:2"
+}
+
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "30" 
+visualizer_in_stereo = no
+visualizer_type = spectrum
+visualizer_look = ▋▋
+visualizer_color = cyan

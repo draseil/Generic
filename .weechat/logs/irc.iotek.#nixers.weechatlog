@@ -1,0 +1,2942 @@
+2015-01-27 19:34:28	-->	liesard (theemptyab@io-191CBF29.static.wline.lns.sme.cust.swisscom.ch) has joined #nixers
+2015-01-27 19:34:28	--	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-27 19:34:28	--	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-27 19:34:28	--	Channel #nixers: 58 nicks (4 ops, 0 halfops, 1 voice, 53 normals)
+2015-01-27 19:34:29	+z3bra	thetornainbow, no idea
+2015-01-27 19:34:30	--	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-27 19:34:31	liesard	Ok back
+2015-01-27 19:34:35	liesard	Normally this should work
+2015-01-27 19:34:44	xero	so at my current job i'm a bug buster. i use jira all day. and it's the worst bloated thing i've ever used.
+2015-01-27 19:34:44	+z3bra	he seems to do like 10,000 different things at a time
+2015-01-27 19:34:55	+z3bra	xero, I use jira too
+2015-01-27 19:35:00	thetornainbow	haha
+2015-01-27 19:35:08	thetornainbow	i know that feeling sometim
+2015-01-27 19:35:09	+z3bra	as a sysadmin
+2015-01-27 19:35:19	+z3bra	I'm damn happy we have something like this to track our work
+2015-01-27 19:35:40	+z3bra	it helps us communicte with our clients
+2015-01-27 19:35:44	+z3bra	have them report bugs
+2015-01-27 19:35:45	xero	me too, but i feel like people get more into the philosophy of tracking work than actually doing it.
+2015-01-27 19:36:07	+z3bra	mmh, maybe
+2015-01-27 19:36:10	+z3bra	the thing is
+2015-01-27 19:36:16	thetornainbow	we just got a new tracking system, and sometimes i wonder if the people who are writing it actually use it
+2015-01-27 19:36:19	thetornainbow	it's miserable
+2015-01-27 19:36:26	+z3bra	with jira, I've found it's easier to remember what has been done
+2015-01-27 19:36:33	+z3bra	when people ask me 
+2015-01-27 19:36:44	+z3bra	"Hey, have you open the firewall for client XXX ?"
+2015-01-27 19:36:53	+z3bra	"Is there a jira for it ?"
+2015-01-27 19:37:03	+z3bra	Yes -> I can check wether it's closed or not
+2015-01-27 19:37:11	+z3bra	No -> Then no, make a jira, and I'll do it
+2015-01-27 19:37:14	+z3bra	simple.
+2015-01-27 19:37:15	thetornainbow	No ticket == No touchit
+2015-01-27 19:37:17	+z3bra	^
+2015-01-27 19:37:22	xero	yeah, i see that. but i'm a coder not a sysadmin. so i do all that in my github PR's. 
+2015-01-27 19:37:34	+z3bra	you use github at work ?
+2015-01-27 19:37:38	xero	i just want bugs assigned to me so i can fix them.
+2015-01-27 19:37:40	xero	yes, all day
+2015-01-27 19:37:43	+z3bra	awesome :)
+2015-01-27 19:37:45	+z3bra	We don't
+2015-01-27 19:37:47	xero	indeed
+2015-01-27 19:37:50	xero	im sorry
+2015-01-27 19:38:03	+z3bra	so yeah; with github's issue tracking, having jira is way too redundant
+2015-01-27 19:38:23	+z3bra	We use gitlab + jira here
+2015-01-27 19:38:24	xero	yup. i just read the client's notes on the issue and log my time.
+2015-01-27 19:38:35	+z3bra	which is the same as github alone in fine
+2015-01-27 19:38:50	+z3bra	and you see
+2015-01-27 19:38:53	+z3bra	in your example
+2015-01-27 19:38:53	xero	but we've written a script that pulls that from jira into github issues, so i've been doing less of the former lately.
+2015-01-27 19:38:57	+z3bra	github is bloat :P
+2015-01-27 19:39:11	+z3bra	it does the release, versionning and issue tracking :P
+2015-01-27 19:39:17	xero	no way, i don't diff code on jira
+2015-01-27 19:39:22	+z3bra	While here, we have gitlab for versionning
+2015-01-27 19:39:26	+z3bra	jira for issue tracking
+2015-01-27 19:39:34	+z3bra	bamboo for releasing
+2015-01-27 19:39:49	+z3bra	and sysadmins for the rest :P
+2015-01-27 19:40:08	xero	sounds like we both use many products in the the atlassian suite of tools at work
+2015-01-27 19:40:26	+z3bra	there must be a reason for it ;)
+2015-01-27 19:40:34	+z3bra	I find them pretty nice actually
+2015-01-27 19:40:38	+z3bra	anyway
+2015-01-27 19:40:42	+z3bra	once you buy their license
+2015-01-27 19:40:49	+z3bra	why not use their product ?
+2015-01-27 19:40:53	stark	Do you guys know how make ncmpcpp only show the music duration for the currently played music ?
+2015-01-27 19:41:05	liesard	stark: What do you mean?
+2015-01-27 19:41:06	+z3bra	make the bar invisible
+2015-01-27 19:41:09	+z3bra	like
+2015-01-27 19:41:14	+z3bra	dark + dark
+2015-01-27 19:41:27	stark	Ah
+2015-01-27 19:41:33	stark	Clever
+2015-01-27 19:41:55	stark	liesard: like this
+2015-01-27 19:41:57	stark	http://dwv91.deviantart.com/art/Twily-Linux-Desktop-v4-Luna-483521384
+2015-01-27 19:42:10	-->	kirby (alex@AD0FD29E.688637A7.A5DB24F5.IP) has joined #nixers
+2015-01-27 19:42:36	liesard	Ah, Ok
+2015-01-27 19:42:47	liesard	Normally twily shows all of his stuff, so you might be able to find it
+2015-01-27 19:42:49	stark	I still can't figure out how he got that play icon on the now playing
+2015-01-27 19:42:53	xero	z3bra: are yours hosted or internal? 
+2015-01-27 19:43:04	liesard	stark: Hold on, I think I have the answer
+2015-01-27 19:43:05	+z3bra	both
+2015-01-27 19:43:12	+z3bra	We run our own clusters
+2015-01-27 19:43:24	+z3bra	but we too have hosted servers around the world
+2015-01-27 19:43:26	liesard	stark: So open your ncmpcpp config
+2015-01-27 19:43:44	+z3bra	stark, but...
+2015-01-27 19:43:53	+z3bra	the timebar is shown in this shot
+2015-01-27 19:44:11	xero	in the 4 years i've used githbub it's been down 3 times. and in the 8months i've used jura it's been down 10+ times :/
+2015-01-27 19:44:35	xero	we just switched to hosting our own jira and it's been a lot better.
+2015-01-27 19:44:43	+z3bra	It's my 4th month in the company
+2015-01-27 19:44:54	+z3bra	and the server never went down yet
+2015-01-27 19:44:59	+z3bra	(that's my job, eh :P)
+2015-01-27 19:45:06	xero	;D
+2015-01-27 19:46:05	<--	earsplit (sunn@io-7C8CC282.dyn.grandenetworks.net) has quit (Ping timeout: 181 seconds)
+2015-01-27 19:46:14	liesard	stark: http://twily.info/ncmpcpp
+2015-01-27 19:46:15	mcp	Title: twily.info :: ncmpcpp (at twily.info)
+2015-01-27 19:47:56	+z3bra	http://i.imgur.com/DhdCVPh.png
+2015-01-27 19:48:35	liesard	z3bra: Wow, you really like Quentin Tarantino
+2015-01-27 19:48:54	+z3bra	?
+2015-01-27 19:48:57	+z3bra	why ?
+2015-01-27 19:49:08	+z3bra	because there's a soundtrack of one of his films ?
+2015-01-27 19:49:09	xero	reservoir dogs?
+2015-01-27 19:49:12	liesard	Well you have the Pulp Fiction thing for your git thingy
+2015-01-27 19:49:19	liesard	And you have the soundtrack for Reservoir Dogs
+2015-01-27 19:49:20	liesard	Yeah
+2015-01-27 19:49:29	+z3bra	Oh
+2015-01-27 19:49:32	+z3bra	coincidence
+2015-01-27 19:49:39	+z3bra	but yeah I like his films :P
+2015-01-27 19:49:43	liesard	:3
+2015-01-27 19:50:01	xero	kill bills ftw
+2015-01-27 19:50:02	+z3bra	I used to have boobs as my ssh banner
+2015-01-27 19:50:07	+z3bra	how do you interpret that ?
+2015-01-27 19:50:13	liesard	That you like boobs
+2015-01-27 19:50:14	liesard	Probably
+2015-01-27 19:50:24	xero	or asciipr0n
+2015-01-27 19:50:25	+z3bra	lel
+2015-01-27 19:50:29	+z3bra	where's the camera ?
+2015-01-27 19:50:43	+z3bra	you guys can't know this much about me
+2015-01-27 19:50:51	liesard	Hahahahaha
+2015-01-27 19:50:57	+z3bra	what's next ?
+2015-01-27 19:50:57	liesard	It's 'cause you put everything online
+2015-01-27 19:51:04	+z3bra	you'll guess what my favorite animal is ?
+2015-01-27 19:51:12	liesard	Uhhh... panda?
+2015-01-27 19:51:13	liesard	jk
+2015-01-27 19:51:16	liesard	You have rad skateboarding skills
+2015-01-27 19:51:22	+z3bra	liesard, you think so ?
+2015-01-27 19:51:33	liesard	What, about the skateboarding thing?
+2015-01-27 19:51:37	liesard	Yeah, it's cool
+2015-01-27 19:51:44	+z3bra	You only know what I let you know about me
+2015-01-27 19:51:49	xero	wrong black + white animal
+2015-01-27 19:51:54	+z3bra	^
+2015-01-27 19:51:58	liesard	xero: Hahahaha
+2015-01-27 19:52:03	+z3bra	I totally like penguins 
+2015-01-27 19:52:07	xero	:D
+2015-01-27 19:52:09	+z3bra	but you're still rong
+2015-01-27 19:52:15	+z3bra	:P
+2015-01-27 19:52:18	liesard	:|
+2015-01-27 19:52:33	xero	?:|
+2015-01-27 19:53:04	xero	killer whales?
+2015-01-27 19:53:09	liesard	>:-?
+2015-01-27 19:53:09	──>	dcli (dcli@io-98D3403F.ipredator.se) has joined #nixers
+2015-01-27 19:53:11	xero	no cows
+2015-01-27 19:53:13	+z3bra	y-y-you ?
+2015-01-27 19:53:25	+z3bra	did you say this out of nowhere ?
+2015-01-27 19:53:35	+z3bra	>killer whales
+2015-01-27 19:53:50	 *	xero was trying to think of black + white animals
+2015-01-27 19:53:55	+z3bra	ah
+2015-01-27 19:53:57	+z3bra	makes sense
+2015-01-27 19:54:00	xero	;D
+2015-01-27 19:54:02	+z3bra	My name's Willy
+2015-01-27 19:54:05	+z3bra	that's why :P
+2015-01-27 19:54:38	liesard	Wait, is that really your real name?
+2015-01-27 19:55:03	+z3bra	who knows ?
+2015-01-27 19:55:22	liesard	:|
+2015-01-27 19:55:24	xero	_the shadow knows..._
+2015-01-27 19:55:30	+z3bra	the internet knows
+2015-01-27 19:55:32	liesard	It said on your Gopher thing somewhere Sebastian
+2015-01-27 19:55:37	+z3bra	it's written on my blog
+2015-01-27 19:55:40	+z3bra	and website
+2015-01-27 19:55:54	xero	willy@mailoo.org
+2015-01-27 19:55:57	xero	in the footer
+2015-01-27 19:56:02	+z3bra	oz3bra.org
+2015-01-27 19:56:20	+z3bra	"Hi everybody ! I am Willy (aka 'z3bra'). 
+2015-01-27 19:56:20	+z3bra	I am a network & system admin, born in the early 90's."
+2015-01-27 19:56:32	liesard	Yeah, yeah
+2015-01-27 19:56:36	liesard	But I wasn't sure if that was true
+2015-01-27 19:56:38	liesard	I mean
+2015-01-27 19:56:47	liesard	That could've been a nickname or something
+2015-01-27 19:56:54	+z3bra	z3bra is a nickname
+2015-01-27 19:57:05	liesard	True, but still
+2015-01-27 19:57:22	+z3bra	and FYI, I know 22 programming languages :P
+2015-01-27 19:57:30	+z3bra	http://raw.z3bra.org/img/helloworld.jpg
+2015-01-27 19:57:39	+z3bra	"proof" ^
+2015-01-27 19:57:46	liesard	Oh yeah, I saw that
+2015-01-27 19:57:52	liesard	Although Hello World isn't enough for proof
+2015-01-27 19:57:57	+z3bra	it is
+2015-01-27 19:58:05	liesard	Not really...?
+2015-01-27 19:58:22	+z3bra	why not ?
+2015-01-27 19:58:28	liesard	Because it's the first thing you learn
+2015-01-27 19:58:32	+z3bra	LEARN
+2015-01-27 19:58:39	+z3bra	I LEARNT IT
+2015-01-27 19:58:43	+z3bra	so I KNOW it
+2015-01-27 19:58:48	liesard	I know `print "Hello World"` is Hello World in Perl but I don't know Perl
+2015-01-27 19:58:52	xero	i'd say i "know" 9. i use 4. and have some working knownlge of ~15
+2015-01-27 19:59:04	liesard	I'm too lazy to count
+2015-01-27 19:59:10	liesard	It's probably like 3 or something
+2015-01-27 19:59:22	+z3bra	you must be reaaaaaaaaally lazy xD
+2015-01-27 19:59:28	liesard	Hahahahaha
+2015-01-27 19:59:32	xero	but like when am i ever going to use "m" ?
+2015-01-27 19:59:33	+z3bra	"too lazy to count to 3"
+2015-01-27 19:59:34	liesard	No, I meant the languages that I /really/ know
+2015-01-27 19:59:47	liesard	I mean, I've spent a weekend learning R one time
+2015-01-27 19:59:48	+z3bra	lel
+2015-01-27 19:59:50	liesard	But I forgot all of it
+2015-01-27 20:00:02	liesard	And then there's a bunch of other stuff like BASIC for my calculator and stuff
+2015-01-27 20:00:05	liesard	brb
+2015-01-27 20:00:05	+z3bra	at which point do you decide wether you know a language or not
+2015-01-27 20:00:10	+z3bra	it's up to you to decide
+2015-01-27 20:00:16	liesard	True, I guess
+2015-01-27 20:00:30	+z3bra	I decided I know a language when I can hello, world
+2015-01-27 20:00:49	liesard	I guess that's not unreasonable
+2015-01-27 20:01:02	+z3bra	just kidding...
+2015-01-27 20:01:13	liesard	Ok...
+2015-01-27 20:01:30	+z3bra	you know a language when you can solve simple problems with it
+2015-01-27 20:01:34	+z3bra	like
+2015-01-27 20:01:35	+z3bra	euler
+2015-01-27 20:01:40	liesard	Yes.
+2015-01-27 20:01:43	+z3bra	(the first one at least)
+2015-01-27 20:01:45	liesard	That should be the universal definition
+2015-01-27 20:01:49	xero	i base it on how often i have to look up simple stuff
+2015-01-27 20:01:54	+z3bra	but this doesn't apply to every language
+2015-01-27 20:02:01	liesard	z3bra: True, yeah
+2015-01-27 20:02:05	+z3bra	xero, not reliable :P
+2015-01-27 20:02:18	liesard	'cause there are certain languages who can't do those problems
+2015-01-27 20:02:22	+z3bra	^
+2015-01-27 20:02:29	+z3bra	well
+2015-01-27 20:02:29	liesard	For example, SQL
+2015-01-27 20:02:30	xero	"z3bra │ it's up to you to decide"
+2015-01-27 20:02:41	+z3bra	liesard, SQL is turing complete
+2015-01-27 20:02:46	+z3bra	so it CAN do it
+2015-01-27 20:02:48	liesard	Oh?
+2015-01-27 20:02:50	liesard	I didn't know that
+2015-01-27 20:02:58	 *	xero :facepalm:
+2015-01-27 20:02:58	liesard	Yeah, but it's not exactly practical
+2015-01-27 20:02:59	+z3bra	there one thing, everydayy
+2015-01-27 20:03:06	liesard	Yeah
+2015-01-27 20:03:08	+z3bra	did not say it would be
+2015-01-27 20:03:14	liesard	Although today it was like 5 things
+2015-01-27 20:03:15	+z3bra	just that you can do it
+2015-01-27 20:03:24	+z3bra	you can do a game of ilfe in brainfuck
+2015-01-27 20:03:30	+z3bra	but that's far  from practical
+2015-01-27 20:03:47	xero	who is "you" in that case?
+2015-01-27 20:03:50	+z3bra	everybody
+2015-01-27 20:03:59	+z3bra	brainfuck isn't that hard to learn
+2015-01-27 20:04:12	+z3bra	it's just hard to implement simple concepts with it
+2015-01-27 20:04:40	+z3bra	but you can add, substract, loop, and conditionnaly jump
+2015-01-27 20:04:40	+z3bra	that's far enough
+2015-01-27 20:05:01	xero	i spent 2 weeks fighting against the jsfuck exploit (where you write brainfuck in javascript) and it's executed via eval. i wanted to die.
+2015-01-27 20:05:10	+z3bra	haha
+2015-01-27 20:05:13	+z3bra	yeah
+2015-01-27 20:05:28	+z3bra	but brainfuck actually teach you a lot about managing arrays
+2015-01-27 20:05:32	+z3bra	(in C, mostly)
+2015-01-27 20:05:57	+z3bra	as the whole brainfuck concept is just a char[255] array
+2015-01-27 20:06:53	liesard	Yup
+2015-01-27 20:07:02	liesard	No, it's char[256]
+2015-01-27 20:07:09	liesard	From 0-255
+2015-01-27 20:07:36	liesard	But yeah, that's the whole idea
+2015-01-27 20:07:48	liesard	In fact, it was thanks to that that I could start making my Brainfuck interpreter
+2015-01-27 20:07:55	+z3bra	oh fuck you autist :D
+2015-01-27 20:07:59	liesard	>:D
+2015-01-27 20:08:07	liesard	I haven't finished it though
+2015-01-27 20:08:13	liesard	Scanner messed up
+2015-01-27 20:08:18	liesard	I'll try it again but with C next time
+2015-01-27 20:10:32	liesard	I guess making an interpreter with Java would let you interpret a language that would be interpreted
+2015-01-27 20:13:10	<──	nindwen (nindwen@io-EFF8CB92.sis.uta.fi) has quit (Quit: goodbye)
+2015-01-27 20:13:13	──>	nindwen (nindwen@io-EFF8CB92.sis.uta.fi) has joined #nixers
+2015-01-27 20:16:00	liesard	Does anyone know how to make ncmpcpp display the current album cover?
+2015-01-27 20:16:12	liesard	Or does anyone know a way to display the current album cover with mpd?
+2015-01-27 20:16:45	xero	http://mpd.wikia.com/wiki/MusicPlayerDaemonAlbumCovers
+2015-01-27 20:16:47	mcp	Title: MusicPlayerDaemonAlbumCovers - Music Player Daemon Community Wiki (at mpd.wikia.com)
+2015-01-27 20:17:32	liesard	Thanks!
+2015-01-27 20:18:04	liesard	Ugh, I'm too lazy to do this
+2015-01-27 20:20:01	xero	i also saw this py script https://github.com/jameh/mpd-album-art
+2015-01-27 20:20:03	mcp	Title: jameh/mpd-album-art · GitHub (at github.com)
+2015-01-27 20:20:38	liesard	Oh yeah, I think I had installed that
+2015-01-27 20:20:45	liesard	It didn't work for some odd reason
+2015-01-27 20:20:47	liesard	I'll try again
+2015-01-27 20:21:12	xero	uuugggghhhh.... i've been reading request/response headers all day. trying to track down were we loose the session id. driving me nuts!
+2015-01-27 20:22:01	liesard	It's going to be something so obvious
+2015-01-27 20:22:04	──>	fayesafe (fayesafe@io-990C1808.hsi4.kabel-badenwuerttemberg.de) has joined #nixers
+2015-01-27 20:22:07	liesard	And it will drive you even crazier
+2015-01-27 20:22:14	liesard	That's what happens all the time :P
+2015-01-27 20:22:51	xero	it's just difficult since it's a live site and there are millions of requests. i
+2015-01-27 20:23:04	xero	i'm trying to track it by my own ip, but it's tough
+2015-01-27 20:23:09	liesard	Damn
+2015-01-27 20:23:12	liesard	Do you think you're close?
+2015-01-27 20:23:38	xero	kinda. i've found 3 cases where it happens. but i'm not sure why
+2015-01-27 20:23:50	xero	each of thoses cases are different requests.
+2015-01-27 20:24:44	<──	kirby (alex@AD0FD29E.688637A7.A5DB24F5.IP) has quit (Quit: WeeChat 1.0.1)
+2015-01-27 20:25:15	liesard	All I can say is good luck :P
+2015-01-27 20:29:36	xero	thanx.
+2015-01-27 20:30:02	──>	earsplit (sunn@io-7C8CC282.dyn.grandenetworks.net) has joined #nixers
+2015-01-27 20:30:18	liesard	Ok, so now that the script works, I need to get it to:
+2015-01-27 20:30:23	liesard	a) run with every song
+2015-01-27 20:30:32	liesard	b) display every time the image is fetched
+2015-01-27 20:32:13	xero	http://mpd.wikia.com/wiki/Hack:mpd-notify.py
+2015-01-27 20:32:14	mcp	Title: Hack:mpd-notify.py - Music Player Daemon Community Wiki (at mpd.wikia.com)
+2015-01-27 20:32:50	liesard	Oh, thanks!
+2015-01-27 20:34:07	fayesafe	liesard: what script do you write?
+2015-01-27 20:34:22	liesard	One to display the currently playing album cover
+2015-01-27 20:34:41	liesard	I can't seem to get any of the other ones to work
+2015-01-27 20:34:49	liesard	So I'll just have to write my own
+2015-01-27 20:35:14	liesard	Thanks, by the way, xero 
+2015-01-27 20:36:12	xero	np. like a 3 sec search both times ;D
+2015-01-27 20:36:31	liesard	Hahaha sorry :P
+2015-01-27 20:36:45	xero	no worries. i have internet ADD
+2015-01-27 20:36:54	liesard	Hahahaha
+2015-01-27 20:36:56	xero	i feel like switching tasks helps my brain
+2015-01-27 20:37:03	liesard	It probably does
+2015-01-27 20:37:12	liesard	At least, working on one task for a long time is bad for your brain
+2015-01-27 21:02:21	<──	mort (martin@io-81020C7A.getinternet.no) has quit (Ping timeout: 182 seconds)
+2015-01-27 21:03:17	<──	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has quit (Ping timeout: 182 seconds)
+2015-01-27 21:06:01	──>	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has joined #nixers
+2015-01-27 21:10:55	──>	cippaciong (cippaciong@B0163A21.40796AE6.CF3CAC74.IP) has joined #nixers
+2015-01-27 21:18:18	bajr	z3bra: :(
+2015-01-27 21:18:25	bajr	i've decided to go to the gym firdy
+2015-01-27 21:18:30	+z3bra	is gopher too hard?
+2015-01-27 21:18:31	+z3bra	oh
+2015-01-27 21:18:34	+z3bra	no problem
+2015-01-27 21:18:35	bajr	s/firdy/first/
+2015-01-27 21:18:36	regx	i've decided to go to the gym first
+2015-01-27 21:19:46	ymbx	bajr: pls be safe
+2015-01-27 21:19:49	bajr	k. should be back around 23:00-00:00 gmt :(
+2015-01-27 21:20:14	ymbx	I will be waiting.
+2015-01-27 21:21:18	+z3bra	waiting 4 wat?
+2015-01-27 21:21:26	ymbx	for bajr ofcourse
+2015-01-27 21:26:20	fayesafe	kek there is basically a python lib for everything
+2015-01-27 21:27:09	liesard	p much, yeah :P
+2015-01-27 21:31:57	──>	mort (martin@io-81020C7A.getinternet.no) has joined #nixers
+2015-01-27 21:41:09	+z3bra	anybody for a teeworld match ?
+2015-01-27 21:41:45	+z3bra	nobody
+2015-01-27 21:41:47	+z3bra	so sad
+2015-01-27 21:41:49	+z3bra	bye
+2015-01-27 21:42:31	liesard	Oh, yeah sure
+2015-01-27 21:42:35	liesard	Hold on, let me get my mouse
+2015-01-27 21:42:48	+z3bra	changing so sauerbraten in fact
+2015-01-27 21:42:57	liesard	???????
+2015-01-27 21:43:39	+z3bra	to*
+2015-01-27 21:43:45	<──	dcli (dcli@io-98D3403F.ipredator.se) has quit (Quit: Leaving)
+2015-01-27 21:44:08	liesard	Ok...
+2015-01-27 21:44:13	liesard	I don't know what that is...
+2015-01-27 21:44:30	+z3bra	cube 2 sauerbraten
+2015-01-27 21:44:33	+z3bra	it's a game
+2015-01-27 21:44:45	liesard	Ah, Ok
+2015-01-27 21:44:49	liesard	Yeah, sure, I'll play
+2015-01-27 21:46:59	<──	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has quit (Ping timeout: 182 seconds)
+2015-01-27 21:50:45	──>	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has joined #nixers
+2015-01-27 21:52:22	──>	liesard (liesard@io-191CBF29.static.wline.lns.sme.cust.swisscom.ch) has joined #nixers
+2015-01-27 21:52:22	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-27 21:52:22	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-27 21:52:22	──	Channel #nixers: 60 nicks (4 ops, 0 halfops, 1 voice, 55 normals)
+2015-01-27 21:52:24	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-27 21:56:43	──>	libbro (gaiz@io-2415BE4A.manalyzer.org) has joined #nixers
+2015-01-27 22:15:45	liesard	So...
+2015-01-27 22:15:46	liesard	What's up?
+2015-01-27 22:16:58	fayesafe	wrote a podcatcher in 24 lines
+2015-01-27 22:17:01	fayesafe	>python
+2015-01-27 22:17:14	liesard	:O
+2015-01-27 22:17:22	liesard	That's super cool
+2015-01-27 22:18:32	fayesafe	it even has a config file kek
+2015-01-27 22:19:10	liesard	omg
+2015-01-27 22:19:13	liesard	>Python
+2015-01-27 22:22:55	fayesafe	#bettrthanjava
+2015-01-27 22:24:15	liesard	#worsethanc
+2015-01-27 22:24:15	xero	#almostanythingis
+2015-01-27 22:24:19	liesard	^
+2015-01-27 22:24:57	fayesafe	#cistoohardforanooblikeme
+2015-01-27 22:25:22	liesard	#mydickistoohardforanassholelikeyou
+2015-01-27 22:25:40	liesard	Let me just add spaces
+2015-01-27 22:25:44	liesard	#my dick is too hard for an asshole like you
+2015-01-27 22:26:10	fayesafe	http://www.allmystery.de/i/te3a881_Anchorman-well-that-escalated-quickly.jpg
+2015-01-27 22:26:39	liesard	;D
+2015-01-27 22:31:32	vypr	hi
+2015-01-27 22:31:59	liesard	Hi vypr 
+2015-01-27 22:32:19	vypr	I dropped out today.
+2015-01-27 22:32:25	vypr	And I'm gonna be starting online learning soon.
+2015-01-27 22:32:39	vypr	So now for the next few weeks here, I'm gonna be bored as fuck.
+2015-01-27 22:39:22	xero	use your time wisely
+2015-01-27 22:44:46	liesard	vypr: Wait, why did you drop out?
+2015-01-27 22:48:35	+z3bra	thinking about dropping HTML support for my blog
+2015-01-27 22:49:05	liesard	How would you do that?
+2015-01-27 22:49:14	+z3bra	removing html files ?
+2015-01-27 22:50:43	+z3bra	and only serve plain text
+2015-01-27 22:50:47	+z3bra	in gopher
+2015-01-27 22:53:02	fayesafe	z3bra: is there a way to call a user function in vim everytime i open it?
+2015-01-27 22:53:25	+z3bra	yes
+2015-01-27 22:53:32	+z3bra	put it in the vimrc ?
+2015-01-27 22:53:40	fayesafe	and then?
+2015-01-27 22:53:46	+z3bra	is this question a trap ?
+2015-01-27 22:53:51	fayesafe	nah bruh
+2015-01-27 22:53:56	+z3bra	vimrc
+2015-01-27 22:54:02	+z3bra	vim - read - commands
+2015-01-27 22:54:18	+z3bra	your vimrc is a list of commands to be executed by vim on startup
+2015-01-27 22:54:29	+z3bra	you want to call "UserFunction()" ?
+2015-01-27 22:54:33	fayesafe	k got it
+2015-01-27 22:54:34	fayesafe	thanks
+2015-01-27 22:54:40	+z3bra	echo "call UserFunction" >> ~/.vimrc
+2015-01-27 22:54:51	fayesafe	^
+2015-01-27 22:55:11	fayesafe	sometimes the most obvious things are the hardest
+2015-01-27 22:55:35	+z3bra	yeah :)
+2015-01-27 22:56:29	vypr	liesard: i failed too many classes that i wouldn't be able to finish high school my senior year
+2015-01-27 22:56:39	vypr	going to go watch netflix, bai
+2015-01-27 22:56:42	liesard	Wait, no
+2015-01-27 22:56:44	liesard	Stay
+2015-01-27 22:56:47	vypr	ok
+2015-01-27 22:56:51	liesard	\o/
+2015-01-27 22:56:57	vypr	I still want to watch Netflix though.
+2015-01-27 22:57:00	liesard	Oh :|
+2015-01-27 22:57:06	liesard	Well I guess I can't really stop you
+2015-01-27 22:57:07	Andries	Ok
+2015-01-27 22:57:09	liesard	Let me just say one thing
+2015-01-27 22:57:13	vypr	I'm listening
+2015-01-27 22:57:17	liesard	I got expelled from my last school
+2015-01-27 22:57:21	Andries	Are you guys gonna kiss
+2015-01-27 22:57:24	xero	tjat
+2015-01-27 22:57:28	liesard	Andries: Yup~
+2015-01-27 22:57:34	liesard	And now I'm pursuing a better education to go to my favourite uni
+2015-01-27 22:57:37	liesard	So yeah
+2015-01-27 22:57:38	liesard	Don't give up
+2015-01-27 22:57:45	vypr	I won't
+2015-01-27 22:57:48	liesard	:D
+2015-01-27 22:57:51	vypr	I just need support
+2015-01-27 22:57:55	vypr	Which I'll get from here.
+2015-01-27 22:57:59	liesard	\o/
+2015-01-27 22:58:01	vypr	Since I've only applied to one online school.
+2015-01-27 22:58:09	vypr	Because my mom thinks that applying to more than one is a bad idea.
+2015-01-27 22:58:15	liesard	You should just learn by yourself and apply for being a sysadmin or something
+2015-01-27 22:58:19	liesard	Or a programmer
+2015-01-27 22:58:25	vypr	"You're just like your dad, you see something else and you want it immediately."
+2015-01-27 22:58:26	vypr	k
+2015-01-27 22:58:30	vypr	I know.
+2015-01-27 22:58:37	Andries	Wow
+2015-01-27 22:58:38	liesard	I think many people are like that
+2015-01-27 22:58:46	Andries	Was that a passivr aggressive comment towards your dad
+2015-01-27 22:58:49	vypr	Sadly I lost my chances of getting a free CompTIA cert.
+2015-01-27 22:58:50	vypr	no
+2015-01-27 22:58:54	vypr	my dad doesn't live with me
+2015-01-27 22:59:08	vypr	But she's not letting me pursue other options.
+2015-01-27 22:59:12	vypr	which doesn't help.
+2015-01-27 22:59:18	liesard	What's your main goal?
+2015-01-27 22:59:25	vypr	diploma
+2015-01-27 22:59:28	vypr	then uni
+2015-01-27 22:59:37	Andries	vypr: how exactly is she not letting you?
+2015-01-27 22:59:42	vypr	i was gonna explain
+2015-01-27 22:59:48	vypr	alright, i applied for one online school.
+2015-01-27 22:59:48	Andries	Do you have to pay to apply and stuff?
+2015-01-27 22:59:49	vypr	no
+2015-01-27 23:00:09	vypr	because my mom didn't want me applying for other schools
+2015-01-27 23:00:22	xero	ask your mom what happens if you don't get into the 1st one?
+2015-01-27 23:00:24	vypr	i asked "what if this online school doesn't accept me, and the other ones close enrollment"
+2015-01-27 23:00:28	vypr	i did
+2015-01-27 23:00:30	Andries	...and that stops you from applying... How?
+2015-01-27 23:00:31	xero	you gotta have options
+2015-01-27 23:00:35	vypr	she said "oh, we'll figure something out then"
+2015-01-27 23:00:41	vypr	*sigh*
+2015-01-27 23:00:49	xero	backup plans. and if it costs nothing you waste nothing (but time)
+2015-01-27 23:00:51	vypr	and she also put me in counseling
+2015-01-27 23:01:10	liesard	vypr: Oh god, that sounds terrible
+2015-01-27 23:01:18	liesard	You're 17-18, right?
+2015-01-27 23:01:23	vypr	16
+2015-01-27 23:01:31	liesard	Ah, Ok
+2015-01-27 23:01:33	vypr	VLA requires you to go to the building once a week for 5 hours.
+2015-01-27 23:01:39	vypr	The rest is purely online.
+2015-01-27 23:01:42	liesard	You could go for a job
+2015-01-27 23:01:45	vypr	I just want better opportunities.
+2015-01-27 23:01:51	liesard	That's true
+2015-01-27 23:01:53	vypr	Not really, most places want HS diplomas.
+2015-01-27 23:02:00	liesard	Ah, Ok
+2015-01-27 23:02:03	liesard	Yeah, that's true
+2015-01-27 23:02:03	vypr	Sadly.
+2015-01-27 23:02:08	liesard	Unfortunately, yeah
+2015-01-27 23:02:11	vypr	My stepdad offered me a summer job.
+2015-01-27 23:02:11	Andries	Oh
+2015-01-27 23:02:16	vypr	But that's in the summer, sadly.
+2015-01-27 23:02:28	Andries	So you need your mother's signature or whatever to apply to online high schools.
+2015-01-27 23:02:32	Andries	Aaaah
+2015-01-27 23:02:33	Andries	Okok
+2015-01-27 23:02:36	vypr	no
+2015-01-27 23:02:38	vypr	i just want her approval.
+2015-01-27 23:02:40	Andries	.
+2015-01-27 23:03:23	vypr	Technically in the end I do probably need her signature or something.
+2015-01-27 23:03:28	vypr	Since I'm still a minor.
+2015-01-27 23:03:40	xero	when do you start counseling? maybe talk to the counseler about it.
+2015-01-27 23:03:46	vypr	i started today
+2015-01-27 23:03:50	vypr	but it was an introductory session
+2015-01-27 23:04:06	<──	fayesafe (fayesafe@io-990C1808.hsi4.kabel-badenwuerttemberg.de) has quit (Quit: leaving)
+2015-01-27 23:04:17	──>	fayesafe (fayesafe@io-990C1808.hsi4.kabel-badenwuerttemberg.de) has joined #nixers
+2015-01-27 23:05:39	+z3bra	oh fuck
+2015-01-27 23:05:51	+z3bra	https://www.youtube.com/watch?v=BEG-ly9tQGk
+2015-01-27 23:05:52	mcp	Title: Lars Andersen: a new level of archery - YouTube (at www.youtube.com)
+2015-01-27 23:05:56	+z3bra	*mind blown*
+2015-01-27 23:06:38	vypr	my mom thinks I don't want to go to VLA because I have to go in
+2015-01-27 23:06:58	vypr	because the counselor diagnosed me with social anxiety.
+2015-01-27 23:06:59	vypr	*sigh*
+2015-01-27 23:07:16	vypr	i wish i had more understanding people IRL
+2015-01-27 23:07:38	liesard	vypr: It'll get better
+2015-01-27 23:07:39	liesard	Don't worry
+2015-01-27 23:08:07	vypr	I'm just having a bit of a down moment.
+2015-01-27 23:08:19	vypr	Because my mom isn't being how she normally is, and i feel isolated.
+2015-01-27 23:08:34	vypr	My stepdad used to be on my side and now he might as well just fuck off.
+2015-01-27 23:08:42	liesard	All parents are like that
+2015-01-27 23:08:49	liesard	Your mom is probably just stressed because you dropped out
+2015-01-27 23:08:57	vypr	Well, yeah, i'd imagine
+2015-01-27 23:09:08	 *	xero hugs from a random internet stranger
+2015-01-27 23:09:15	vypr	but her comprehension and help would be nice
+2015-01-27 23:09:22	vypr	especially when i need it the most right now.
+2015-01-27 23:09:34	liesard	Is there someone you can talk to?
+2015-01-27 23:09:40	liesard	Like, a friend or something?
+2015-01-27 23:09:43	vypr	other than the counselor, it's just you guys
+2015-01-27 23:09:52	vypr	and 2 people who I remain in contact with
+2015-01-27 23:09:59	liesard	Have you spoken to them?
+2015-01-27 23:10:02	vypr	1 of those people who doesn't help, but will just listen
+2015-01-27 23:10:10	liesard	And the other?
+2015-01-27 23:10:22	vypr	and 1 who won't help since he doesn't like getting involved in things.
+2015-01-27 23:10:50	liesard	Oh, man
+2015-01-27 23:11:13	vypr	he usually just says "oh well, you fucked up"
+2015-01-27 23:11:27	liesard	Well it isn't wrong :P
+2015-01-27 23:11:27	vypr	ugh
+2015-01-27 23:11:32	vypr	i know
+2015-01-27 23:11:33	liesard	But there are so many possibilities for you
+2015-01-27 23:11:46	vypr	but there's just no one to help me
+2015-01-27 23:11:51	vypr	i know
+2015-01-27 23:11:51	liesard	This is your chance to pursue something that your school was limiting you
+2015-01-27 23:11:54	liesard	to
+2015-01-27 23:11:56	vypr	i just can't do it alone
+2015-01-27 23:12:06	vypr	and i'm pretty alone right now
+2015-01-27 23:12:08	liesard	I want to say "You have us" but that...
+2015-01-27 23:12:13	liesard	That doesn't sound very helpful
+2015-01-27 23:12:24	vypr	you guys are the only thing i can get help and advice from
+2015-01-27 23:12:27	vypr	other than the counselor
+2015-01-27 23:12:36	vypr	mom doesn't listen
+2015-01-27 23:12:41	vypr	stepdad can fuck off
+2015-01-27 23:12:51	vypr	friends listen but don't help
+2015-01-27 23:13:12	vypr	now there's an ever bigger deduction of friends now that I've dropped out
+2015-01-27 23:13:22	liesard	Go out and meet some more people
+2015-01-27 23:13:25	vypr	dammit
+2015-01-27 23:13:26	liesard	Do you have any hobbies?
+2015-01-27 23:13:37	vypr	other than programming and video producing, no
+2015-01-27 23:13:45	vypr	and meeting peoplle isn't viable for me.
+2015-01-27 23:13:49	liesard	How so?
+2015-01-27 23:13:54	vypr	no transportation
+2015-01-27 23:13:58	vypr	no money for public transit
+2015-01-27 23:14:05	vypr	and plus i have social anxiety
+2015-01-27 23:14:08	vypr	i don't like talking to people
+2015-01-27 23:14:59	liesard	Ah I see
+2015-01-27 23:15:03	vypr	and people in my age group around here are mostly fucked up
+2015-01-27 23:15:03	liesard	Yeah, that poses a problem
+2015-01-27 23:15:10	liesard	Damn...
+2015-01-27 23:15:20	vypr	and of course, my mom wouldn't let me hang out with people out of my age group
+2015-01-27 23:15:24	vypr	so thats fun
+2015-01-27 23:15:51	liesard	Try hanging out with people that are older than you
+2015-01-27 23:15:54	liesard	Ok, that sounds weird
+2015-01-27 23:16:02	liesard	But, do you see what I mean?
+2015-01-27 23:16:07	vypr	yeah
+2015-01-27 23:16:08	vypr	i know
+2015-01-27 23:16:38	<──	cippaciong (cippaciong@B0163A21.40796AE6.CF3CAC74.IP) has quit (Quit: WeeChat 1.1)
+2015-01-27 23:16:50	vypr	i'm gonna send an email to my English teacher
+2015-01-27 23:16:55	──>	cippaciong (cippaciong@B0163A21.40796AE6.CF3CAC74.IP) has joined #nixers
+2015-01-27 23:17:00	liesard	That sounds nice
+2015-01-27 23:17:00	vypr	she was the only teacher i cared about
+2015-01-27 23:17:03	vypr	since she was relatable
+2015-01-27 23:17:12	vypr	she sent me a voicemail today
+2015-01-27 23:17:19	liesard	What did it say?
+2015-01-27 23:17:20	vypr	telling me to turn in a project so I'd pass English
+2015-01-27 23:17:27	vypr	but I'm dropped out as of now
+2015-01-27 23:17:30	vypr	so it doesn't matter.
+2015-01-27 23:17:36	vypr	i just want her to know
+2015-01-27 23:17:40	vypr	because maybe she can help
+2015-01-27 23:18:12	liesard	Yeah
+2015-01-27 23:18:20	liesard	English teachers always seem to be the nicest people
+2015-01-27 23:18:24	liesard	It's weird
+2015-01-27 23:19:15	vypr	My English teacher was the one who drove me to doing a persuasive speech on internet privacy
+2015-01-27 23:20:30	vypr	so, how are you guys?
+2015-01-27 23:20:39	liesard	Wait
+2015-01-27 23:20:46	liesard	That was /you/, right?
+2015-01-27 23:20:50	liesard	The one with the posters?
+2015-01-27 23:20:53	vypr	yeah
+2015-01-27 23:20:56	vypr	that project is thrown out the window
+2015-01-27 23:21:01	liesard	D:
+2015-01-27 23:21:02	liesard	Noooooo
+2015-01-27 23:21:17	liesard	Can't you hand it down to someone else at least?
+2015-01-27 23:21:33	vypr	i don't know anyone who equally cares about that stuff like i do
+2015-01-27 23:21:53	vypr	anyways
+2015-01-27 23:21:58	liesard	It's important though
+2015-01-27 23:22:00	liesard	Anyway, yeah
+2015-01-27 23:22:04	liesard	You can go watch NetFlix
+2015-01-27 23:22:06	vypr	tl;dr i feel scared and alone
+2015-01-27 23:22:12	vypr	i'm not gonna watch netflix
+2015-01-27 23:22:21	vypr	it was just something to do while i was eating
+2015-01-27 23:22:27	vypr	i'm just watching youtube
+2015-01-27 23:23:17	liesard	You should start a project
+2015-01-27 23:23:19	liesard	I'll help you with it
+2015-01-27 23:23:27	liesard	What languages do you know?
+2015-01-27 23:23:31	xero	i agree english teachers are usually nice. but i'm biased. my mom was one ;D
+2015-01-27 23:23:42	liesard	Hahahaha
+2015-01-27 23:23:55	vypr	Golang, some C, Python (but i never use it, its kinda dumb)
+2015-01-27 23:24:00	vypr	I know web design
+2015-01-27 23:24:06	liesard	Do you know PHP?
+2015-01-27 23:24:06	xero	i also agree w/ liesard, you should pour yourself into a new project. to keep you mind from dwelling on things.
+2015-01-27 23:24:10	vypr	no
+2015-01-27 23:24:16	vypr	i've always wanted to learn though
+2015-01-27 23:24:18	liesard	Learn PHP
+2015-01-27 23:24:22	liesard	Let's make a forum!
+2015-01-27 23:24:27	liesard	Bring back the real meaning of HTTP
+2015-01-27 23:24:28	xero	it's easy.
+2015-01-27 23:24:29	vypr	because i wanted to make a dashboard kinda thing
+2015-01-27 23:24:36	vypr	what would be better
+2015-01-27 23:24:42	vypr	Node.JS for it or PHP?
+2015-01-27 23:24:52	vypr	since something like http://mean.io sounds pretty fun
+2015-01-27 23:24:53	mcp	Title: MEAN.IO - MongoDB, Express, Angularjs Node.js powered fullstack web framework (at mean.io)
+2015-01-27 23:24:54	xero	php is simpler than javascript
+2015-01-27 23:25:05	liesard	vypr: PHP
+2015-01-27 23:25:07	liesard	I don't like JS
+2015-01-27 23:25:14	vypr	Y'know. I could make a forum or something in Golang.
+2015-01-27 23:25:21	vypr	Kinda like how jmbi is doing with the new unixpr0n site.
+2015-01-27 23:25:24	xero	js is an odd language. but i program in it every day
+2015-01-27 23:25:47	liesard	vypr: I wanted to use Go for my forum, but PHP is just so easy to implement
+2015-01-27 23:26:04	vypr	I thought PHP was difficult to learn
+2015-01-27 23:26:12	vypr	but i'm willing to learn
+2015-01-27 23:26:19	vypr	do you know any resources to learn?
+2015-01-27 23:26:23	vypr	otherwise i'll just look around
+2015-01-27 23:26:26	liesard	Nope
+2015-01-27 23:26:33	liesard	Trial+error
+2015-01-27 23:26:35	liesard	Best method
+2015-01-27 23:26:36	liesard	:P
+2015-01-27 23:26:45	vypr	i still want to understand a bit
+2015-01-27 23:27:00	liesard	Ah, yeah, then don't do trial and error :P
+2015-01-27 23:27:07	xero	dont listen to him, there are tons of great php resources
+2015-01-27 23:27:13	xero	let me send you my fav book
+2015-01-27 23:27:25	vypr	thanks
+2015-01-27 23:28:02	vypr	is PHP as bad as people say?
+2015-01-27 23:28:17	liesard	Yeah, it sucks
+2015-01-27 23:28:17	vypr	and are frameworks like Laravel and etc nice to have or unneeded?
+2015-01-27 23:28:22	xero	http://it-ebooks.info/book/1060/
+2015-01-27 23:28:24	mcp	Title: Beginning PHP5, Apache and MySQL Web Development - Free Download eBook - pdf (at it-ebooks.info)
+2015-01-27 23:28:30	xero	this is a great intro book for learners
+2015-01-27 23:28:30	vypr	thanks
+2015-01-27 23:28:41	liesard	I don't know about frameworks, but I'm sure vanilla PHP is just fine
+2015-01-27 23:29:09	xero	php is a language built on top of c. so whatever you write in php is translated into c and run.
+2015-01-27 23:29:17	vypr	ooh
+2015-01-27 23:29:19	liesard	I did not know that
+2015-01-27 23:29:25	xero	it doesn't have strict typing either, so it's easy to mess things up
+2015-01-27 23:29:56	xero	$x = "hello"; $x++; 
+2015-01-27 23:30:13	xero	php will try and decide what number "hello" is and still increment it
+2015-01-27 23:30:18	vypr	heh
+2015-01-27 23:30:23	xero	and since it's a string, not a number (nan) it will = 1
+2015-01-27 23:30:36	xero	which is dumb in most peoples opinions.
+2015-01-27 23:30:58	xero	but it's totally possible to write great php code. lots of people do/
+2015-01-27 23:31:36	xero	it
+2015-01-27 23:31:57	xero	it's possible to write procedural or object orented code in php, which i think makes is more flexable.
+2015-01-27 23:32:19	xero	most people see that as a weakness since there's now "rules" to how you use it.
+2015-01-27 23:32:24	xero	*no
+2015-01-27 23:32:31	liesard	I heard OOP in PHP is really bad
+2015-01-27 23:32:54	xero	you heard wrong. it's a full implementation
+2015-01-27 23:33:09	liesard	Oh, Ok
+2015-01-27 23:33:22	xero	but it's easy to mess up, since it's got loose typing and no strict coupling
+2015-01-27 23:33:33	liesard	I see
+2015-01-27 23:33:39	xero	people want a language to "hold their hands" and tell them when they do things wrong
+2015-01-27 23:34:01	xero	php was not designed as an oop lang, so it's kind of a hack
+2015-01-27 23:34:21	xero	but php 5.5+ works really well
+2015-01-27 23:34:30	vypr	xero: what's your thoughts on stuff like Facebook's Hack and the HHVM stuff
+2015-01-27 23:34:32	vypr	just curious
+2015-01-27 23:34:41	xero	it's a really cool idea
+2015-01-27 23:34:56	xero	and if you're doing high volume stuff it's MUCH faster
+2015-01-27 23:35:08	xero	since you do compile it then run it as c code
+2015-01-27 23:35:18	xero	not php converted to c code on the fly every time
+2015-01-27 23:35:38	xero	i dont like that you have to learn a new meta lang to use it though.
+2015-01-27 23:35:48	xero	i mean, you dont HAVE to, but to get the most out of it you do
+2015-01-27 23:36:13	vypr	ah
+2015-01-27 23:36:14	vypr	thanks
+2015-01-27 23:36:21	xero	np dude :D
+2015-01-27 23:36:44	vypr	i already have a webserver running on my VPS, so I'll do my learning on there
+2015-01-27 23:36:53	xero	give it a whirl. it's pretty simple to get started
+2015-01-27 23:36:54	vypr	maybe i'll do something with golang too
+2015-01-27 23:37:07	vypr	I just have lighttpd on it right now
+2015-01-27 23:37:22	vypr	but is MySQL still secure?
+2015-01-27 23:37:23	xero	thats fine. the apache stuff in that book it more setup
+2015-01-27 23:37:28	vypr	since i heard stuff about it a while ago.
+2015-01-27 23:37:43	xero	it's a seemless transition to mariadb
+2015-01-27 23:37:52	xero	the new linux standard
+2015-01-27 23:37:55	vypr	is that the best option?
+2015-01-27 23:38:04	xero	maria is nice
+2015-01-27 23:38:23	vypr	what would you use?
+2015-01-27 23:38:32	vypr	(just to get some recommendation)
+2015-01-27 23:38:54	xero	xero.nu runs on php, mariadb, and apache
+2015-01-27 23:39:01	vypr	alrigh
+2015-01-27 23:39:03	vypr	alright*
+2015-01-27 23:39:03	xero	so that is my stack ;D
+2015-01-27 23:39:15	xero	i do nodejs + nginx at work
+2015-01-27 23:39:24	xero	i really have mixed feeling about it
+2015-01-27 23:39:49	liesard	A guy I know uses MySQL+Apache2+PHP
+2015-01-27 23:39:57	liesard	And his site runs pretty smoothly
+2015-01-27 23:39:59	vypr	i really wish i had another monitor
+2015-01-27 23:40:11	vypr	not enough space to have a web browser, pdf viewer, and term windows open
+2015-01-27 23:40:19	vypr	actually
+2015-01-27 23:40:26	vypr	let me do a tmux session
+2015-01-27 23:40:41	vypr	wait nvm, that won't help.
+2015-01-27 23:40:52	liesard	:P
+2015-01-27 23:41:14	xero	what wm do you use?
+2015-01-27 23:41:20	vypr	swm/wmutils
+2015-01-27 23:41:45	xero	z3bra: needs to share his grouping script already ;D
+2015-01-27 23:41:49	liesard	vypr: Same! :D
+2015-01-27 23:41:51	liesard	xero: ikr
+2015-01-27 23:42:02	xero	i havn't had enough time to try to write my own yet.
+2015-01-27 23:42:04	liesard	dcat showed me how to do it, but it didn't work ;_;
+2015-01-27 23:42:31	 *	vypr is listening to deadmau5 - My Pet Coelacanth.
+2015-01-27 23:42:50	bajr	z3bra: took me longer than expected
+2015-01-27 23:42:53	liesard	vypr: Nice music taste
+2015-01-27 23:43:00	vypr	thanks m80
+2015-01-27 23:43:55	liesard	:3
+2015-01-27 23:47:06	vypr	liesard: the book xero gave me has a project to create a forum in one of the chapters
+2015-01-27 23:47:10	vypr	yay
+2015-01-27 23:47:21	vypr	xero: i really do appreciate this, btw
+2015-01-27 23:47:28	xero	anytime buddy :D
+2015-01-27 23:47:40	xero	that site is a WEALTH of great it books
+2015-01-27 23:47:45	liesard	\o/
+2015-01-27 23:47:48	vypr	yeah, i know
+2015-01-27 23:47:48	liesard	Thank you~
+2015-01-27 23:47:52	vypr	i used it many of times
+2015-01-27 23:48:11	vypr	that had a book that i started learning C with
+2015-01-27 23:48:14	vypr	Head Start C
+2015-01-27 23:48:20	vypr	Or was it Head First?
+2015-01-27 23:48:22	vypr	either way
+2015-01-27 23:48:27	liesard	Something with a head and C
+2015-01-27 23:48:28	liesard	:P
+2015-01-27 23:49:14	bajr	>not k&r2
+2015-01-27 23:49:20	bajr	get k&r2 
+2015-01-27 23:49:25	vypr	bajr: fuk ur mum
+2015-01-27 23:49:33	liesard	Oh, I have it
+2015-01-27 23:49:37	liesard	vypr: I can send it to you
+2015-01-27 23:49:42	vypr	i have K&R 2.
+2015-01-27 23:49:46	liesard	I haven't really read it much 'cause it's long and textbook-y
+2015-01-27 23:49:48	liesard	Ah, Ok
+2015-01-27 23:49:53	vypr	yeah
+2015-01-27 23:49:58	vypr	that's mainly why i don't touc it
+2015-01-27 23:50:02	vypr	s/touc/touch
+2015-01-27 23:50:03	bajr	vypr: what crawled up your vagine and made a campsite
+2015-01-27 23:50:11	vypr	bajr: i'm having a bad time
+2015-01-27 23:50:31	vypr	scroll up in your client and you'll see
+2015-01-27 23:50:36	bajr	good time to practice self control
+2015-01-27 23:50:41	liesard	Indeed, bajr 
+2015-01-27 23:50:57	bajr	vypr: give me a time?
+2015-01-27 23:51:04	vypr	time for what?
+2015-01-27 23:51:06	bajr	and current time so i can find it?
+2015-01-27 23:51:09	vypr	oh
+2015-01-27 23:51:14	bajr	when you said it so i can find what made you mad
+2015-01-27 23:51:18	vypr	22:51 now
+2015-01-27 23:51:46	vypr	21:58 was when I started talking about it
+2015-01-27 23:52:01	bajr	heh, the vps.iotek.org time is 17:51
+2015-01-27 23:52:14	vypr	i'm using my VPS, so yeah.
+2015-01-27 23:52:18	vypr	just go an hour back basically
+2015-01-27 23:52:25	bajr	oh. yeah
+2015-01-27 23:52:47	bajr	makes sense considering liesard's comment
+2015-01-27 23:53:08	liesard	What comment?
+2015-01-27 23:53:09	vypr	i'm a bit confused
+2015-01-27 23:53:19	bajr	the textbook one
+2015-01-27 23:53:19	vypr	i'm not mad at liesard
+2015-01-27 23:53:22	vypr	i'm not really mad at anything
+2015-01-27 23:53:23	bajr	which relates to school
+2015-01-27 23:53:29	liesard	Oh, right
+2015-01-27 23:53:31	bajr	vypr: i mean, he said it's textbooky
+2015-01-27 23:53:37	vypr	...so?
+2015-01-27 23:53:42	bajr	and you're mad about getting kicked out of a place filled with textbooks
+2015-01-27 23:53:46	vypr	no i'm not
+2015-01-27 23:53:52	bajr	well
+2015-01-27 23:53:55	bajr	NOW I"M MAD
+2015-01-27 23:53:58	vypr	k
+2015-01-27 23:54:04	liesard	k
+2015-01-27 23:54:57	vypr	liesard: i'm still waiting for the new deadmau5 album that he said was gonna be trance and stuff
+2015-01-27 23:55:02	vypr	instead of his usual house stuff
+2015-01-27 23:55:57	liesard	I actually haven't listened to much electronic music lately
+2015-01-27 23:56:08	liesard	But trance stuff sounds interesting
+2015-01-28 00:00:38	fayesafe	my cronjob is not werking ;-;
+2015-01-28 00:05:02	xero	fayesafe: are you sure it's running?
+2015-01-28 00:05:39	bajr	gah
+2015-01-28 00:05:44	bajr	i forgot to back up all my crap
+2015-01-28 00:05:59	bajr	luckily i remember before the "wipe everything" part of the installation
+2015-01-28 00:06:22	xero	later guys. i'm headed home
+2015-01-28 00:07:03	vypr	xero: o/
+2015-01-28 00:07:09	vypr	thanks again
+2015-01-28 00:07:17	xero	vypr: np. chin up ;D
+2015-01-28 00:07:23	vypr	im trying
+2015-01-28 00:08:37	liesard	Bye xero
+2015-01-28 00:10:19	──>	zbro_ (z3bra@io-E59FC825.fbx.proxad.net) has joined #nixers
+2015-01-28 00:11:02	zbro_	had to share: http://www.boredpanda.com/worst-domain-names/
+2015-01-28 00:11:49	bajr	zbro_: it took longer :(
+2015-01-28 00:12:06	XVII	speedofart lmao
+2015-01-28 00:12:06	zbro_	http://swissbit.ch
+2015-01-28 00:12:21	<──	Racquetball (haha@io-D6799F3E.cpe.twtelecom.net) has quit (Quit: leaving)
+2015-01-28 00:14:00	<──	cippaciong (cippaciong@B0163A21.40796AE6.CF3CAC74.IP) has quit (Quit: WeeChat 1.1.1)
+2015-01-28 00:14:21	bajr	>lesbocages
+2015-01-28 00:14:27	liesard	I don't get the swissbit one
+2015-01-28 00:14:28	bajr	>.com
+2015-01-28 00:14:42	zbro_	lieshard, swiss bitch
+2015-01-28 00:14:51	liesard	Ooooh
+2015-01-28 00:14:53	liesard	I see
+2015-01-28 00:15:05	liesard	Also, 0/10, got my nick wrong
+2015-01-28 00:15:08	liesard	Apply yourself
+2015-01-28 00:15:18	liesard	And try to be original if that was intentional
+2015-01-28 00:16:04	bajr	analisajoy.com
+2015-01-28 00:16:14	bajr	>lies hard
+2015-01-28 00:16:18	zbro_	even my own nick us wrong
+2015-01-28 00:16:33	zbro_	so i can mess up whoevwr i want
+2015-01-28 00:16:44	liesard	That doesn't mean that
+2015-01-28 00:16:58	zbro_	aaaaah
+2015-01-28 00:17:03	XVII	therapistfinder: "hello, i need a hot redhead female, is available?"
+2015-01-28 00:17:11	zbro_	found the website i was searching fir
+2015-01-28 00:17:16	zbro_	for
+2015-01-28 00:17:18	zbro_	http://dumb.domains/
+2015-01-28 00:17:19	mcp	Title: DUMB.domains (at dumb.domains)
+2015-01-28 00:17:58	zbro_	OH THANKS MCO, THIS HELPS A LOT
+2015-01-28 00:18:02	zbro_	MPC
+2015-01-28 00:18:05	zbro_	MCP
+2015-01-28 00:18:13	zbro_	fuck my fingers
+2015-01-28 00:18:29	liesard	???
+2015-01-28 00:18:40	<──	fayesafe (fayesafe@io-990C1808.hsi4.kabel-badenwuerttemberg.de) has quit (Ping timeout: 183 seconds)
+2015-01-28 00:19:03	bajr	zbro_: isn't that your gf's job?
+2015-01-28 00:19:20	liesard	omg
+2015-01-28 00:19:23	liesard	no
+2015-01-28 00:19:25	zbro_	but...
+2015-01-28 00:19:27	zbro_	how?
+2015-01-28 00:19:38	──>	fayesafe (fayesafe@io-990C1808.hsi4.kabel-badenwuerttemberg.de) has joined #nixers
+2015-01-28 00:19:42	bajr	like, a reverse fingering?
+2015-01-28 00:20:17	zbro_	damn it's harder and harder to retain mom's jokes
+2015-01-28 00:20:40	zbro_	like, i'll unglove your fingers and put.my dick in it ?
+2015-01-28 00:20:46	zbro_	sounds idd
+2015-01-28 00:20:48	zbro_	odd
+2015-01-28 00:21:16	bajr	what
+2015-01-28 00:21:30	fayesafe	 hatin cron
+2015-01-28 00:24:23	zbro_	ouch
+2015-01-28 00:24:36	zbro_	http://wow.bargain
+2015-01-28 00:24:47	zbro_	costs 145$/year
+2015-01-28 00:25:43	zbro_	http://wow.buzz : 18480$ !!!!
+2015-01-28 00:25:58	XVII	holy fuck 
+2015-01-28 00:26:16	bajr	wow
+2015-01-28 00:26:39	bajr	that's a good point Rooster Teeth Animated Adventures
+2015-01-28 00:26:46	bajr	the past must've stunk
+2015-01-28 00:26:58	bajr	people didn't really have access to baths/showers everyday
+2015-01-28 00:27:32	zbro_	meanwhile, balls.academy costs 40$
+2015-01-28 00:27:45	XVII	bum.careers $400
+2015-01-28 00:28:33	XVII	butt.pink 16, i think i might buy it
+2015-01-28 00:28:46	zbro_	anyways
+2015-01-28 00:28:54	zbro_	night all
+2015-01-28 00:28:57	<──	zbro_ (z3bra@io-E59FC825.fbx.proxad.net) has quit (Quit: IRC for Sailfish 0.8)
+2015-01-28 00:29:02	liesard	Good night, zbro_
+2015-01-28 00:29:04	liesard	Oh :|
+2015-01-28 00:29:40	XVII	liesard: fart.expert at 60, wanna split it?
+2015-01-28 00:29:52	liesard	Hahahahaha no.
+2015-01-28 00:30:15	bajr	har har
+2015-01-28 00:30:17	bajr	oh
+2015-01-28 00:30:19	XVII	ahah some are hilarius 
+2015-01-28 00:30:26	bajr	he always leaves before i can say bye
+2015-01-28 00:31:26	XVII	immagine having a mail @fart.expert tho
+2015-01-28 00:32:17	liesard	liesard@fart.expert
+2015-01-28 00:32:29	liesard	>Logs onto IRC
+2015-01-28 00:32:49	liesard	>liesard (liesard@fart.expert) has joined #nixers
+2015-01-28 00:33:03	<──	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has quit (Quit: WeeChat 1.1)
+2015-01-28 00:33:05	XVII	would sound really professional 
+2015-01-28 00:33:11	liesard	Definitely
+2015-01-28 00:33:17	bajr	liesard: you do realise vhosts are a thing right?
+2015-01-28 00:33:29	liesard	bajr: Yeah
+2015-01-28 00:34:15	liesard	Ugh, I want to sleep but I also want this torrent to finish
+2015-01-28 00:34:27	bajr	liesard: you can request fart.expert
+2015-01-28 00:34:43	bajr	since if you login before you join #nixers, that's exactly what it will say
+2015-01-28 00:35:02	liesard	Ah, right
+2015-01-28 00:35:06	 *	bajr waits for liesard to request it
+2015-01-28 00:35:10	liesard	I'm too lazy :P
+2015-01-28 00:35:21	liesard	And I don't know how :P
+2015-01-28 00:35:22	bajr	oh
+2015-01-28 00:35:38	bajr	/msg hostserv help
+2015-01-28 00:35:41	bajr	should help you
+2015-01-28 00:35:51	──>	dcli (dcli@600E9ADC.48629C24.57473D10.IP) has joined #nixers
+2015-01-28 00:36:59	liesard	Normally that should work, right?
+2015-01-28 00:37:23	XVII	bajr: who approves the vhost?
+2015-01-28 00:37:47	bajr	an IRCop
+2015-01-28 00:38:22	XVII	are there some rules?
+2015-01-28 00:38:31	bajr	not that i know of 
+2015-01-28 00:38:38	bajr	liesard: normally?
+2015-01-28 00:39:01	bajr	it should show you a list of commands, but basically you need privmsg hostserv
+2015-01-28 00:39:25	bajr	since you might be on a client where it won't work with a slash but with a graphical button or some nonsense like that
+2015-01-28 00:39:25	liesard	bajr: Yeah, yeah, I did it
+2015-01-28 00:39:33	bajr	liesard: did you request it?
+2015-01-28 00:39:36	liesard	Yup
+2015-01-28 00:39:40	bajr	ah, k
+2015-01-28 00:39:40	liesard	I'm on Weechat, by the way
+2015-01-28 00:40:01	bajr	ah, cool.
+2015-01-28 00:40:28	XVII	bajr: it gave me access denied
+2015-01-28 00:40:42	bajr	liesard: what did it tell you?
+2015-01-28 00:40:48	bajr	XVII: are you registered?
+2015-01-28 00:41:02	XVII	hum nop 
+2015-01-28 00:41:09	bajr	probably why
+2015-01-28 00:41:09	liesard	Oh, I got a message
+2015-01-28 00:41:11	liesard	Let me read it
+2015-01-28 00:41:12	XVII	yep
+2015-01-28 00:41:22	liesard	Woo!
+2015-01-28 00:41:25	liesard	I got it :3
+2015-01-28 00:41:31	liesard	So do I disconnect and then reconnect?
+2015-01-28 00:42:04	bajr	privmsg on
+2015-01-28 00:42:19	bajr	dcat: bro
+2015-01-28 00:42:41	──	irc: disconnected from server
+2015-01-28 00:42:46	──>	liesard (liesard@io-191CBF29.static.wline.lns.sme.cust.swisscom.ch) has joined #nixers
+2015-01-28 00:42:46	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-28 00:42:46	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-28 00:42:46	──	Channel #nixers: 59 nicks (4 ops, 0 halfops, 1 voice, 54 normals)
+2015-01-28 00:42:48	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-28 00:42:49	bajr	liesard: but seriously, read the help page from hostserv
+2015-01-28 00:43:03	liesard	Ok
+2015-01-28 00:43:50	liesard	Wait.
+2015-01-28 00:43:58	liesard	Shit, this was on rizon
+2015-01-28 00:44:12	bajr	lel
+2015-01-28 00:44:20	liesard	Oh, access denied
+2015-01-28 00:44:22	liesard	Welp
+2015-01-28 00:44:31	bajr	you need to register your nick
+2015-01-28 00:44:45	liesard	Ah, right
+2015-01-28 00:47:21	liesard	brb
+2015-01-28 00:47:44	──>	liesard (liesard@io-191CBF29.static.wline.lns.sme.cust.swisscom.ch) has joined #nixers
+2015-01-28 00:47:44	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-28 00:47:44	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-28 00:47:44	──	Channel #nixers: 59 nicks (4 ops, 0 halfops, 1 voice, 54 normals)
+2015-01-28 00:47:45	XVII	now we wait
+2015-01-28 00:47:47	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-28 00:47:49	XVII	thx bajr 
+2015-01-28 00:48:01	liesard	Finally
+2015-01-28 00:48:18	bajr	k
+2015-01-28 00:48:23	bajr	lel
+2015-01-28 00:49:00	bajr	i haven't shown people nice things on IRC for a while
+2015-01-28 00:49:20	liesard	You should do it more often
+2015-01-28 00:49:58	liesard	brb
+2015-01-28 00:50:02	──	irc: disconnected from server
+2015-01-28 00:50:06	──>	liesard (liesard@io-191CBF29.static.wline.lns.sme.cust.swisscom.ch) has joined #nixers
+2015-01-28 00:50:06	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-28 00:50:06	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-28 00:50:06	──	Channel #nixers: 59 nicks (4 ops, 0 halfops, 1 voice, 54 normals)
+2015-01-28 00:50:09	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-28 00:50:21	arianon	>brbs 3 minutes ago
+2015-01-28 00:50:24	arianon	>brbs again
+2015-01-28 00:50:54	liesard	I just had to do something
+2015-01-28 00:51:06	liesard	But it didn't work
+2015-01-28 00:52:24	XVII	liesard: it have to be accepted by an operator
+2015-01-28 00:53:16	liesard	Dammit, I was on the wrong server again
+2015-01-28 00:53:44	──>	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has joined #nixers
+2015-01-28 00:53:57	XVII	also liesard if you have chosen something else than fart.expert i will be disappointed xd
+2015-01-28 00:54:14	vypr	liesard: i managed to convince my mom to let me apply to the other school
+2015-01-28 00:54:22	vypr	and now that i did, i'm closer to online learning
+2015-01-28 00:54:26	vypr	i'm so much closer
+2015-01-28 00:54:31	vypr	compared to the original one I did
+2015-01-28 00:55:07	liesard	vypr: :D
+2015-01-28 00:55:10	liesard	That's awesome!
+2015-01-28 00:55:18	liesard	XVII: Oh, I haven't, don't worry :3
+2015-01-28 00:56:01	XVII	xD
+2015-01-28 00:56:39	liesard	Oh god I feel sick
+2015-01-28 00:57:10	liesard	I don't even know why
+2015-01-28 00:57:17	bajr	>fat.expert
+2015-01-28 00:57:24	bajr	s/fat/fart/
+2015-01-28 00:57:25	regx	>fart.expert
+2015-01-28 00:57:26	bajr	oops
+2015-01-28 00:57:31	liesard	Oh, I thought I messed up
+2015-01-28 00:57:36	liesard	I was like, "Noooooooooo"
+2015-01-28 00:57:38	bajr	nah,
+2015-01-28 00:57:41	liesard	:3
+2015-01-28 00:57:43	bajr	but fat expert is still funny
+2015-01-28 00:57:46	liesard	Hahahahaha yeah
+2015-01-28 00:57:48	liesard	It's hilarious
+2015-01-28 00:59:06	bajr	d
+2015-01-28 00:59:09	bajr	oops
+2015-01-28 00:59:32	<──	XVII (y0@io-3364E411.retail.telecomitalia.it) has quit (Quit: Sto andando via)
+2015-01-28 00:59:49	──>	XVII (y0@io-3364E411.retail.telecomitalia.it) has joined #nixers
+2015-01-28 01:00:45	vypr	i'm so happy
+2015-01-28 01:00:56	vypr	i just have to scan and upload some stuff
+2015-01-28 01:00:58	vypr	some printing too
+2015-01-28 01:01:00	vypr	and i'm done
+2015-01-28 01:01:08	vypr	i just have to find a printer with ink, though
+2015-01-28 01:01:13	liesard	I'm happy for you :3
+2015-01-28 01:01:17	liesard	Try a library
+2015-01-28 01:01:19	vypr	maybe i'll go to the library
+2015-01-28 01:01:20	vypr	yeah
+2015-01-28 01:01:27	liesard	:D
+2015-01-28 01:02:01	vypr	i'll have to get mom to drive me there one of these days
+2015-01-28 01:02:16	vypr	since i have a printer to scan with
+2015-01-28 01:02:19	vypr	but no ink
+2015-01-28 01:02:39	liesard	Good luck with that!
+2015-01-28 01:02:42	liesard	I'm going to bed
+2015-01-28 01:02:44	liesard	Good night!
+2015-01-28 11:14:03	──>	liesard (liesard@io-191CBF29.static.wline.lns.sme.cust.swisscom.ch) has joined #nixers
+2015-01-28 11:14:03	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-28 11:14:03	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-28 11:14:03	──	Channel #nixers: 51 nicks (3 ops, 0 halfops, 1 voice, 47 normals)
+2015-01-28 11:14:05	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-28 11:14:06	liesard	o/
+2015-01-28 11:14:21	mort	\o
+2015-01-28 11:14:24	liesard	What's up?
+2015-01-28 11:14:46	liesard	Hey, is there much of a difference between 1080p and 720p anime?
+2015-01-28 11:14:46	mort	not much
+2015-01-28 11:14:54	mort	uh idk
+2015-01-28 11:14:58	liesard	Ok
+2015-01-28 11:15:03	liesard	Thanks :3
+2015-01-28 11:15:22	mort	the same differnce as 1080p vs 720p everywhere I'd assume?
+2015-01-28 11:15:39	liesard	Yeah, but I think someone mentioned that anime was never 'truly' 1080p
+2015-01-28 11:15:48	liesard	I don't really remember what they meant by that though
+2015-01-28 11:15:54	mort	why would it not be 1080p?
+2015-01-28 11:16:06	mort	that literally makes no sense
+2015-01-28 11:16:13	liesard	I have no idea
+2015-01-28 11:16:51	mort	btw, I made a thing
+2015-01-28 11:16:56	mort	http://gs.mort.coffee
+2015-01-28 11:16:59	mcp	Title: Gif Sound (at gs.mort.coffee)
+2015-01-28 11:17:05	liesard	Oh, cool
+2015-01-28 11:17:06	mort	I got annoyed that gifsound.com looks like absolute garbage
+2015-01-28 11:17:18	liesard	Wait, what does this do?
+2015-01-28 11:17:28	mort	lets you add sounds to gifs
+2015-01-28 11:17:40	mort	for example,http://gs.mort.coffee/#i.imgur.com/OMeHkpD.gif;XaHarYdJ2O8
+2015-01-28 11:17:42	mcp	Title: Gif Sound (at gs.mort.coffee)
+2015-01-28 11:18:24	liesard	Oh, Ok
+2015-01-28 11:18:27	liesard	How does it work?
+2015-01-28 11:18:38	mort	(that gif was in /r/wtf, someone said something like "that's metal", so I added metal sound to it)
+2015-01-28 11:19:04	liesard	Hahahaha
+2015-01-28 11:20:44	mort	it just it's really simple actually; there's some client side javascript which splits the hash (the part after the #) by ;, adds the part before the ; to an img tag, and adds youtube.com/things?v=(id)etc. to a hidden iframe, where (id) is the part after the ;
+2015-01-28 11:21:42	mort	right click -> view source
+2015-01-28 11:22:02	liesard	Oh, smart
+2015-01-28 11:22:09	──>	XVII (y0@io-3364E411.retail.telecomitalia.it) has joined #nixers
+2015-01-28 11:22:16	mort	hey XVII
+2015-01-28 11:22:21	XVII	hi mort _o/
+2015-01-28 11:22:26	mort	\o_
+2015-01-28 11:22:41	XVII	how are you? =)
+2015-01-28 11:22:54	mort	alive
+2015-01-28 11:23:06	mort	annoyed that this USB stick I have for some reason refuses to become a bootable linux USB
+2015-01-28 11:23:08	XVII	that's good, it means bot have yet to take over
+2015-01-28 11:23:19	mort	ye
+2015-01-28 11:23:41	XVII	mort: have you checked the filesystem? sometimes its that
+2015-01-28 11:24:07	liesard	Normally you don't need a filesystem for dd though
+2015-01-28 11:24:14	liesard	Also, hi XVII 
+2015-01-28 11:24:21	XVII	hi liesard :)
+2015-01-28 11:24:23	mort	generally, I just install an installer to one USB and boot from that, then tell the installer to install to the other USB
+2015-01-28 11:24:32	mort	then the other USB becomes a bootable USB stick
+2015-01-28 11:24:48	mort	for some reason though, that doesn't work with this stick
+2015-01-28 11:25:23	mort	I can boot from it, but I'm just showed a busybox
+2015-01-28 11:27:37	mort	now
+2015-01-28 11:27:43	mort	to skip school today or not to skip school today
+2015-01-28 11:29:05	liesard	Don't
+2015-01-28 11:29:32	mort	pros of going to school:
+2015-01-28 11:29:49	mort	I get to sit through a religion class, then do literally nothing for an hour, then have gym
+2015-01-28 11:30:10	mort	that is a bloody meaningful existance
+2015-01-28 11:31:28	──>	arianon (arianon@BEE86A65.2D1C29F8.4D67E5FA.IP) has joined #nixers
+2015-01-28 11:32:03	liesard	omg today is your religion-only day
+2015-01-28 11:32:06	liesard	Yeah, no, stay at home :P
+2015-01-28 11:33:01	mort	only issue with staying at home though is that for some fucking reason, my computer science education is dependant on my religion and history knowledge and physical fitness
+2015-01-28 11:33:16	mort	I mean, whose idea was that?
+2015-01-28 11:33:56	liesard	Hahahahahaha
+2015-01-28 11:34:00	liesard	iktfb
+2015-01-28 11:35:20	mort	not even kidding, whether or not I can educate myself in comp sci is entirely dependant on whether or not I know a lot about religion and history
+2015-01-28 11:35:31	liesard	Damn, that sucks
+2015-01-28 11:35:35	liesard	But you already know a bunch of JS and PHP
+2015-01-28 11:35:57	mort	ya, but being a high school dropout doesn't necessarily look great on the resume
+2015-01-28 11:36:33	liesard	True, yeah
+2015-01-28 11:36:51	liesard	How long do you have before you finish school?
+2015-01-28 11:37:06	mort	about 4 months
+2015-01-28 11:39:28	liesard	Like, 4 months before you go to uni?
+2015-01-28 11:39:41	mort	mhm
+2015-01-28 11:39:53	mort	well
+2015-01-28 11:39:57	mort	assuming I don't fail any subjects
+2015-01-28 11:41:11	liesard	True, yeah
+2015-01-28 11:50:59	mort	ugh, why can't iOS play videos in the background
+2015-01-28 11:51:23	mort	as in, without having the video cover the entire screen
+2015-01-28 11:51:45	liesard	omg yeah
+2015-01-28 11:52:20	──>	earsplit (sunn@io-7C8CC282.dyn.grandenetworks.net) has joined #nixers
+2015-01-28 11:52:31	mort	kinda ruins the whole thing of playing sound from a youtube video in the background while watching a gif
+2015-01-28 11:53:02	liesard	Hahahaha yea
+2015-01-28 11:53:07	liesard	*yeah
+2015-01-28 11:53:20	liesard	Or like listening to a lecture/speech while doing other things
+2015-01-28 11:53:57	mort	ya, though that's more an issue with playing a youtube video from the youtube app while being in another app
+2015-01-28 11:54:14	mort	which is also a big issue, but I was talking about safari and web thingies
+2015-01-28 11:54:38	liesard	Oh, right
+2015-01-28 11:54:40	liesard	I see
+2015-01-28 11:55:24	<──	earsplit (sunn@io-7C8CC282.dyn.grandenetworks.net) has quit (Ping timeout: 182 seconds)
+2015-01-28 12:01:15	liesard	Ok, I'm going to eat lunch
+2015-01-28 12:01:17	liesard	Bye~
+2015-01-28 12:45:28	──>	liesard (liesard@io-191CBF29.static.wline.lns.sme.cust.swisscom.ch) has joined #nixers
+2015-01-28 12:45:28	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-28 12:45:28	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-28 12:45:28	──	Channel #nixers: 55 nicks (3 ops, 0 halfops, 1 voice, 51 normals)
+2015-01-28 12:45:30	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-28 12:45:30	liesard	o/
+2015-01-28 12:45:38	mort	hai
+2015-01-28 12:46:22	liesard	What's up?
+2015-01-28 12:46:26	mort	not much
+2015-01-28 12:46:42	liesard	Cool
+2015-01-28 12:54:06	fayesafe	podcatcher werks like a charm <3
+2015-01-28 12:54:38	mort	is that a podcast client?
+2015-01-28 12:58:57	fayesafe	kind of
+2015-01-28 12:59:00	──>	Mossepo (Mossepo@io-849B38A4.metropolia.fi) has joined #nixers
+2015-01-28 12:59:26	fayesafe	i use it to automate downloads on my server, and put them into a specific dir so i can access them via mplayer
+2015-01-28 13:00:43	mort	I see
+2015-01-28 16:20:22	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-28 16:20:22	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-28 16:20:22	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-28 16:20:22	──	Channel #nixers: 57 nicks (3 ops, 0 halfops, 1 voice, 53 normals)
+2015-01-28 16:20:24	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-28 16:20:24	liesard	o/
+2015-01-28 16:20:25	mort	hai lie
+2015-01-28 16:20:36	mort	\o
+2015-01-28 16:20:40	liesard	:3
+2015-01-28 16:20:47	fayesafe	stark: how is mksh?
+2015-01-28 16:20:58	fayesafe	i considered trying it for the lulz
+2015-01-28 16:21:03	liesard	Do you know how to change the thingy on Weechat?
+2015-01-28 16:21:07	liesard	Like, the intro thingy?
+2015-01-28 16:21:10	mort	no
+2015-01-28 16:21:49	liesard	thx
+2015-01-28 16:22:48	stark	fayesafe: Its sane ;) and the ps1 syntax is very simple
+2015-01-28 16:23:41	stark	It doesn't depend on readline so its a good thing for some people bad for some ?
+2015-01-28 16:23:53	fayesafe	even though i did not really search a lot by myself, is there some kind of documentation that helps with the start, maybe differences to bash?
+2015-01-28 16:27:49	stark	Ehh the man pages, but hard to find anything showing the difference between bash
+2015-01-28 16:28:32	stark	https://www.mirbsd.org/mksh_old.htm#contrib
+2015-01-28 16:29:44	fayesafe	thanks
+2015-01-28 16:31:12	stark	np :)
+2015-01-28 16:33:26	stark	Here's my mkshrc: http://sprunge.us/CNPT
+2015-01-28 16:33:50	stark	Will show you the git branch if you're in any repo dir
+2015-01-28 16:34:07	fayesafe	nice
+2015-01-28 16:34:31	stark	If you script in sh style then they should work under mksh
+2015-01-28 16:34:37	stark	I maybe wrong
+2015-01-28 16:40:52	<──	Racquetball (haha@io-D6799F3E.cpe.twtelecom.net) has quit (Quit: leaving)
+2015-01-28 16:41:02	──>	earsplit (sunn@io-7C8CC282.dyn.grandenetworks.net) has joined #nixers
+2015-01-28 16:45:42	<──	fayesafe (dominic@io-AE9FB228.emea.ibm.com) has quit (Quit: Lost terminal)
+2015-01-28 16:51:37	<──	ymbx (ymbx@io-5549501E.ip.telfort.nl) has quit (Quit: WeeChat 1.1)
+2015-01-28 16:55:07	──>	kirby (androirc@io-B46F2535.threembb.co.uk) has joined #nixers
+2015-01-28 17:30:49	──>	fayesafe (fayesafe@io-9D73CE7E.hsi4.kabel-badenwuerttemberg.de) has joined #nixers
+2015-01-28 17:45:08	bajr	z3bra: are you here?
+2015-01-28 17:47:06	stark	Nope
+2015-01-28 17:47:15	fayesafe	https://i.imgur.com/w56bH6b.png
+2015-01-28 17:47:24	fayesafe	i'd fucking kill for the colors in this scrot
+2015-01-28 17:47:41	stark	jelly bean
+2015-01-28 17:47:58	stark	with >zsh
+2015-01-28 17:48:52	liesard	dcat: Get your wallpaper sorted out
+2015-01-28 17:51:48	stark	Maybe, a xsetroot pattern ?
+2015-01-28 17:57:21	arclitgold	nice scrot! who's is that?
+2015-01-28 17:58:28	fayesafe	dcat
+2015-01-28 17:58:56	──>	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has joined #nixers
+2015-01-28 17:58:57	<──	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has quit (Quit: tnecniv)
+2015-01-28 17:59:05	──>	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has joined #nixers
+2015-01-28 17:59:26	tnecniv	howdy all
+2015-01-28 17:59:31	xero	o.
+2015-01-28 18:00:06	liesard	Hi tnecniv 
+2015-01-28 18:04:41	tnecniv	algebra is fun
+2015-01-28 18:04:47	tnecniv	except when it sucks balls
+2015-01-28 18:05:42	liesard	What are you talking about?
+2015-01-28 18:05:47	liesard	Algebra is always fun
+2015-01-28 18:07:05	tnecniv	liesard: except when the textbook doesnt explain things
+2015-01-28 18:07:30	liesard	giyf ;D
+2015-01-28 18:25:06	xero	i wish i payed more attention in hs math. i really had to do double work in college to make up for it.
+2015-01-28 18:25:21	<──	EmperorDAZ_L3 (toxoplasma@io-4E0C9B8.bb60246.ctm.net) has quit (Ping timeout: 180 seconds)
+2015-01-28 18:25:24	xero	and coding is like 80% maths and 20% logic
+2015-01-28 18:26:03	liesard	ikr
+2015-01-28 18:28:50	bajr	i dunno
+2015-01-28 18:29:08	bajr	i mean, simple maths yeah, but i don't find myself using stuff like calculus and series quite as much, although maybe i should
+2015-01-28 18:29:57	fayesafe	>almost failing all my math class even though i can explain almost everything
+2015-01-28 18:30:34	xero	tnecniv said algebra. and lots of programming languages are basically a form of algebra.
+2015-01-28 18:30:44	bajr	>explain
+2015-01-28 18:30:51	bajr	you don't need to explain, you need to be able to calculate 
+2015-01-28 18:31:02	fayesafe	i am
+2015-01-28 18:31:05	bajr	yeah. but algebra is simple, at least for me
+2015-01-28 18:31:06	fayesafe	but not in the exam
+2015-01-28 18:31:14	bajr	yah, fuck exams
+2015-01-28 18:31:37	fayesafe	what do you do in algebra? all those stuff with matrizes and shit
+2015-01-28 18:31:52	bajr	variable manipulations and stuff
+2015-01-28 18:31:58	tnecniv	i wish i worked harder in my early undergrad days
+2015-01-28 18:32:20	tnecniv	now that i am closing in on graduation, i wish i didnt take the GPA hit because i thought i was hot shit in math and i didnt need to study
+2015-01-28 18:32:49	tnecniv	kids, dont slack off
+2015-01-28 18:32:59	xero	#realtalk
+2015-01-28 18:33:31	@dcat	fayesafe: liesard:
+2015-01-28 18:33:36	liesard	Yeah?
+2015-01-28 18:33:38	@dcat	get my wallpaper sorted out?
+2015-01-28 18:33:41	@dcat	wat
+2015-01-28 18:33:44	liesard	That bright yellow
+2015-01-28 18:33:52	liesard	Guaranteed breakup material
+2015-01-28 18:33:56	fayesafe	dcat: sup
+2015-01-28 18:34:06	liesard	tnecniv: Yeah, I tend to be good at Maths so I don't study much
+2015-01-28 18:34:18	liesard	I might have to start for the next exam though, as I heard it gets really difficult
+2015-01-28 18:34:23	liesard	And I don't want to drop out
+2015-01-28 18:34:28	+z3bra	yoyoyo
+2015-01-28 18:34:43	xero	o/
+2015-01-28 18:34:48	tnecniv	my interests changed a lot in the last 9 months or so
+2015-01-28 18:34:52	+z3bra	so what's the topic ?
+2015-01-28 18:34:56	fayesafe	math
+2015-01-28 18:35:01	+z3bra	shit
+2015-01-28 18:35:10	tnecniv	and while my tomfoolery from the early days hasnt closed doors yet, it has put me in a rough spot that i need to work my way out of
+2015-01-28 18:35:17	+z3bra	happy talking, I'll take the next topic
+2015-01-28 18:35:32	──>	EmperorDAZ_L3 (toxoplasma@io-4E0C9B8.bb60246.ctm.net) has joined #nixers
+2015-01-28 18:35:35	xero	let's go back to vim
+2015-01-28 18:35:35	liesard	Hi z3bra!
+2015-01-28 18:35:38	xero	;D
+2015-01-28 18:35:44	+z3bra	eh
+2015-01-28 18:35:44	liesard	We're talking about Maths and studying
+2015-01-28 18:35:57	+z3bra	I've been studying enough
+2015-01-28 18:36:02	tnecniv	liesard: what subject of math?
+2015-01-28 18:36:10	liesard	tnecniv: It's just Maths in general
+2015-01-28 18:36:14	+z3bra	(well, not enough in fact, as I missed my graduation :P)
+2015-01-28 18:36:14	liesard	We kind of cover everything
+2015-01-28 18:36:15	fayesafe	z3bra: u done or wut?
+2015-01-28 18:36:25	liesard	fayesafe: z3bra has a job and everything
+2015-01-28 18:36:29	liesard	He graduated engineering school
+2015-01-28 18:36:38	+z3bra	I just said I failed
+2015-01-28 18:36:38	tnecniv	i see
+2015-01-28 18:36:41	liesard	Oh
+2015-01-28 18:36:42	fayesafe	kek
+2015-01-28 18:36:45	+z3bra	well
+2015-01-28 18:36:46	liesard	You failed engineering school?
+2015-01-28 18:36:49	+z3bra	kinda failed
+2015-01-28 18:36:53	liesard	What do you mean?
+2015-01-28 18:37:00	liesard	Also make it quick as dinner time is in 5 minutes
+2015-01-28 18:37:01	+z3bra	I missed 3 exams
+2015-01-28 18:37:07	liesard	What were you doing...?
+2015-01-28 18:37:13	+z3bra	jerking off
+2015-01-28 18:37:23	liesard	...
+2015-01-28 18:37:32	xero	story of my life
+2015-01-28 18:37:41	liesard	Story of all our lives
+2015-01-28 18:37:47	+z3bra	I missed industrial regulation
+2015-01-28 18:38:10	+z3bra	power electronics
+2015-01-28 18:38:14	──>	cippaciong (cippaciong@B0163A21.40796AE6.CF3CAC74.IP) has joined #nixers
+2015-01-28 18:38:55	+z3bra	and a test about laws and companies in France
+2015-01-28 18:38:55	fayesafe	power electronics sounds like a band or sth
+2015-01-28 18:39:07	+z3bra	not sure how it's called in english
+2015-01-28 18:39:16	liesard	What is it in French?
+2015-01-28 18:39:16	+z3bra	So I just translate word by word
+2015-01-28 18:39:27	+z3bra	Électronique de puissance
+2015-01-28 18:39:29	fayesafe	>we're power electronics and we rock the shit outta you tonite
+2015-01-28 18:40:00	+z3bra	It's mostly about choppers
+2015-01-28 18:40:05	tnecniv	z3bra: power electronics is an area
+2015-01-28 18:40:08	+z3bra	(in electronics)
+2015-01-28 18:40:18	liesard	Ah, Ok
+2015-01-28 18:40:25	+z3bra	which are basically AC/DC convertors and such
+2015-01-28 18:40:47	liesard	Oh, right
+2015-01-28 18:40:47	+z3bra	anyway, they gave me a second chance to repass them all until june this year
+2015-01-28 18:40:54	liesard	Aren't they called transformers?
+2015-01-28 18:41:02	+z3bra	that's another thing
+2015-01-28 18:41:09	liesard	Oh, Ok
+2015-01-28 18:41:10	tnecniv	z3bra: my uni doesnt offer a course on that, which was really annoying when i had a project where i needed to teach some basic power conversion stuff to myself
+2015-01-28 18:41:17	+z3bra	I already succeeded at two of them
+2015-01-28 18:41:21	tnecniv	took a month to get the circuit right
+2015-01-28 18:41:24	liesard	z3bra: Do you actually need these exams?
+2015-01-28 18:41:29	liesard	I mean, you already have a good job
+2015-01-28 18:41:40	+z3bra	there's only one remaining, and if I manage, they'll give me my diploma
+2015-01-28 18:42:02	liesard	Well then it's probably worth it :P
+2015-01-28 18:42:06	liesard	Which one is it?
+2015-01-28 18:42:30	+z3bra	liesard, nobody does the same job for his entire life anymore
+2015-01-28 18:42:43	liesard	Yeah, but you have the experience and everything
+2015-01-28 18:43:03	+z3bra	but some companies just look at your diplomas
+2015-01-28 18:43:10	liesard	Oh, Ok
+2015-01-28 18:43:11	+z3bra	it also help to get paid more
+2015-01-28 18:43:16	liesard	True, yeah
+2015-01-28 18:43:17	tnecniv	z3bra: unless you are ajapanese
+2015-01-28 18:43:20	+z3bra	sure
+2015-01-28 18:43:23	+z3bra	but I'm not
+2015-01-28 18:43:31	tnecniv	of course
+2015-01-28 18:43:42	+z3bra	anyway, this diploma has nothing to do with sysadmin :P
+2015-01-28 18:43:51	tnecniv	my only concern is that i might want to go get a PhD
+2015-01-28 18:43:53	+z3bra	(maybe the networking part)
+2015-01-28 18:44:00	liesard	z3bra: So what do you want to do?
+2015-01-28 18:44:09	liesard	I mean, you're not planning on becoming a sysadmin forever
+2015-01-28 18:44:10	+z3bra	net and sysadmin
+2015-01-28 18:44:13	liesard	Oh, Ok
+2015-01-28 18:44:16	+z3bra	why not ?
+2015-01-28 18:44:19	tnecniv	and my GPA is not representative of my knowledge because i didnt put in the work to ensure I got some As in easy classes
+2015-01-28 18:44:32	liesard	Well you mentioned that people don't want the same job forever
+2015-01-28 18:44:40	liesard	But you can have different jobs but do the same thing
+2015-01-28 18:44:49	+z3bra	by that, I mean that you don't stay in the same company
+2015-01-28 18:44:55	tnecniv	i'm getting food
+2015-01-28 18:44:57	tnecniv	i will be back
+2015-01-28 18:45:02	tnecniv	#reallifetalk
+2015-01-28 18:45:04	+z3bra	(though this company is rather nice)
+2015-01-28 18:45:12	liesard	It makes sense
+2015-01-28 18:46:06	+z3bra	anyways
+2015-01-28 18:47:06	fayesafe	i guess sys and netadmin is of the most stable jobs in it
+2015-01-28 18:47:10	fayesafe	if you do well
+2015-01-28 18:47:30	+z3bra	yeah
+2015-01-28 18:47:43	+z3bra	once you know all your architecture
+2015-01-28 18:47:48	+z3bra	it's hard to replace you
+2015-01-28 18:48:02	+z3bra	My coworker have been there for 3 years now
+2015-01-28 18:48:09	<──	tnecniv (tnecniv@io-8C5A12B6.wlan.seas.upenn.edu) has quit (Ping timeout: 182 seconds)
+2015-01-28 18:48:20	+z3bra	and is one of the most valuable employee
+2015-01-28 18:49:06	+z3bra	bajr, you there ?
+2015-01-28 18:51:02	liesard	Man, having a job sounds like so much fun
+2015-01-28 18:51:08	liesard	Oh crap, I'm late for dinner
+2015-01-28 18:51:09	liesard	Bye~
+2015-01-28 18:51:15	+z3bra	you'll see...
+2015-01-28 18:51:17	+z3bra	bye
+2015-01-28 22:58:04	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-28 22:58:04	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-28 22:58:04	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-28 22:58:04	──	Channel #nixers: 61 nicks (3 ops, 0 halfops, 1 voice, 57 normals)
+2015-01-28 22:58:06	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-28 22:58:07	liesard	Hey guys!
+2015-01-28 22:58:11	arianon	holy fuck
+2015-01-28 22:58:13	arianon	D:
+2015-01-28 22:58:16	liesard	I'm just testing out some things so I won't be here for long
+2015-01-28 22:58:18	liesard	...?
+2015-01-28 22:58:19	xero	o/
+2015-01-28 22:58:20	fro	so you may have eaten dolphin already
+2015-01-28 22:58:38	arianon	liesard: apparently there's a slight chance that there's dolphin in your tuna
+2015-01-28 22:58:44	liesard	Ok
+2015-01-28 22:58:47	arianon	well if it was dolphin
+2015-01-28 22:58:49	arianon	it definitely tasted good
+2015-01-28 22:58:50	fro	yeah
+2015-01-28 22:58:51	arianon	10/10 would eat again
+2015-01-28 22:58:57	xero	imho, eating meat is eating meat
+2015-01-28 22:59:02	xero	semi-smart or not
+2015-01-28 22:59:16	arianon	should we mass produce humans and eat them? for maximum protein and nutrition
+2015-01-28 22:59:24	fro	might be good
+2015-01-28 22:59:28	fro	who knows
+2015-01-28 22:59:34	fro	i don't eat animals
+2015-01-28 22:59:48	xero	i dont either
+2015-01-28 22:59:54	liesard	Hey guys, rate my weechat: a.pomf.se/ynvlxx.png
+2015-01-28 23:00:03	liesard	(Sorry for disturbing your conversation)
+2015-01-28 23:00:18	fro	i refuse to rate this unless there's a dolphin
+2015-01-28 23:00:24	liesard	u srs
+2015-01-28 23:00:27	arianon	^
+2015-01-28 23:00:30	fro	yeah man
+2015-01-28 23:00:36	fro	it's dolphin time
+2015-01-28 23:00:42	liesard	omg
+2015-01-28 23:02:05	liesard	Whatever, I'll just go ask #rice
+2015-01-28 23:02:26	fro	i dunno what that is
+2015-01-28 23:02:34	fro	azns?
+2015-01-28 23:02:38	liesard	?
+2015-01-28 23:02:52	+z3bra	arianon, mmmh?
+2015-01-28 23:03:44	arianon	z3bra: 0.5.4 version is out since july 2014
+2015-01-28 23:08:41	@dcat	.up xero 
+2015-01-28 23:08:49	──	Mode #nixers [+h xero] by dcat
+2015-01-28 23:09:16	%xero	thanx dcat :D
+2015-01-28 23:10:08	+z3bra	arianon, what's the current ?
+2015-01-28 23:10:17	arianon	0.5.4
+2015-01-28 23:10:43	+z3bra	what's the difference with 0.5.3 ?
+2015-01-28 23:11:57	+z3bra	updated my port btw
+2015-01-28 23:12:07	arianon	well an option to specify the motion events maximum frecuency which I'm yet to understand how the hell it works, added a new keysym (XF86AudioMicMute), and some refactoring
+2015-01-28 23:13:16	liesard	I'm going to bed
+2015-01-28 23:13:19	liesard	Good night~
+2015-01-29 12:42:03	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-29 12:42:03	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-29 12:42:03	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-29 12:42:03	──	Channel #nixers: 59 nicks (3 ops, 1 halfop, 1 voice, 54 normals)
+2015-01-29 12:42:05	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-29 12:42:07	liesard	Anyone here know Java?
+2015-01-29 12:42:15	bajr	seriously though, i'll ban that thing, we only need one of them spamming
+2015-01-29 12:42:16	liesard	Oh, cool, my host thingy worked
+2015-01-29 12:42:22	thang	Uhh, not raelly, why?
+2015-01-29 12:42:37	liesard	I'm trying to draw something to a JPanel
+2015-01-29 12:42:44	liesard	And it only works sometimes
+2015-01-29 12:43:00	fayesafe	liesard: post your prog 
+2015-01-29 12:43:07	fayesafe	paste service 
+2015-01-29 12:43:16	liesard	Ok
+2015-01-29 12:43:27	<──	thang (thang@io-3D1E2B14.wallawalla.edu) has quit (Quit: thang)
+2015-01-29 12:43:29	──>	thang (thang@io-3D1E2B14.wallawalla.edu) has joined #nixers
+2015-01-29 12:43:38	<──	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has quit (Quit: WeeChat 1.1.1)
+2015-01-29 12:43:45	──>	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has joined #nixers
+2015-01-29 12:44:01	liesard	http://pbin.in/Main
+2015-01-29 12:44:04	mcp	Title: Main (at pbin.in)
+2015-01-29 12:44:05	liesard	http://pbin.in/window
+2015-01-29 12:44:06	mcp	Title: window (at pbin.in)
+2015-01-29 12:44:08	liesard	http://pbin.in/Panel
+2015-01-29 12:44:10	mcp	Title: Panel (at pbin.in)
+2015-01-29 12:45:27	<──	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has quit (Quit: WeeChat 1.1.1)
+2015-01-29 12:45:34	──>	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has joined #nixers
+2015-01-29 12:45:42	mort	sorry, had to leave for a sec
+2015-01-29 12:45:51	liesard	Hi mort 
+2015-01-29 12:45:59	mort	tihs laptop's battery doesn't work, so every time I have to move, it dies and I have to boot again
+2015-01-29 12:46:05	<──	mbot (ladbot@io-81020C7A.getinternet.no) has quit (Client exited)
+2015-01-29 12:46:07	liesard	Damn, that sucks
+2015-01-29 12:46:08	fayesafe	liesard: so whats your problem now?
+2015-01-29 12:46:12	<──	thang (thang@io-3D1E2B14.wallawalla.edu) has quit (Quit: thang)
+2015-01-29 12:46:14	liesard	fayesafe: Nothing gets displayed
+2015-01-29 12:46:14	mort	it's annoying ya
+2015-01-29 12:46:14	──>	thang (thang@io-3D1E2B14.wallawalla.edu) has joined #nixers
+2015-01-29 12:46:19	liesard	The window appears, but nothing gets drawn
+2015-01-29 12:46:31	liesard	mort: When that happened to me, I made that laptop into a server ;D
+2015-01-29 12:46:40	mort	:P
+2015-01-29 12:46:46	fayesafe	try removing the for-loop and just hardcode the parameters
+2015-01-29 12:46:55	liesard	I did, but that didn't work
+2015-01-29 12:46:55	mort	I already have a server though, and I kinda need this laptop because school
+2015-01-29 12:46:59	liesard	Hold on, let me try it again
+2015-01-29 12:47:07	liesard	mort: Have you considered buying the battery again?
+2015-01-29 12:47:10	mort	I already have a much better laptop which I usually use, but we're not allowed to use our own laptops at school fro some reason
+2015-01-29 12:47:17	sbrg	wut
+2015-01-29 12:47:17	sbrg	that fucking sucks
+2015-01-29 12:47:20	mort	agreed
+2015-01-29 12:47:36	bajr	or getting the school to buy the battery?
+2015-01-29 12:47:43	liesard	fayesafe: Yeah, still doesn't work
+2015-01-29 12:47:45	sbrg	during exams here, we have to run a java applet that monitors everything we do during exams.. 
+2015-01-29 12:47:47	sbrg	it's made in-house
+2015-01-29 12:47:48	mort	I would have to buy the battery myself
+2015-01-29 12:47:49	sbrg	-_-
+2015-01-29 12:47:51	 *	sbrg barfs
+2015-01-29 12:47:53	mort	ouch.
+2015-01-29 12:47:59	bajr	mort: now *that* is shit
+2015-01-29 12:48:21	bajr	>being forced to use broken equipment
+2015-01-29 12:48:23	sbrg	it takes intermittent screenshots as well. I was considering intermittentlys witching to a picture of a penis just to fuck with them
+2015-01-29 12:49:44	fayesafe	your class has no constructor
+2015-01-29 12:49:53	fayesafe	but i am not sure if thats the reason
+2015-01-29 12:50:13	liesard	Well it worked before, but I'm going to try calling the method from the Window class
+2015-01-29 12:50:57	fayesafe	i don't understand that sentence
+2015-01-29 12:51:26	liesard	Like, even when I didn't call the paintComponent() method, the lines were still drawn
+2015-01-29 12:51:34	liesard	Which is kinda strange
+2015-01-29 12:51:45	liesard	So now I'm going to call panel.paintComponent() in Window.java
+2015-01-29 12:52:17	fayesafe	you don't need to call the paintComponent() method
+2015-01-29 12:52:23	liesard	Ok...
+2015-01-29 12:52:30	liesard	Why not?
+2015-01-29 12:52:37	ymbx	lel, was reading an entire 200% autismo sobstory on reddit. At the end "I am autistic", now I feel kinda bad.
+2015-01-29 12:53:06	fayesafe	liesard: and your not setting any attributs of your panel
+2015-01-29 12:53:38	fayesafe	paintPlace = new Panel(); paintPlace.setBounds() etc
+2015-01-29 12:53:52	liesard	Oh, Ok...
+2015-01-29 12:54:11	mort	y u so java?
+2015-01-29 12:54:28	bajr	java* is unterlanguage
+2015-01-29 12:54:31	liesard	I don't know how to do GUI with C
+2015-01-29 12:54:39	bajr	liesard: do GUI with python
+2015-01-29 12:54:47	liesard	Ew, no
+2015-01-29 12:54:54	EmperorDAZ_LX	GTK?
+2015-01-29 12:55:02	liesard	I heard GTK sucks
+2015-01-29 12:55:04	EmperorDAZ_LX	it's in C
+2015-01-29 12:55:16	EmperorDAZ_LX	heh, I never made a GUI in my life
+2015-01-29 12:55:16	liesard	I'm just trying to do a simple problem
+2015-01-29 12:55:19	ymbx	liesard: just do it in QT
+2015-01-29 12:55:28	mort	writing the app as a CLI app and then interfacing it with a GUI written in python or something doesn't sound too bad
+2015-01-29 12:55:31	EmperorDAZ_LX	but I'd love to learn to do it in Qt
+2015-01-29 12:55:41	EmperorDAZ_LX	Qt looks nice
+2015-01-29 12:55:45	liesard	This thing is basically done, I just don't know why nothing is being drawn
+2015-01-29 12:56:01	fayesafe	still not?
+2015-01-29 12:56:07	mort	Qt requires C++ and its own preprocessor afaik
+2015-01-29 12:56:09	ymbx	"basically done" == only will take another decade
+2015-01-29 12:56:09	liesard	Well it should be, that's the thing
+2015-01-29 12:56:18	liesard	Hold on, I'll just copy the code from another thingy I made
+2015-01-29 12:56:21	fayesafe	have you changed your code?
+2015-01-29 12:56:26	mort	my current project was "basically done" many months ago.
+2015-01-29 12:56:53	liesard	fayesafe: I've reverted it to what it was when it worked
+2015-01-29 12:56:57	liesard	But it still doesn't...
+2015-01-29 12:56:58	ymbx	mort: ;)
+2015-01-29 12:57:31	mort	liesard: I know your issue
+2015-01-29 12:57:38	liesard	Ok...
+2015-01-29 12:57:41	mort	problem*
+2015-01-29 12:57:46	mort	the problem is that you're using jvaa.
+2015-01-29 12:57:50	ymbx	^
+2015-01-29 12:57:51	mort	s/jvaa/java
+2015-01-29 12:57:54	liesard	That's not even funny anymore
+2015-01-29 12:58:02	mort	it's not a joke
+2015-01-29 12:58:03	ymbx	nobody's laughing
+2015-01-29 12:58:48	<──	boris (boris@552F9AED.6D577975.3E9BE42D.IP) has quit (Ping timeout: 180 seconds)
+2015-01-29 12:59:05	mort	btw, can you run multiple pacman commands simultaneously?
+2015-01-29 12:59:12	liesard	I think so
+2015-01-29 12:59:23	liesard	I don't think it's like yum
+2015-01-29 12:59:41	mort	it's annoying to have to wait for one thing to be installed before I can install or uninstall something else with apt-get
+2015-01-29 13:00:06	liesard	ikr
+2015-01-29 13:00:10	liesard	Fucking finally: http://a.pomf.se/wknohs.png
+2015-01-29 13:00:29	mort	yay
+2015-01-29 13:00:50	liesard	I have a feeling that there's a timeout on this or something
+2015-01-29 13:00:57	liesard	And it only works every ten minutes
+2015-01-29 13:01:24	mort	well, you never know with java
+2015-01-29 13:01:29	mort	may be exactly what's happening
+2015-01-29 13:01:33	mort	maybe oracle decided to troll people
+2015-01-29 13:01:43	liesard	Yeah, maybe
+2015-01-29 13:01:49	liesard	That's probably what Oracle does all the time
+2015-01-29 13:01:50	<──	dcat (de@d.cat) has quit (Ping timeout: 181 seconds)
+2015-01-29 13:01:59	liesard	"Ok, we need new ways to fuck with everyone"
+2015-01-29 13:02:04	liesard	"How about we buy Apache?"
+2015-01-29 13:02:11	rocx	http://bad.solutions/
+2015-01-29 13:02:13	mcp	Title: Oracle | Hardware and Software, Engineered to Work Together (at bad.solutions)
+2015-01-29 13:02:37	mort	ya, the owner of that subdomain is a genius
+2015-01-29 13:02:44	liesard	Hahahahahaha
+2015-01-29 13:02:47	sbrg	well, guess it's time to get balls deep in the x11 api
+2015-01-29 13:02:49	sbrg	grrrrrreat
+2015-01-29 13:02:56	liesard	Yaaaaay -_-
+2015-01-29 13:02:57	ymbx	sbrg: don't do it
+2015-01-29 13:03:01	ymbx	wayland is future
+2015-01-29 13:03:10	liesard	Yeah, that's what Wayland is supposed to be
+2015-01-29 13:03:17	mort	well
+2015-01-29 13:03:22	mort	it won't really
+2015-01-29 13:03:26	mort	mir will be pretty big too
+2015-01-29 13:03:29	rocx	But does Wayland perform better than X?
+2015-01-29 13:03:30	sbrg	i couldn't find the prompt-thin i needed so I'm rolling my own, based on that thinglaunch thing
+2015-01-29 13:03:44	──>	boris (boris@552F9AED.6D577975.3E9BE42D.IP) has joined #nixers
+2015-01-29 13:03:44	mort	afaik, wayland will have better performance than X ya
+2015-01-29 13:03:52	──>	dcat (de@552F9AED.6D577975.3E9BE42D.IP) has joined #nixers
+2015-01-29 13:03:56	rocx	Guess that's not a bad thing.
+2015-01-29 13:04:12	liesard	Ok, I have a lesson now
+2015-01-29 13:04:13	liesard	Bye~
+2015-01-29 13:29:58	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-29 13:29:58	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-29 13:29:58	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-29 13:29:58	──	Channel #nixers: 56 nicks (2 ops, 1 halfop, 1 voice, 52 normals)
+2015-01-29 13:30:00	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-29 13:30:09	liesard	Hey guys!
+2015-01-29 13:30:22	mort	hey
+2015-01-29 13:30:37	liesard	I'm in a lesson!
+2015-01-29 13:30:47	mort	same
+2015-01-29 13:30:54	 *	liesard high fives mort
+2015-01-29 13:31:13	mort	\o
+2015-01-29 13:31:25	liesard	:3
+2015-01-29 13:31:33	──>	arianon (arianon@BEE86A65.2D1C29F8.4D67E5FA.IP) has joined #nixers
+2015-01-29 13:31:35	thang	mort, yeah they were, but I think they're universal ones
+2015-01-29 13:31:56	mort	I only have --enable-*
+2015-01-29 13:32:21	mort	but there's an --enable-x11grab, so it may seem like what brew calls "with", the configure file calls "enable"
+2015-01-29 13:34:33	mort	let's see if things die if I try to add literally all the enable arguments there are
+2015-01-29 13:34:45	thang	http://git.videolan.org/?p=ffmpeg.git;a=blob;f=configure;h=80985cbc701643630a68e87429d9db529ff2376a;hb=HEAD
+2015-01-29 13:34:48	mcp	Title: git.videolan.org Git - ffmpeg.git/blob - configure (at git.videolan.org)
+2015-01-29 13:34:55	thang	That's basically the configure file itself
+2015-01-29 13:35:36	mort	lots of --enable-*, no --with-*
+2015-01-29 13:35:52	thang	Yeah, --"with" is a brew thing, not the configure file thing
+2015-01-29 13:36:33	thang	I'd enable gpl, version3, nonfree, shared, etc
+2015-01-29 13:36:33	mort	k, in theory I'm configuring with all enables except for --enable-cross-compile
+2015-01-29 13:36:53	mort	ohey, a header file not found
+2015-01-29 13:37:01	thang	then in "external library support", everything you possibly can
+2015-01-29 13:37:20	thang	so basically, every single enable line, unless you have an enable line that doesn't let you compile somehow :p
+2015-01-29 13:37:36	sbrg	wow
+2015-01-29 13:37:39	sbrg	xinerama is gay
+2015-01-29 13:37:40	mort	such as --enable-cross-compile :P
+2015-01-29 13:37:48	mort	how so sbrg?
+2015-01-29 13:38:03	mort	never used it, so I'm curious to hear
+2015-01-29 13:38:06	sbrg	it doesn't let you actually draw to a certain xinerama screen. It just tells you where the 'fake' screens start and end
+2015-01-29 13:38:19	mort	that sounds odd
+2015-01-29 13:38:38	sbrg	that is, you can't pass a 'xinerama screen' to any of the x11 functions that take a screen, say to draw on it. you just get info about where they start and end, x/y coordinates
+2015-01-29 13:38:49	thang	lol
+2015-01-29 13:38:50	sbrg	so I just have to manually figure out where stuff needs to be drawn and adjust the coordinates..
+2015-01-29 13:38:55	mort	:/
+2015-01-29 13:39:00	sbrg	dmenu is doing this as well
+2015-01-29 13:39:05	sbrg	i'm looking at their code to figure this out
+2015-01-29 13:39:51	mort	thang: it's telling me DeckLinkAPI.h doesn't exist
+2015-01-29 13:40:02	mort	do you have any idea where I can find that?
+2015-01-29 13:40:41	<──	cippaciong (cippaciong@B0163A21.40796AE6.CF3CAC74.IP) has quit (Quit: WeeChat 1.1.1)
+2015-01-29 13:40:49	──>	cippaciong (cippaciong@B0163A21.40796AE6.CF3CAC74.IP) has joined #nixers
+2015-01-29 13:40:56	thang	oh that's for blackmagic
+2015-01-29 13:41:13	thang	I'd ignore that
+2015-01-29 13:41:25	thang	or rather, I'd remove whatever needs decklinkapi
+2015-01-29 13:41:41	mort	you don't happen to know what requires it do you?
+2015-01-29 13:42:11	thang	decklink of course :p
+2015-01-29 13:42:24	sbrg	grep -r -i decklinkapi | xargs rm -rf 
+2015-01-29 13:42:27	mort	oh, there's an --enable-decklink :P
+2015-01-29 13:42:29	mort	I'm silly
+2015-01-29 13:42:35	sbrg	missing a star there
+2015-01-29 13:42:47	thang	no prob
+2015-01-29 13:42:51	ymbx	thang: so you'll be here for the day?
+2015-01-29 13:43:05	thang	meh, I'll be here for uhh... 1.5 more hours at least
+2015-01-29 13:43:09	ymbx	:/
+2015-01-29 13:43:47	mort	frei0r.h missing now
+2015-01-29 13:44:03	thang	ymbx, what's your test on, again?
+2015-01-29 13:44:58	thang	mort, that one's also useless for you
+2015-01-29 13:45:11	thang	It's video effects
+2015-01-29 13:45:20	ymbx	it's on high performance computing
+2015-01-29 13:45:30	ymbx	paralellism and such
+2015-01-29 13:45:48	thang	Basically you're gonna run into something missing for whatever program you don't have installed whose filtrs you're plugging into, e.g., blackmagic and free video effects collection (frei0r), etc
+2015-01-29 13:45:57	thang	Ahh, okay. Not sure how much I can help you lol
+2015-01-29 13:46:00	b4dtr1p	hi nixers
+2015-01-29 13:46:09	ymbx	thang: you seem to know quite a lot
+2015-01-29 13:46:29	mort	fuck, accidentally detached the charger from the laptop, which caused it to die.
+2015-01-29 13:47:11	thang	nice
+2015-01-29 13:47:24	thang	and ymbx, I'm gifted at the appearance of intelligence :p
+2015-01-29 13:47:37	ymbx	lel okaty
+2015-01-29 13:47:46	thang	I'm not nearly as knowledgable as I make myself seem. Well, that's how it seems to me lol
+2015-01-29 13:48:39	mort	huh, gnutils not found using pkg-config
+2015-01-29 13:48:52	mort	gnutils sounds like the kind of thing which should exist
+2015-01-29 13:51:58	mort	oh.
+2015-01-29 13:52:01	mort	gnutls.
+2015-01-29 13:52:05	mort	I should learn to read probably.
+2015-01-29 13:53:26	thang	fucking yesssssssssssssssss
+2015-01-29 13:53:30	thang	got ffmpeg to work on osx
+2015-01-29 13:53:33	mort	:D
+2015-01-29 13:53:40	mort	what wasn't woring earlier?
+2015-01-29 13:55:01	thang	Eh, just never got around to actually trying it after I finished compiling it with every fucking option under the sun
+2015-01-29 13:55:09	mort	ah ic
+2015-01-29 13:56:01	sbrg	i need a dolla, a dolla's what I need
+2015-01-29 13:56:10	 *	ymbx gives sbrg $1
+2015-01-29 13:56:17	mort	ladspa.h
+2015-01-29 13:56:19	sbrg	well, time for some dragon age before I head off into the sunset
+2015-01-29 13:56:21	sbrg	see yo uaround
+2015-01-29 13:56:35	mort	hey, what if there was some way to look up which packages contain which headers
+2015-01-29 13:56:37	ymbx	sbrg: pls keep your head on
+2015-01-29 13:56:45	ymbx	it's necessary for stuff
+2015-01-29 13:56:53	mort	so that I could just look up "ladspa.h" and then know which package to install
+2015-01-29 13:58:14	──>	fayesafe (dominic@io-3F1F3933.emea.ibm.com) has joined #nixers
+2015-01-29 14:01:42	mort	hey thang 
+2015-01-29 14:02:02	ymbx	https://i.imgur.com/xJ72403.jpg lol
+2015-01-29 14:02:02	bajr	i'm gonna get me some subway
+2015-01-29 14:02:20	bajr	lel
+2015-01-29 14:02:21	mort	lol ymbx
+2015-01-29 14:03:15	mort	thang
+2015-01-29 14:03:32	thang	sorry, wussup
+2015-01-29 14:03:43	mort	so
+2015-01-29 14:03:59	mort	configure said libiec61883 didn't exist
+2015-01-29 14:04:08	thang	dat gif is butuful
+2015-01-29 14:04:10	mort	I proceed to apt-get install libiec61883-dev
+2015-01-29 14:04:10	liesard	ymbx: It's saved as a .jpg but it's an animated gif
+2015-01-29 14:04:26	mort	yet it still says libiec61883 doesn't exist
+2015-01-29 14:04:26	mort	:(
+2015-01-29 14:04:46	thang	liesard,it's imgur, it detects image type by its type, not extension
+2015-01-29 14:04:55	liesard	I know
+2015-01-29 14:05:00	thang	you should be able to use https://i.imgur.com/xJ72403.penis just fine as well
+2015-01-29 14:05:05	liesard	I thought it was weird though
+2015-01-29 14:05:15	thang	damnit, that one doesn't work ;-;
+2015-01-29 14:05:16	liesard	omg
+2015-01-29 14:05:23	liesard	Oh, no, it returns 404 :P
+2015-01-29 14:05:56	thang	Anyway, mort, apparently the library is for streaming MPEG-2 and DV
+2015-01-29 14:06:28	mort	kinda weird that it complains that it doesn't exist even after apt-get installing it though
+2015-01-29 14:06:37	thang	Try installing: linavc1394
+2015-01-29 14:06:41	thang	both lib and devel
+2015-01-29 14:06:54	liesard	Or dev if you're on Debian-based distros
+2015-01-29 14:07:12	thang	he's ubuntu, but yes thanks for correction. I forget distros differ like that sometimes :p
+2015-01-29 14:07:31	mort	there is nothing linavc-related in my apt repos
+2015-01-29 14:07:38	mort	apt-cache search linavc returns nothing
+2015-01-29 14:08:03	liesard	thang: :3
+2015-01-29 14:08:14	liesard	mort: You mean libavc?
+2015-01-29 14:08:30	bajr	kek
+2015-01-29 14:08:31	mort	oh, thang must've typo'd
+2015-01-29 14:08:34	liesard	Hahahaha
+2015-01-29 14:08:44	liesard	I have libavc1394 or here
+2015-01-29 14:08:46	liesard	*on
+2015-01-29 14:08:50	liesard	But I'm using pacaur
+2015-01-29 14:08:58	mort	it's in apt-get too
+2015-01-29 14:09:36	liesard	Cool
+2015-01-29 14:09:39	liesard	Install it
+2015-01-29 14:10:06	mort	done, trying configure again to see what other libs I'm missing
+2015-01-29 14:10:23	mort	it's annoying that configure just stops once it finds a lib you've not installed instead of giving you a nice list
+2015-01-29 14:10:46	mort	this time it's libaacplus >= 2.0.0
+2015-01-29 14:11:01	liesard	ikr
+2015-01-29 14:11:07	liesard	But some people add a dependencies file
+2015-01-29 14:11:15	liesard	And there is a special place in heaven for all of those people
+2015-01-29 14:11:25	mort	ya
+2015-01-29 14:11:52	liesard	:3
+2015-01-29 14:11:55	mort	but that's kinda hard when you can't know what dependencies exist without knowing the options you'll compile with :P
+2015-01-29 14:12:16	──>	dcli (dcli@io-1E147B3E.net) has joined #nixers
+2015-01-29 14:12:19	bajr	you can
+2015-01-29 14:12:32	bajr	you can have a list with a prefix
+2015-01-29 14:12:33	thang	horey sheit
+2015-01-29 14:12:49	thang	I don't think I typoed, because I copied and pasted that from a developer on ffmpeg :p
+2015-01-29 14:12:51	thang	but anyway, meh
+2015-01-29 14:12:53	bajr	core: dependancy-name and then some-option: dependancy-name2
+2015-01-29 14:12:58	mort	there was a libaacs-dev in my apt repos, but that isn't what ffmpeg wants
+2015-01-29 14:13:15	thang	recording in ffmpeg with ffvhuff vs with the defaults is massive...
+2015-01-29 14:13:16	mort	any clue what libaacplus >= 2.0.0 is in?
+2015-01-29 14:13:19	bajr	so you can use grep to get the list you need
+2015-01-29 14:13:19	thang	like 500x larger filesize :p
+2015-01-29 14:13:40	bajr	thang: dayum
+2015-01-29 14:13:48	bajr	that's kind of a shitty codec
+2015-01-29 14:13:50	mort	what does ffvhuff do?
+2015-01-29 14:14:00	mort	oh it's a codec?
+2015-01-29 14:14:07	thang	It's a codec that's lossless quality
+2015-01-29 14:14:26	mort	I see
+2015-01-29 14:14:32	mort	500x larger file size makes sense then :P
+2015-01-29 14:15:30	thang	intra frame-only, lossless compression, video format, encoding/decoding supported
+2015-01-29 14:15:46	thang	I'm also using a bitrate of 2,000
+2015-01-29 14:15:57	mort_	That's a high bitrate
+2015-01-29 14:16:39	mort_	Though where can I find libaacplus? And how can I figure out where to find the various libs?
+2015-01-29 14:16:51	thang	libaacplus?
+2015-01-29 14:17:14	mort_	Googling "ubuntu [thing configure claims is missing]" has been a poor strategy so far
+2015-01-29 14:17:22	thang	sudo apt-get -y install autoconf automake build-essential libass-dev libfreetype6-dev libgpac-dev \
+2015-01-29 14:17:24	thang	  libsdl1.2-dev libtheora-dev libtool libva-dev libvdpau-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev \
+2015-01-29 14:17:26	thang	  libxcb-xfixes0-dev pkg-config texi2html zlib1g-dev
+2015-01-29 14:17:31	thang	run all of that shit and see if you're still missing anything
+2015-01-29 14:17:52	mort_	Alright, will do soon
+2015-01-29 14:18:17	mort_	I'm currently locked out of the classroom, couldn't bring the laptop because battery
+2015-01-29 14:18:41	ymbx	thang: do you know anything about mpi?
+2015-01-29 14:19:31	mort	back in front of laptop
+2015-01-29 14:22:23	mort	thang: all those are already installed
+2015-01-29 14:23:06	mort	it still claims libaacplus >= 2.0.0 is missing
+2015-01-29 14:23:18	liesard	Hey guys, anyone here know C/C++ ?
+2015-01-29 14:23:32	mort	a little
+2015-01-29 14:23:46	thang	they're all installed? weird
+2015-01-29 14:24:02	thang	ymbx, Message Passing Interface (MPI) is a standardized and portable message-passing system designed by a group of researchers from academia and industry to function on a wide variety of parallel computers
+2015-01-29 14:24:11	thang	Other than that, I don't know a whole lot about it
+2015-01-29 14:24:32	liesard	Ok, then nevermind
+2015-01-29 14:24:36	thang	oh cool
+2015-01-29 14:24:57	thang	And I have rudimentary knowledge of C/C++, but I wouldn't call myself an expert in any way shape or form
+2015-01-29 14:25:07	liesard	Ok, well if you can
+2015-01-29 14:25:14	liesard	Can you tell me what's wrong with  this: http://pbin.in/brainfuck ?
+2015-01-29 14:25:16	mcp	Title: brainfuck (at pbin.in)
+2015-01-29 14:25:17	mort	I implemented linked lists and vectors in C, and started implementing hash maps
+2015-01-29 14:25:22	liesard	It doesn't display any characters
+2015-01-29 14:25:24	mort	oh, and I also implemented brainfuck in it once
+2015-01-29 14:25:33	thang	So MPI is a standard definition of a small list of library routines written in like Fortran, C, C++, etc
+2015-01-29 14:25:39	thang	oh and Java for whatever reason
+2015-01-29 14:25:59	liesard	Oh, cool
+2015-01-29 14:26:04	thang	But since the standard is defined for, well, consistently for all of them, you can hook up thousands of computers together and assume they're all running the same library of functions
+2015-01-29 14:26:04	liesard	Didn't know that
+2015-01-29 14:26:20	liesard	Wow
+2015-01-29 14:26:38	mort	hmm
+2015-01-29 14:26:39	thang	But here's the best part
+2015-01-29 14:26:49	thang	since you're just passing messages, it doesn't matter how you achieve the result as long as it's accurate
+2015-01-29 14:27:01	liesard	This can't be good
+2015-01-29 14:27:08	thang	which allows them to optimize for every type of hardware and cpu architecture configuration known to man while prserving integrity of the data
+2015-01-29 14:27:35	liesard	omg that's beautiful
+2015-01-29 14:27:49	thang	e.g. "pass a message of x format containig the sum of a+b...", who cares how the computer got the answer, all you care about is the answer
+2015-01-29 14:28:08	thang	hence the functions (by nature) become lockless and embarrassingly parallel and can be run on thousands of computers at once without comprimising the data integrity
+2015-01-29 14:28:34	thang	Or, to put it in another way, functional programming before it was cool :p
+2015-01-29 14:28:52	liesard	That is amazing
+2015-01-29 14:28:57	liesard	Wait, so why don't we use this?
+2015-01-29 14:29:01	thang	http://en.wikipedia.org/wiki/Message_Passing_Interface
+2015-01-29 14:29:02	mcp	Title: Message Passing Interface - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2015-01-29 14:29:04	thang	We do use it, all the time
+2015-01-29 14:29:10	liesard	Oh
+2015-01-29 14:29:25	liesard	What for?
+2015-01-29 14:29:30	vypr	hi m80s
+2015-01-29 14:29:35	thang	How do you think super computers work?
+2015-01-29 14:29:43	liesard	Hi vypr 
+2015-01-29 14:29:48	liesard	thang: Ooooooh
+2015-01-29 14:29:49	thang	It's one buliding with 2 million CPUs hooked together
+2015-01-29 14:29:50	liesard	I see
+2015-01-29 14:30:08	thang	Essentially, it's two million different computers working in parallel through MPI (I believe)
+2015-01-29 14:30:20	liesard	Riiight, I see
+2015-01-29 14:30:32	liesard	Do people also use that for servers?
+2015-01-29 14:30:37	liesard	Like, because there are so many
+2015-01-29 14:30:38	thang	As for mort's question... let's see. Any issues with compiling so far?
+2015-01-29 14:30:47	thang	yeah, it's great for servers
+2015-01-29 14:30:58	liesard	Nice
+2015-01-29 14:31:06	liesard	vypr: How's your NEET-ness going? ;D
+2015-01-29 14:31:13	thang	Whenever you get something to an embarrassingly parallel state, it means you can slice the problem into an almost infinite amount of sub-steps and have them all executed without regard for order
+2015-01-29 14:31:19	mort	thang: I'm following https://trac.ffmpeg.org/wiki/How%20to%20quickly%20compile%20libaacplus
+2015-01-29 14:31:20	mcp	Title: How to quickly compile libaacplus – FFmpeg (at trac.ffmpeg.org)
+2015-01-29 14:31:25	mort	should in theory work
+2015-01-29 14:31:39	thang	That's how GPUs work. You have a few million pixels, and it dosn't matter to pixel number 500 what pixel number 3 is
+2015-01-29 14:32:07	liesard	Ooooh, I see
+2015-01-29 14:32:08	thang	so you can just segment the monitor into hundreds of small chunks and divvy them all up to the hundreds of cores in your GPU that are all optimized for floating point operations
+2015-01-29 14:32:15	liesard	That's smart
+2015-01-29 14:32:38	thang	Then they implement something similar to MPI so the cores can communicate with each other and say stuff like "hey, this ball is gonna head in your direction, I'd start loading some data now" 
+2015-01-29 14:32:45	vypr	liesard: I just have to go to my old school today to get my transcript, report card, and state test records today
+2015-01-29 14:32:55	vypr	remove the 2nd today
+2015-01-29 14:33:01	vypr	anyways, after that, I'm done
+2015-01-29 14:33:06	vypr	i just have to be approved at that point
+2015-01-29 14:33:06	thang	nice nice
+2015-01-29 14:33:18	thang	I need to get my life together and stop procrastinating on homework :p
+2015-01-29 14:33:25	liesard	vypr: Oh, cool
+2015-01-29 14:33:41	liesard	When do you know you'll get your online classes?
+2015-01-29 14:33:49	liesard	Like, when do they accept you?
+2015-01-29 14:34:00	vypr	i'd imagine after i've given all the compliancy items
+2015-01-29 14:34:12	vypr	they can't put me into 11th grade without a transcript
+2015-01-29 14:34:24	liesard	Ah, I see
+2015-01-29 14:34:32	vypr	everything else has been scanned and uploaded
+2015-01-29 14:34:37	vypr	all forms have been filled out
+2015-01-29 14:34:44	liesard	Good, good
+2015-01-29 14:34:46	vypr	just the old school stuff is all I need
+2015-01-29 14:34:47	vypr	yep
+2015-01-29 14:34:50	vypr	i'm really excited
+2015-01-29 14:34:56	liesard	I'm excited for you :D
+2015-01-29 14:34:59	vypr	i'm going to the "Insight School of Michigan"
+2015-01-29 14:35:12	liesard	Sounds fancy
+2015-01-29 14:35:16	liesard	thang: ikr; I just started reading a new book and I didn't do my homework yesterday just so that I could read it
+2015-01-29 14:35:44	vypr	it's really cold in here
+2015-01-29 14:35:50	liesard	I have a cold
+2015-01-29 14:36:37	vypr	heh
+2015-01-29 14:36:40	vypr	sorry to hear
+2015-01-29 14:37:02	liesard	Eh, it's not that bad
+2015-01-29 14:38:15	<──	XVII (y0@cool.name) has quit (Quit: Sto andando via)
+2015-01-29 14:38:30	vypr	i just realized
+2015-01-29 14:38:45	vypr	since now that i'm home now almost 24/7, i'm gonna need to learn to cook
+2015-01-29 14:38:45	vypr	meh
+2015-01-29 14:39:01	liesard	It's not that hard
+2015-01-29 14:39:05	vypr	i know
+2015-01-29 14:39:08	liesard	If you can make pasta then you're good to go :P
+2015-01-29 14:39:09	vypr	i just don't know what to make
+2015-01-29 14:39:11	vypr	heh
+2015-01-29 14:39:15	liesard	Pasta
+2015-01-29 14:39:15	vypr	#ramenlife
+2015-01-29 14:39:22	liesard	It's easy as hell and healthier than ramen :P
+2015-01-29 14:39:38	mort	hey, anyone experienced with .htaccess here?
+2015-01-29 14:39:39	vypr	i don't have any pasta though
+2015-01-29 14:39:43	vypr	mort: sorta
+2015-01-29 14:39:55	mort	so
+2015-01-29 14:40:02	liesard	vypr: Try eggs
+2015-01-29 14:40:03	mort	I wanna do neat rewrites
+2015-01-29 14:40:12	vypr	...like?
+2015-01-29 14:40:37	mort	rewriteRule ^([a-zA-Z0-9_\-]+)$ view.php?p=$1 works nicely
+2015-01-29 14:41:10	mort	howevery, I wanna redirect to raw.php?p=$1 if there's a "?raw" in the URL
+2015-01-29 14:41:24	liesard	brb
+2015-01-29 14:41:52	mort	I've tried rewriteRule ^([a-zA-Z0-9_\-]+)(\?raw)$ raw.php?p=1
+2015-01-29 14:41:57	thang	I like to cook :p
+2015-01-29 14:42:28	mort	to my knowledge, that should work, but it doesn't
+2015-01-29 14:42:29	thang	What are you doing rewrites for?
+2015-01-29 14:42:29	──>	spectromas (spectromas@6EB9D94E.5083F6F8.25462B7.IP) has joined #nixers
+2015-01-29 14:42:36	mort	http://pbin.in
+2015-01-29 14:42:38	mcp	Title: Paste (at pbin.in)
+2015-01-29 14:42:43	bajr	vypr: don't forget about sandwiches and salads
+2015-01-29 14:42:51	bajr	also, other food that doesn't need to be cooked/baked
+2015-01-29 14:43:10	mort	for example, http://pbin.in/brainfuck redirects to pbin.in/view.php?p=brainfuck
+2015-01-29 14:43:11	mcp	Title: brainfuck (at pbin.in)
+2015-01-29 14:43:29	mort	I want pbin.in/brainfuck?raw to redirect to pbin.in/raw.php?p=brainfuck
+2015-01-29 14:43:37	thang	I broke it for you :p
+2015-01-29 14:44:12	liesard	Back
+2015-01-29 14:44:22	mort	wb
+2015-01-29 14:44:40	thang	anyway, you wanted the ffmpeg thingey?
+2015-01-29 14:44:56	liesard	thx
+2015-01-29 14:45:00	mort	ya, just completed compiling libaacplus now
+2015-01-29 14:45:06	mort	libblueray is missing now
+2015-01-29 14:45:15	liesard	Hey, this lesson is going to be about Excel
+2015-01-29 14:45:21	liesard	Should I actually do stuff or just fuck around?
+2015-01-29 14:45:36	bajr	stab the teacher with a rusty spoon
+2015-01-29 14:45:42	liesard	Ha.
+2015-01-29 14:45:43	liesard	I wish
+2015-01-29 14:45:46	mort	do you know the shit you're going to learn?
+2015-01-29 14:45:54	liesard	Probably
+2015-01-29 14:45:58	liesard	I don't know our curriculum
+2015-01-29 14:46:04	liesard	But chances are I know it already
+2015-01-29 14:46:24	mort	you can pay attention to what you don't know and not pay attention to what you know
+2015-01-29 14:46:35	liesard	I could try
+2015-01-29 14:46:42	liesard	But chances are I'll just do my own thing the whole way
+2015-01-29 14:46:46	mort	thang: any clue where I can find libblueray?
+2015-01-29 14:47:07	bajr	>/rexster/rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample
+2015-01-29 14:47:11	bajr	this is java
+2015-01-29 14:47:19	liesard	Hahahahaha
+2015-01-29 14:47:24	liesard	Man, that doesn't happen in real life
+2015-01-29 14:47:31	mort	yey for dark grey text on a black background
+2015-01-29 14:47:34	liesard	ikr
+2015-01-29 14:47:48	liesard	mort: It's libbluray
+2015-01-29 14:47:57	liesard	At least, that's what I'm assuming
+2015-01-29 14:48:02	bajr	liesard: wat
+2015-01-29 14:48:07	mort	well I already tried apt-cache search libblueray
+2015-01-29 14:48:10	mort	there's nothing there
+2015-01-29 14:48:13	bajr	HAHA
+2015-01-29 14:48:14	bajr	it does
+2015-01-29 14:48:23	liesard	bajr: ...?
+2015-01-29 14:48:25	liesard	mort: Try libbluray
+2015-01-29 14:48:27	liesard	w/o the e
+2015-01-29 14:48:37	bajr	><    liesard> Man, that doesn't happen in real life
+2015-01-29 14:48:42	liesard	Oh, right
+2015-01-29 14:48:43	mort	oh. I really should try to learn to read.
+2015-01-29 14:48:47	liesard	mort: Hahahaha
+2015-01-29 14:48:54	liesard	bajr: It doesn't happen to me...
+2015-01-29 14:49:00	liesard	Although I do admit, C is much cleaner
+2015-01-29 14:49:01	bajr	liesard: https://github.com/tinkerpop/rexster
+2015-01-29 14:49:03	mcp	Title: tinkerpop/rexster · GitHub (at github.com)
+2015-01-29 14:49:27	bajr	source code for an actual commercial application
+2015-01-29 14:49:36	liesard	Oh god
+2015-01-29 14:49:38	bajr	that path right there, that's in the fucking repo
+2015-01-29 14:49:41	liesard	MY EYES
+2015-01-29 14:49:44	bajr	liesard: yep
+2015-01-29 14:49:46	mort	ohey
+2015-01-29 14:49:50	liesard	BALD BALD BALD
+2015-01-29 14:49:51	liesard	;D
+2015-01-29 14:49:52	mort	http://pbin.in/raw/brainfuck
+2015-01-29 14:49:57	mort	now you can easily wget
+2015-01-29 14:50:00	liesard	:D
+2015-01-29 14:50:05	liesard	ur my hero
+2015-01-29 14:50:07	bajr	mort: can you curl?
+2015-01-29 14:50:12	mort	no, you can't curl.
+2015-01-29 14:50:16	liesard	bajr: It's a raw file, so yeah
+2015-01-29 14:50:17	liesard	Ok, no
+2015-01-29 14:50:28	mort	(ok you can curl, that was a joke)
+2015-01-29 14:50:41	liesard	Hahahaha
+2015-01-29 14:50:49	thang	lol
+2015-01-29 14:51:00	liesard	That's funny and all, but this still doesn't work
+2015-01-29 14:51:03	thang	okay sorry did I miss anything, mort, or did you find the library aftrall?
+2015-01-29 14:51:16	mort	I now have libbluray
+2015-01-29 14:51:25	mort	now I'm missing libbs2b
+2015-01-29 14:51:39	mort	which I'm also installing using apt-get now
+2015-01-29 14:51:57	liesard	WHY DO I KEEP GETTING SEGFAULT_
+2015-01-29 14:51:59	liesard	WHY
+2015-01-29 14:52:00	liesard	JUST
+2015-01-29 14:52:01	mort	it's a slow process because ./configure takes a long while to find a missing dependency, and doesn't give me a nice list
+2015-01-29 14:52:01	liesard	WHY
+2015-01-29 14:53:53	mort	k, libcelt isn't as easy
+2015-01-29 14:54:19	mort	any clue where libcelt can be found?
+2015-01-29 14:55:10	bajr	i thought java's paths were bad
+2015-01-29 14:55:20	bajr	i look at it's source, it's even worse
+2015-01-29 14:55:46	mort	elaborate
+2015-01-29 14:55:51	bajr	no
+2015-01-29 14:55:59	bajr	i already sent you a link containing java source
+2015-01-29 14:56:08	bajr	look there, i can't be bothered to explain this
+2015-01-29 14:56:11	mort	oh, I missed that
+2015-01-29 14:57:46	mort	liesard: http://pbin.in/0
+2015-01-29 14:57:49	mort	liesard: http://pbin.in/9 *
+2015-01-29 14:57:51	mcp	Title: 9 (at pbin.in)
+2015-01-29 14:57:52	thang	My shell script isn't working for whatever reason... idek ._.
+2015-01-29 14:57:57	mort	is valgrind output
+2015-01-29 14:58:06	liesard	Holy shit
+2015-01-29 14:58:10	liesard	Ok...
+2015-01-29 14:58:34	liesard	Wow, I fucked up hard
+2015-01-29 14:59:01	mort	thang: do you have any clue where libcelt is?
+2015-01-29 14:59:19	<──	mxtm (mxtm@io-AC7CF01F.mxtm.me) has quit (Quit: sometimes i feel like a prisoner trapped inside this broken world)
+2015-01-29 14:59:24	thang	no idea lol
+2015-01-29 14:59:40	mort	http://packages.ubuntu.com/lucid/libcelt-dev looks like it used to be in ubuntu's repos
+2015-01-29 14:59:41	mcp	Title: Ubuntu – Details of package libcelt-dev in lucid (at packages.ubuntu.com)
+2015-01-29 15:00:17	thang	ahh, it's obsolete 
+2015-01-29 15:00:34	thang	fuckin' linux. Everything works for 40 years but nobody ever marks it as obsolete
+2015-01-29 15:00:46	mort	lol, ya
+2015-01-29 15:00:54	mort	I'll just remove --enable-libcelt
+2015-01-29 15:01:26	liesard	mort: Thanks for that!
+2015-01-29 15:02:05	mort	liesard: install valgrind, then you can "valgrind ./mybinary"
+2015-01-29 15:02:29	liesard	Thanks!
+2015-01-29 15:02:30	liesard	I will :3
+2015-01-29 15:02:48	mort	:)
+2015-01-29 15:04:36	thang	alright
+2015-01-29 15:04:41	thang	I have the shells cript working now :p
+2015-01-29 15:04:54	mort	yay
+2015-01-29 15:05:05	thang	It works on osx... It (should) work on linux too
+2015-01-29 15:06:22	mort	this feels kinda bad
+2015-01-29 15:06:29	mort	I'm downloading alllll the libs
+2015-01-29 15:06:34	mort	so much bloat
+2015-01-29 15:07:21	mort	k, I have libflite1 installed, but configure still complains libflite doesn't exist
+2015-01-29 15:07:25	mort	I have no libflite-dev
+2015-01-29 15:07:55	mort	though libflite seems to be text to speech; I probably don't need that
+2015-01-29 15:08:44	thang	yeah you don't need that lol
+2015-01-29 15:11:01	thang	Alright, check out the script: http://pastebin.com/ADRJ41mn
+2015-01-29 15:11:02	mcp	Title: [Bash] ffmpeg video recording for webm and mkv - Pastebin.com (at pastebin.com)
+2015-01-29 15:11:41	thang	Only thing I don't like is that the webm looks really bad vs the mkv
+2015-01-29 15:11:50	thang	But the compression is really intense so, eh
+2015-01-29 15:13:06	mort	can ffmpeg record directly to webm?
+2015-01-29 15:13:35	liesard	I think so, yeah
+2015-01-29 15:13:46	mort	why aren't you doing that?
+2015-01-29 15:13:52	thang	I am?
+2015-01-29 15:14:14	thang	I'm recording directly to mkv and directly to webm at the same time using two different codecs simultaneously
+2015-01-29 15:14:50	mort	huh, I see
+2015-01-29 15:14:54	liesard	WebM and mkv were made by the same people
+2015-01-29 15:15:46	mort	though won't that first record mkv with ffmpeg, and when that's done, and if the command returned with exit code 0, record the webm with ffmpeg?
+2015-01-29 15:19:20	mort	thang
+2015-01-29 15:20:12	thang	idk
+2015-01-29 15:20:13	thang	it worked for me
+2015-01-29 15:20:28	thang	I ran the command with both simultaneousy  and it gave me both with the exact same times and everything
+2015-01-29 15:20:36	mort	as long as it works :P
+2015-01-29 15:23:05	thang	if you wanna take a compile time hit
+2015-01-29 15:23:47	bajr	with pipes, you could make a cli app and a frontend for it and use it with 'cli | gui'
+2015-01-29 15:23:51	bajr	it would work asynchronously
+2015-01-29 15:23:56	sbrg	you guys using ffmpeg to record gifs?
+2015-01-29 15:23:59	thang	yeah
+2015-01-29 15:24:02	sbrg	or, well, webm/mkv
+2015-01-29 15:24:05	thang	 #hardcoreLikeDat
+2015-01-29 15:24:21	thang	But anyway, if you take the compile time hit, you can just record in pure mkv and then convert later
+2015-01-29 15:24:39	──>	mxtm (mxtm@io-AC7CF01F.mxtm.me) has joined #nixers
+2015-01-29 15:24:55	thang	Recording in native webm gave me a filesize of like 300Kb, but it looked a bit blocky
+2015-01-29 15:25:20	thang	convrting from the mkv gave me identical visual quality to the mkv (well, on this screen at least), but with 1.3Mb size vs the 105Mb size of the mkv file
+2015-01-29 15:30:13	<──	fayesafe (dominic@io-3F1F3933.emea.ibm.com) has quit (Quit: Lost terminal)
+2015-01-29 15:36:37	vypr	so
+2015-01-29 15:36:47	vypr	i made pasta, after liesard's suggestion
+2015-01-29 15:36:52	vypr	it was pretty good
+2015-01-29 15:36:59	mort_	Good
+2015-01-29 15:38:11	vypr	i'm apparently making pancakes for dinner
+2015-01-29 15:38:12	thetornainbow	vypr: homemade pasta?
+2015-01-29 15:38:14	vypr	so, that's good
+2015-01-29 15:38:20	vypr	nah, i had this mix stuff
+2015-01-29 15:38:58	vypr	http://www.knorr.com/product/detail/246099/butter-herb
+2015-01-29 15:39:00	vypr	that ^
+2015-01-29 15:39:01	mcp	Title: Knorr® Pasta Sides – Butter & Herb Pasta (at www.knorr.com)
+2015-01-29 15:39:46	thang	yasssss
+2015-01-29 15:39:54	thang	I made muh shell script even sexier
+2015-01-29 15:40:02	thang	okay, ready for this shit?
+2015-01-29 15:40:20	vypr	idk hwat your shell script is
+2015-01-29 15:40:47	thang	It's for mort_ and his quest for webm
+2015-01-29 15:41:04	vypr	oh
+2015-01-29 15:41:31	vypr	i have a gif to webm script
+2015-01-29 15:41:34	thang	The script takes two arguments (second is optional)
+2015-01-29 15:41:50	thang	first argument is name of file. If you don't have a second argument it records the screen in webm and mkv at the same time
+2015-01-29 15:42:03	thang	if you have an argument of 1, it'll do the same as above (aka first option)
+2015-01-29 15:42:06	bajr	`cli < fifo.file | gui > fifo.file`
+2015-01-29 15:42:11	liesard	vypr: Nice, man
+2015-01-29 15:42:14	thang	if you have an second argument of 2, it'll record ONLY in mkv
+2015-01-29 15:42:17	bajr	full async achieved between different languages at kernel level
+2015-01-29 15:42:26	bajr	and bi-directional communication
+2015-01-29 15:42:34	thang	But after you stop the video, it'll immediately start converting it into webm at optimum settings
+2015-01-29 15:42:48	thang	with the same name :p
+2015-01-29 15:43:04	vypr	now i want this script
+2015-01-29 15:43:24	thang	http://pastebin.com/qrSzVSLz
+2015-01-29 15:43:25	mcp	Title: [Bash] ffmpeg video recording for webm and mkv - Pastebin.com (at pastebin.com)
+2015-01-29 15:43:46	thang	I'm not 100% sure if it works on linux as well, but I set up the paramaters in a way that it'll work on both osx and linux
+2015-01-29 15:44:00	vypr	i'm on osx right now anyways
+2015-01-29 15:44:11	thang	It should work out of the box for you, then
+2015-01-29 15:44:24	thang	 ./script.sh nameOfFile 2
+2015-01-29 15:44:32	thang	will get you the best results in terms of quality
+2015-01-29 15:45:09	thang	You'll probably have to edit the screen size unless you're on a 13" mbp, and the buffer and bitrate are a wee high. You could probably get away with 1,000 and 1,500 respectively and not even notice
+2015-01-29 15:45:36	thang	everything else should be perfect out of the box :p
+2015-01-29 15:46:38	vypr	11' mba 2013 here
+2015-01-29 15:46:58	vypr	11''*
+2015-01-29 15:47:39	<──	dcli (dcli@io-1E147B3E.net) has quit (Input/output error)
+2015-01-29 15:48:06	──>	dcli (dcli@io-D7229CFC.snydernet.net) has joined #nixers
+2015-01-29 15:48:13	thetornainbow	my mb finally died
+2015-01-29 15:48:24	liesard	I have a mac mini
+2015-01-29 15:48:27	liesard	OS X 10.5.8
+2015-01-29 15:48:54	bajr	vypr: we have regex to do this for us :P
+2015-01-29 15:48:58	bajr	s/regex/regx/
+2015-01-29 15:48:59	regx	vypr: we have regx to do this for us :P
+2015-01-29 15:49:24	liesard	bajr: Was that just a coincidence or...?
+2015-01-29 15:49:28	ymbx	sick shit: https://www.youtube.com/watch?v=cetHhcHSlbM
+2015-01-29 15:49:30	mcp	Title: Cinebench 11.5 and 4 Intel Xeon E5-4650 64core Scores - YouTube (at www.youtube.com)
+2015-01-29 15:49:42	bajr	liesard: no, i did it on purpose
+2015-01-29 15:49:58	liesard	Oh, Ok
+2015-01-29 15:49:59	thang	eh, I'd lower the bitrate to 700 and 1200 then and the resolution to whatever your res is? Either way
+2015-01-29 15:50:02	bajr	also, whoever switched off mbot's regex thing, thank you
+2015-01-29 15:50:12	thang	Pretty sure that was mort? idk
+2015-01-29 15:51:23	liesard	There's this guy in our class who keeps asking questions
+2015-01-29 15:51:31	liesard	Like "How do I go to the next cell?  Oh, enter?"
+2015-01-29 15:51:37	liesard	"Are you /suuuure/ it was enter?"
+2015-01-29 15:51:45	liesard	"Ok, I'm going to press it now"
+2015-01-29 15:51:51	liesard	*presses enter*
+2015-01-29 15:52:01	liesard	"Ok, so how do I add two cells?"
+2015-01-29 15:52:11	thetornainbow	hahaha, every class needs someone like that
+2015-01-29 15:52:14	liesard	Our IT teacher looks like he's going to kill himself
+2015-01-29 15:52:14	ymbx	-_-
+2015-01-29 15:52:18	ymbx	I hate those people
+2015-01-29 15:52:21	liesard	Same
+2015-01-29 15:52:26	liesard	I can't tell if he's joking or not though
+2015-01-29 15:52:28	thetornainbow	just to remind all of us that users are real and they're coming
+2015-01-29 15:52:35	liesard	Hahahahahaha
+2015-01-29 15:52:42	liesard	It's pretty hilarious though
+2015-01-29 15:52:52	thetornainbow	i was helping a lady troubleshoot her email access at work, i asked her to power down her phone
+2015-01-29 15:53:02	thetornainbow	she actually asked me "How do I know when it's turned off?"
+2015-01-29 15:53:10	liesard	omg
+2015-01-29 15:53:18	liesard	Feels bad, man
+2015-01-29 15:53:20	bajr	when the current readings on third rail to the motherboard are 0
+2015-01-29 15:53:24	thetornainbow	haha
+2015-01-29 15:53:37	bajr	thetornainbow: *technically* they're never fully of unless you take out the battery
+2015-01-29 15:53:44	bajr	so that is a valid question :P
+2015-01-29 15:54:09	thetornainbow	bajr: it's interesting you say that, i had a small existential crisis cause i was like there's no real way to describe when something is off
+2015-01-29 15:54:41	thetornainbow	when it's not responding? no lights? no power is being supplied to it? cause those could all be true when the machine is "on"
+2015-01-29 15:54:50	liesard	omg
+2015-01-29 15:54:54	stark	lel don't you guys get "how to copy paste" paste people ?
+2015-01-29 15:54:54	thetornainbow	HOW DO YOU KNOW WHAT'S ON OR OFF TRULY!?
+2015-01-29 15:55:07	liesard	"How do I know if my phone's off?"
+2015-01-29 15:55:11	liesard	*freaks out*
+2015-01-29 15:55:16	thetornainbow	"42"
+2015-01-29 15:55:16	liesard	*Becomes religious*
+2015-01-29 15:55:19	liesard	Hahahahahaha
+2015-01-29 15:55:24	stark	Maybe they are criminals and think nsa is listening
+2015-01-29 15:55:27	liesard	*Goes on a spiritual journey*
+2015-01-29 15:55:32	liesard	omg
+2015-01-29 15:55:39	thetornainbow	*spirit guide, guide me*
+2015-01-29 15:55:57	liesard	*spirit pokemon, guide me*
+2015-01-29 15:56:00	thetornainbow	when users win
+2015-01-29 15:56:10	 *	ymbx turns off phone
+2015-01-29 15:56:12	liesard	That is the day I commit suicide
+2015-01-29 15:56:16	ymbx	look it's off
+2015-01-29 15:56:22	liesard	But how can you tell?
+2015-01-29 15:56:23	thetornainbow	not possibru
+2015-01-29 15:56:24	 *	ymbx gets message from NSA "lol, no its not"
+2015-01-29 15:56:28	liesard	Hahahahaha
+2015-01-29 15:56:31	liesard	Anyway, brb
+2015-01-29 15:56:32	stark	lel
+2015-01-29 15:56:59	thetornainbow	i would be okay with NSA if they sent funny messages like that
+2015-01-29 15:57:02	stark	Take a hammer and knock out the screen and try to turn it back on
+2015-01-29 15:57:11	 *	thetornainbow clicks Go Incognito
+2015-01-29 15:57:16	stark	Then you'll know
+2015-01-29 15:57:16	bajr	anyone here good as sh/bash?
+2015-01-29 15:57:24	thetornainbow	New message from NSA, "lel, noob, no such thing"
+2015-01-29 15:58:01	thetornainbow	bajr: no one
+2015-01-29 15:58:01	bajr	that's why phones don't have batteries you can take out anymore
+2015-01-29 15:58:36	thetornainbow	you can still pee in the ports though
+2015-01-29 15:58:38	liesard	Back
+2015-01-29 15:58:42	thetornainbow	we'll always have that
+2015-01-29 15:58:52	liesard	thetornainbow: xperia is waterproof
+2015-01-29 15:58:55	stark	Or wash it down the drain
+2015-01-29 15:58:57	vypr	cool
+2015-01-29 15:59:02	thetornainbow	liesard: damn
+2015-01-29 15:59:06	liesard	ikr
+2015-01-29 15:59:06	vypr	everything i scanned got approved except for a proof of residency
+2015-01-29 15:59:11	vypr	which i can get a new one
+2015-01-29 15:59:15	liesard	thetornainbow: YOU ARE NEVER SAFE
+2015-01-29 15:59:19	liesard	vypr: Oh, cool
+2015-01-29 15:59:23	vypr	yeah
+2015-01-29 15:59:28	liesard	Hey guys, cool trick
+2015-01-29 15:59:33	vypr	i'll scan a proof of residency tonight when i get my HS stuff
+2015-01-29 15:59:42	liesard	Yeah, so that you can do it all together
+2015-01-29 15:59:44	liesard	Roll up a piece of paper
+2015-01-29 15:59:47	vypr	yep
+2015-01-29 15:59:50	liesard	Set the bottom on fire
+2015-01-29 15:59:57	liesard	All the smoke goes through the middle
+2015-01-29 16:00:05	liesard	So it's like a smoke signal or something
+2015-01-29 16:00:16	thetornainbow	make sure to sing the song of your people when you do that
+2015-01-29 16:00:21	liesard	Hahahahahaha
+2015-01-29 16:00:29	vypr	i'm watching cops right now
+2015-01-29 16:00:31	vypr	pls halp me
+2015-01-29 16:00:35	liesard	:|
+2015-01-29 16:00:35	liesard	wut
+2015-01-29 16:00:42	vypr	there's nothing interesting on TV
+2015-01-29 16:00:42	thetornainbow	AM I BEING DETAINED!?
+2015-01-29 16:00:46	vypr	so i'm watching cops
+2015-01-29 16:00:49	liesard	Oooh, Ok
+2015-01-29 16:00:56	liesard	Don't you have NetFlix?
+2015-01-29 16:01:01	vypr	whatchu gonna do when they com 4 u
+2015-01-29 16:01:04	sbrg	or the internet
+2015-01-29 16:01:05	thetornainbow	Jerry Springer might be on soon
+2015-01-29 16:01:10	thetornainbow	sbrg: +1
+2015-01-29 16:01:12	ymbx	thang: you there?
+2015-01-29 16:01:18	vypr	i do, but i need to use my PS4 to watch it on my TV
+2015-01-29 16:01:25	vypr	and i need HDCP on
+2015-01-29 16:01:34	vypr	which i don't have on since i need it off to record
+2015-01-29 16:01:35	thetornainbow	vypr: you should watch Bravest Warriors - free on Youtube
+2015-01-29 16:01:48	liesard	Oh yeah, it's great
+2015-01-29 16:01:56	liesard	Or torrent anime
+2015-01-29 16:02:04	liesard	Torrent it to a server and stream it
+2015-01-29 16:02:06	thetornainbow	torrent anything really
+2015-01-29 16:02:12	liesard	Yeah, but anime
+2015-01-29 16:02:13	vypr	i would torrent on my VPS
+2015-01-29 16:02:17	vypr	but DigitalOcean may have a fit
+2015-01-29 16:02:22	sbrg	yeah, same.
+2015-01-29 16:02:22	thang	sorry, was reading backlog
+2015-01-29 16:02:28	thang	you guys get really freaky whenever I go afk and start doing shit
+2015-01-29 16:02:28	thetornainbow	i use feralhosting for seedbox
+2015-01-29 16:02:39	thetornainbow	they're fantastic, host from the Netherlands
+2015-01-29 16:02:47	sbrg	i have ~90mbit
+2015-01-29 16:02:49	liesard	I just have a server at home
+2015-01-29 16:02:52	sbrg	so I can torrent at home just fine
+2015-01-29 16:02:52	liesard	On which I opened the ports
+2015-01-29 16:02:54	ymbx	thang: can you help me with this? https://i.imgur.com/rDnOyDR.png
+2015-01-29 16:03:13	liesard	So I can stream wherever I want~
+2015-01-29 16:03:14	ymbx	I know the answers, but I don't know why?
+2015-01-29 16:03:22	thang	What are the answers?
+2015-01-29 16:03:44	vypr	heh
+2015-01-29 16:03:49	ymbx	thang: 18 and 3
+2015-01-29 16:03:55	thang	I'm pretty sure I know them, but I wanna make sure we start off on the same page and all that :p
+2015-01-29 16:03:55	vypr	they're arresting this hillbilly
+2015-01-29 16:04:04	vypr	wearing a shirt that says "shit happens"
+2015-01-29 16:04:10	vypr	he can't speak english properly
+2015-01-29 16:04:14	liesard	Hahahahaha
+2015-01-29 16:04:16	thang	Well, critical path length is the easy one
+2015-01-29 16:04:22	liesard	Yeah, you need something good to watch
+2015-01-29 16:04:32	thang	Task one executes, and THEN you can execute task 4, and THEN task 5
+2015-01-29 16:04:53	thang	so say you want to execute task 5... You have to start from task 1 -> 4 -> 5
+2015-01-29 16:05:03	thang	That's the longest time period possible for the path
+2015-01-29 16:05:27	thang	So if your system has a critical path length of 18, you can guarantee that all operations will take place in 18 or less units of time
+2015-01-29 16:05:29	vypr	what the fuck
+2015-01-29 16:05:29	ymbx	but you need to execute T2 and T3 also?
+2015-01-29 16:05:33	vypr	this guy is making a speech
+2015-01-29 16:05:55	sbrg	T1 T2 and T3 can be executed concurrently. Those are the maximum amount of tasks that can be executed concurrently because of the dependency graph. 
+2015-01-29 16:05:59	thang	Well, yes, but task 1 and 2 don't depend on each other
+2015-01-29 16:06:13	thang	same for 3 and 4
+2015-01-29 16:06:14	liesard	Ok, I'm off to my next lesson
+2015-01-29 16:06:18	liesard	Have fun, guys~
+2015-01-29 16:06:26	thetornainbow	always do
+2015-01-29 19:26:13	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-29 19:26:13	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-29 19:26:13	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-29 19:26:13	──	Channel #nixers: 60 nicks (2 ops, 1 halfop, 1 voice, 56 normals)
+2015-01-29 19:26:15	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-29 19:26:28	liesard	Hey guys, mpv doesn't seem to be able to connect to the internet
+2015-01-29 19:26:31	liesard	Anyone know why?
+2015-01-29 19:27:37	liesard	Nevermind, it works now
+2015-01-29 19:28:57	+z3bra	http://www.reddit.com/r/commandline/comments/2u3ind/tips_for_cool_textbased_tools/co4uc9f
+2015-01-29 19:28:59	mcp	Title: Tips for cool text-based tools... : commandline (at www.reddit.com)
+2015-01-29 19:29:21	+z3bra	Some cool CLI based tools ^
+2015-01-29 19:29:26	+z3bra	oh, and fuck you mcp
+2015-01-29 19:29:42	xyzzm	haha
+2015-01-29 19:30:11	xyzzm	https://www.linux.org.ru/gallery/10931314.jpg
+2015-01-29 19:31:29	+z3bra	.ru
+2015-01-29 19:31:33	+z3bra	not even surprised
+2015-01-29 19:31:59	xyzzm	https://www.linux.org.ru/gallery/biggkFA4S.jpg
+2015-01-29 19:32:04	xyzzm	ooh god..
+2015-01-29 19:32:16	fayesafe	z3bra: comment seems deleted?
+2015-01-29 19:33:29	+z3bra	what?
+2015-01-29 19:33:42	+z3bra	it's not
+2015-01-29 19:33:48	+z3bra	.short
+2015-01-29 19:33:49	regx	http://xeo.la/p1/
+2015-01-29 19:33:52	+z3bra	ah
+2015-01-29 19:33:57	+z3bra	http://www.reddit.com/r/commandline/comments/2u3ind/tips_for_cool_textbased_tools/co4uc9f
+2015-01-29 19:33:59	mcp	Title: Tips for cool text-based tools... : commandline (at www.reddit.com)
+2015-01-29 19:34:00	+z3bra	.short
+2015-01-29 19:34:01	regx	http://xeo.la/p2/
+2015-01-29 19:34:14	+z3bra	^ this
+2015-01-29 19:34:39	fayesafe	mh
+2015-01-29 19:34:44	fayesafe	i don't see that comment
+2015-01-29 19:38:45	bajr	z3bra: is there like a tee combined with grep?
+2015-01-29 19:39:57	liesard	Yeah, neither do I
+2015-01-29 19:41:11	bajr	actually nevermind. i can just use tee and grep one of the outputs. not as milk but i can live with it
+2015-01-29 19:41:57	stark	>glances
+2015-01-29 19:42:11	bajr	?
+2015-01-29 19:42:48	stark	The reddit link that z3bra posted
+2015-01-29 19:44:31	stark	z3bra: mplayer can't seek gifs ?
+2015-01-29 19:45:31	bajr	z3bra: also, guess what i'm working on
+2015-01-29 19:46:06	+z3bra	gopher ! :D
+2015-01-29 19:46:11	bajr	it's client
+2015-01-29 19:49:25	<──	Mossepo (Mossepo@io-6B41C3C0.dhcp.inet.fi) has quit (Quit: Mossepo)
+2015-01-29 19:51:36	liesard	Nice!
+2015-01-29 19:52:26	bajr	s/it's/its
+2015-01-29 19:52:31	bajr	gh
+2015-01-29 19:52:34	bajr	damn slashes
+2015-01-29 19:53:48	liesard	:P
+2015-01-29 19:53:52	%xero	that's how regex works
+2015-01-29 19:53:58	liesard	I was going to point it out but I didn't want to be rude
+2015-01-29 19:54:15	%xero	not being rude. just saying...
+2015-01-29 19:54:30	bajr	yeah
+2015-01-29 19:54:34	bajr	but vim doesn't need the slash
+2015-01-29 19:55:07	ymbx	mplayer?
+2015-01-29 19:55:10	ymbx	mpv all the way!
+2015-01-29 19:55:29	ymbx	(it rhymes too)
+2015-01-29 19:55:35	bajr	which is why i don't put the slashes in
+2015-01-29 19:56:18	%xero	interesting. 
+2015-01-29 19:57:40	bajr	>4 space indents
+2015-01-29 19:57:56	stark	ymbx: One downside of mplayer is that it won't work without mpg123 which is pretty horrible when compared to mpg321
+2015-01-29 19:58:35	ymbx	that's why I said mpv all the way :P
+2015-01-29 22:10:24	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-29 22:10:24	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-29 22:10:24	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-29 22:10:24	──	Channel #nixers: 63 nicks (2 ops, 1 halfop, 1 voice, 59 normals)
+2015-01-29 22:10:26	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-29 22:10:28	<──	libbro (gaiz@io-9386EAD7.mit.edu) has quit (Ping timeout: 188 seconds)
+2015-01-29 22:10:32	liesard	o/
+2015-01-29 22:10:49	october	oh lol
+2015-01-29 22:11:11	fro	yeah
+2015-01-29 22:11:12	october	how can i switch it from 15:10 to 16:10?
+2015-01-29 22:11:42	ymbx	date --help
+2015-01-29 22:12:01	october	reading the man pages
+2015-01-30 19:20:44	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-30 19:20:44	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-30 19:20:44	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-30 19:20:44	──	Channel #nixers: 59 nicks (2 ops, 1 halfop, 1 voice, 55 normals)
+2015-01-30 19:20:46	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-30 19:20:48	liesard	Hi everyone!
+2015-01-30 19:20:58	mort	hi!
+2015-01-30 19:21:08	liesard	I have done the poor choice of doing a programming challenge on /g/
+2015-01-30 19:21:26	mort	lol
+2015-01-30 19:21:29	liesard	So I'm going to do a ROT13 cipher/decipher thingy
+2015-01-30 19:21:29	mort	what is the challenge?
+2015-01-30 19:21:35	liesard	Since it seems to be the easiest one
+2015-01-30 19:21:38	liesard	Wish me luck!
+2015-01-30 19:21:50	mort	good luck
+2015-01-30 19:21:59	liesard	:3
+2015-01-30 19:22:16	liesard	Yeah, this definitely looks easy
+2015-01-30 19:22:25	mort	btw, I made some changes to the pbin command, so that it can take input from stdin
+2015-01-30 19:22:36	liesard	Nice!
+2015-01-30 19:22:37	earsplit	bajr: back you up on what
+2015-01-30 19:22:40	mort	echo "hello, world" | pbin
+2015-01-30 19:23:00	mort	    sudo wget https://raw.githubusercontent.com/mortie/pbin.in/master/util/pbin -O /usr/bin/pbin; sudo chmod +x /usr/bin/pbin
+2015-01-30 19:23:06	mort	run that again
+2015-01-30 19:23:58	liesard	:D
+2015-01-30 19:24:01	liesard	That's awesome|
+2015-01-30 19:24:05	liesard	*!
+2015-01-30 19:24:21	mort	thanks :)
+2015-01-30 19:24:36	liesard	Yes, I can even cat things: http://pbin.in/Q3
+2015-01-30 19:24:38	mcp	Title: Q3 (at pbin.in)
+2015-01-30 19:24:39	liesard	:D
+2015-01-30 19:24:51	mort	I got annoyed by having to do "somecommand > out; pbin out" all the time
+2015-01-30 19:25:07	liesard	Hahahaha
+2015-01-30 19:25:15	liesard	Ingenious :P
+2015-01-30 19:25:49	mort	it's not like other pastebin-like things haven't done it before :P
+2015-01-30 19:26:17	liesard	Well, not that I know of :P
+2015-01-30 19:26:24	liesard	But still, it's cool that you made it
+2015-01-30 19:26:34	mort	thanks
+2015-01-30 19:26:53	mort	https://github.com/mortie/pbin.in/blob/master/util/pbin the script really isn't that complex
+2015-01-30 19:26:54	mcp	Title: pbin.in/pbin at master · mortie/pbin.in · GitHub (at github.com)
+2015-01-30 19:27:35	liesard	True, I guess
+2015-01-30 19:27:37	liesard	Still p cool
+2015-01-30 19:31:56	mort	oh wow, there are 90 pastes there now
+2015-01-30 19:32:08	liesard	I bet half of them are mine :P
+2015-01-30 19:32:10	liesard	What are they?
+2015-01-30 19:36:57	──>	oog (supercompu@EF8CB997.3D07DCFF.8A46898.IP) has joined #nixers
+2015-01-30 19:37:58	──>	Racquetball (haha@io-D6799F3E.cpe.twtelecom.net) has joined #nixers
+2015-01-30 19:38:05	oog	anyone willing to answer a couple quick questions regarding desktop environments?
+2015-01-30 19:38:11	liesard	Sure
+2015-01-30 19:38:16	liesard	I might not be able to answer them though
+2015-01-30 19:38:18	liesard	But shoot
+2015-01-30 19:38:22	mort	http://pbin.in/raw/manypastes
+2015-01-30 19:38:34	oog	NP thanks for the future effort.
+2015-01-30 19:38:42	liesard	:3
+2015-01-30 19:38:44	arianon	#rekt
+2015-01-30 19:39:12	oog	But, yaknow the bar at the top of the screen that have the time, wifi, battery and such? on the default ubuntu de
+2015-01-30 19:39:23	liesard	Ubuntu has like 50 default DEs
+2015-01-30 19:39:29	oog	Or on many default setups of various linux distros for that matter
+2015-01-30 19:39:34	liesard	Wait, wait
+2015-01-30 19:39:37	oog	The specific one does not matter.
+2015-01-30 19:39:44	arianon	hmm hmm?
+2015-01-30 19:39:44	oog	I want to know what that bar is called.
+2015-01-30 19:39:45	mort	no liesard, ubuntu has one default DE: unity
+2015-01-30 19:39:56	liesard	I thought that was specific to Ubuntu Unity or something
+2015-01-30 19:39:56	arianon	oog: that would be called a statusbar
+2015-01-30 19:40:00	arianon	if you want to be DE agnostic
+2015-01-30 19:40:01	liesard	^
+2015-01-30 19:40:12	liesard	Or a taskbar
+2015-01-30 19:40:16	liesard	No, that's different
+2015-01-30 19:40:18	fro	yeah unless you specifically choose a different one it's gonna be unity
+2015-01-30 19:40:32	fro	but also
+2015-01-30 19:40:37	oog	Yeah Unity, XFCE, LXDE, they all have that bar
+2015-01-30 19:40:38	fro	unity is just gnome 3
+2015-01-30 19:40:41	oog	i dont want that bar.
+2015-01-30 19:40:58	mort	well, unity is a fork of gnome 3
+2015-01-30 19:41:13	<──	Racquetball (haha@io-D6799F3E.cpe.twtelecom.net) has quit (Ping timeout: 184 seconds)
+2015-01-30 19:41:27	fro	you can probably disable it
+2015-01-30 19:41:31	fro	or hide it
+2015-01-30 19:41:39	fro	if you don't want to switch to something else
+2015-01-30 19:42:09	oog	I dont want to hide it. I dont want something running in the background. I dont need the launcher/taskbar/whateverbar
+2015-01-30 19:42:44	oog	I just want a completely plain desktop and I'm going to us dmenu and terminals to run progs
+2015-01-30 19:42:53	fro	oh
+2015-01-30 19:42:54	fro	well
+2015-01-30 19:43:00	liesard	Might as well use a wm
+2015-01-30 19:43:00	mort	it kinda sounds like you wanna use something other than unity
+2015-01-30 19:43:04	liesard	^
+2015-01-30 19:43:08	fro	you should probably switch to a wm then
+2015-01-30 19:43:12	liesard	^
+2015-01-30 19:43:18	liesard	I would suggest swm
+2015-01-30 19:43:20	mort	*chough*i3wm*chough*
+2015-01-30 19:43:24	liesard	^
+2015-01-30 19:43:24	oog	I have i3
+2015-01-30 19:43:28	liesard	Then use that
+2015-01-30 19:43:29	oog	i dont want tiling(all the time)
+2015-01-30 19:43:29	<──	dcli (dcli@io-DF9AB8C9.tor-exit.calyxinstitute.org) has quit (Ping timeout: 180 seconds)
+2015-01-30 19:43:35	liesard	Ah, right
+2015-01-30 19:43:38	oog	im trying to figure out how to set up swm
+2015-01-30 19:43:43	liesard	It's easy
+2015-01-30 19:43:44	──>	dcli (dcli@9F3A88EF.6EF53A1D.F621E263.IP) has joined #nixers
+2015-01-30 19:43:46	liesard	You have it installed, right?
+2015-01-30 19:43:49	oog	yes
+2015-01-30 19:43:55	liesard	Are you using it now?
+2015-01-30 19:44:01	oog	no i cant get it to run.
+2015-01-30 19:44:11	liesard	How are you starting your wm?
+2015-01-30 19:44:21	oog	i tried running it from the terminal
+2015-01-30 19:44:23	oog	to no avail
+2015-01-30 19:44:27	liesard	Yeah, no, don't do that
+2015-01-30 19:44:31	oog	lol
+2015-01-30 19:44:35	liesard	When you switch on your computer
+2015-01-30 19:44:36	mort	hmm
+2015-01-30 19:44:40	liesard	Does it take you to a graphical thingy?
+2015-01-30 19:44:40	oog	its not there
+2015-01-30 19:44:51	oog	i know where this is going and it is not there.
+2015-01-30 19:45:10	mort	did you install with apt-get or something?
+2015-01-30 19:45:10	oog	derp
+2015-01-30 19:45:11	fro	are you using a desktop manager?
+2015-01-30 19:45:12	mort	I assume no
+2015-01-30 19:45:19	liesard	Ok, press Ctrl+Alt+2
+2015-01-30 19:45:21	oog	no i cloned, make and make install
+2015-01-30 19:45:23	fro	that's what liesard is trying to ask
+2015-01-30 19:45:45	mort	try to log out; do you have a small circle in your user's login window on the login screen?
+2015-01-30 19:45:50	liesard	And press Ctrl+Alt+1 to get back
+2015-01-30 19:45:58	mort	if you have that, press it, and choose swm
+2015-01-30 19:46:06	oog	yaaas swm is not there.
+2015-01-30 19:46:09	mort	kay
+2015-01-30 19:46:19	mort	was a long shot, but not impossible
+2015-01-30 19:46:21	liesard	oog: Press Ctrl+Alt+2
+2015-01-30 19:46:24	oog	i did
+2015-01-30 19:46:26	fro	you'll have to edit your .xinitrc to get swm to work
+2015-01-30 19:46:28	liesard	Oh :|
+2015-01-30 19:46:34	oog	damn. I thought so.
+2015-01-30 19:46:35	fro	also probably better to not use a DM
+2015-01-30 19:46:42	fro	because it's a fucking hassle
+2015-01-30 19:46:44	oog	DM? Desktop manager?
+2015-01-30 19:46:44	liesard	fro: Yeah, but he'll have to get to the tty thingy to use startx first
+2015-01-30 19:46:47	fro	yes
+2015-01-30 19:46:47	liesard	oog: Yeah
+2015-01-30 19:46:58	oog	because unity uses x11 not startx
+2015-01-30 19:46:59	oog	correct?
+2015-01-30 19:47:04	liesard	That's different
+2015-01-30 19:47:07	liesard	And no
+2015-01-30 19:47:09	oog	oh.
+2015-01-30 19:47:12	oog	dang it.
+2015-01-30 19:47:12	liesard	startx is a command to start X11
+2015-01-30 19:47:17	liesard	And every DM uses it
+2015-01-30 19:47:21	liesard	And every WM uses it
+2015-01-30 19:47:35	oog	if your using x11 doesnt that mean initrc is not used?
+2015-01-30 19:47:43	liesard	Kinda
+2015-01-30 19:47:55	liesard	.xinitrc is a configuration file that runs when you run startx
+2015-01-30 19:48:21	liesard	If you're using a graphical display manager, which you are, then you won't need .xinitrc
+2015-01-30 19:48:45	liesard	X11 is what allows keyboard input, mouse input and graphical display thingys on the screen
+2015-01-30 19:48:48	oog	That was what i was trying to say. 
+2015-01-30 19:48:58	oog	I'm tryin!
+2015-01-30 19:49:06	liesard	It's Ok, don't worry
+2015-01-30 19:49:12	liesard	I was once a complete idiot
+2015-01-30 19:49:14	liesard	I am now just an idiot
+2015-01-30 19:49:16	liesard	Anyway
+2015-01-30 19:49:17	<──	sulami_ (sulami@io-DF93AEC4.dip0.t-ipconnect.de) has quit (Client exited)
+2015-01-30 19:49:18	oog	LOLOLOL
+2015-01-30 19:49:39	fro	heh
+2015-01-30 19:49:40	liesard	So there's a way to add swm to your DM
+2015-01-30 19:49:48	liesard	I've done it before, but I forgot how
+2015-01-30 19:50:12	fro	waste of time
+2015-01-30 19:50:14	oog	Can i disable unity in initrc?
+2015-01-30 19:50:18	liesard	Yes
+2015-01-30 19:50:18	fro	just stop using the DM
+2015-01-30 19:50:26	liesard	^
+2015-01-30 19:50:28	fro	and use startx
+2015-01-30 19:50:29	liesard	But it's kinda complicated
+2015-01-30 19:50:33	liesard	Ok, it uses lightdm
+2015-01-30 19:50:36	oog	Challenge accepted.
+2015-01-30 19:50:44	mort	I think maybe adding "swm" or whatever the command is to .Xinitrc makes ubuntu automatically use that instead of the magical graphical thing it usually uses
+2015-01-30 19:50:54	oog	i believe it is.
+2015-01-30 19:50:58	liesard	mort: Nope
+2015-01-30 19:51:08	mort	:)
+2015-01-30 19:51:08	oog	But the arch wiki
+2015-01-30 19:51:09	mort	:( *
+2015-01-30 19:51:19	liesard	oog: Do sudo apt-get remove lightdm
+2015-01-30 19:51:41	liesard	Did that work?
+2015-01-30 19:51:51	──>	sulami (sulami@io-DF93AEC4.dip0.t-ipconnect.de) has joined #nixers
+2015-01-30 19:52:15	oog	Is that for unity?
+2015-01-30 19:52:25	liesard	We'll deal with Unity later
+2015-01-30 19:52:33	liesard	First, remove the display manager
+2015-01-30 19:52:39	liesard	Which is what prompts you to log in
+2015-01-30 19:52:57	liesard	It's called LightDM according to Ubuntu's Wiki
+2015-01-30 19:53:00	oog	OH. Okay, so what will happen when i log out now?
+2015-01-30 19:53:04	oog	because i did that.
+2015-01-30 19:53:14	mort	you won't see anything graphical
+2015-01-30 19:53:17	liesard	Yeah
+2015-01-30 19:53:20	mort	you'll likely be met with a CLI
+2015-01-30 19:53:23	liesard	^
+2015-01-30 19:53:38	oog	brb
+2015-01-30 19:53:39	mort	then you can `echo "swm" > .Xinitrc` and `startx`
+2015-01-30 19:53:59	liesard	Or just vi .xinitrc and edit it manually
+2015-01-30 19:54:09	oog	Thats what i had planned on doing.
+2015-01-30 19:54:15	liesard	Cool
+2015-01-30 19:54:47	oog	I just needed some direction which I think I now have so thank you. Im gonna go play around
+2015-01-30 19:55:04	mort	yay
+2015-01-30 19:55:07	liesard	\o/
+2015-01-30 19:55:47	oog	First time using irc. Id say it was a success. Thanks all
+2015-01-30 19:55:55	mort	:)
+2015-01-30 19:55:57	liesard	No problem :D
+2015-01-30 19:56:08	mort	though if it's your first time using IRC, how did you end up here?
+2015-01-30 19:56:17	oog	unixporn/unixart
+2015-01-30 19:56:20	mort	ah
+2015-01-30 19:56:42	oog	i pmed dcat and was told to come here.
+2015-01-30 19:57:14	mort	http://www.reddit.com/r/unixart
+2015-01-30 19:57:16	mcp	Title: /r/unixart: high quality screenshots (at www.reddit.com)
+2015-01-30 19:57:21	oog	love it. 
+2015-01-30 19:57:26	mort	looking at the posts... so many familiar names
+2015-01-30 19:57:36	oog	the gangs all here
+2015-01-30 19:58:03	oog	later on nixers
+2015-01-30 19:58:17	<──	oog (supercompu@EF8CB997.3D07DCFF.8A46898.IP) has quit (Quit: leaving)
+2015-01-30 19:59:42	liesard	Ok, I'm off to eat
+2015-01-30 19:59:46	liesard	Have fun, everyone!
+2015-01-30 20:31:50	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-30 20:31:50	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-30 20:31:50	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-30 20:31:50	──	Channel #nixers: 58 nicks (2 ops, 1 halfop, 1 voice, 54 normals)
+2015-01-30 20:31:52	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-30 20:32:01	liesard	printf(Hello World!\n);
+2015-01-30 20:33:40	<──	rocx|out (dave@io-56500E35.asm.bellsouth.net) has quit (Connection reset by peer)
+2015-01-30 20:33:41	arianon	that'll give you some compiling errors :^)
+2015-01-30 20:34:28	liesard	Anyone know how to use swm with multiple monitors?
+2015-01-30 20:35:35	~venam	liesard: you don't
+2015-01-30 20:35:40	liesard	u srs
+2015-01-30 20:38:13	──>	rocx|out (dave@io-56500E35.asm.bellsouth.net) has joined #nixers
+2015-01-30 20:43:05	~venam	well, that's something you expect from a really minimal wm
+2015-01-30 20:45:24	%xero	if you use arandr can you still detect muliple monitors and try and combine them into one big screen? (just thinking off the top of my head)
+2015-01-30 20:46:42	──>	XVII (y0@cool.name) has joined #nixers
+2015-01-30 20:46:53	XVII	\o/
+2015-01-30 20:48:24	~venam	xero: probably
+2015-01-30 20:48:27	~venam	xrandr
+2015-01-30 20:49:04	liesard	Hi XVII 
+2015-01-30 20:49:08	liesard	Yeah, that's possible
+2015-01-30 20:49:25	liesard	Let me just finish this episode of Durarara!! first
+2015-01-30 20:50:21	~venam	durarara made me think of 4chan for some reasons
+2015-01-30 20:50:24	liesard	wut
+2015-01-30 20:52:28	%xero	oh man. idk they made DRRRR!!! into an anime
+2015-01-30 20:54:20	──>	earsplit (sunn@io-7C8CC282.dyn.grandenetworks.net) has joined #nixers
+2015-01-30 20:54:23	%xero	venam: oh yeah. i always think "x"rander is the gui version. 
+2015-01-30 20:54:41	──>	z3bra_ (z-brah@io-7DC91C26.wohnheime.ruhr-uni-bochum.de) has joined #nixers
+2015-01-30 20:54:42	<──	z3bra_ (z-brah@io-7DC91C26.wohnheime.ruhr-uni-bochum.de) has quit (Quit: z3bra_)
+2015-01-30 20:57:20	──>	moist (isitmoist@io-7FCACDB5.access.telenet.be) has joined #nixers
+2015-01-30 21:06:41	liesard	xero: It was always an anime
+2015-01-30 21:06:47	liesard	Well, originally it was a light novel
+2015-01-30 21:06:50	liesard	(I think)
+2015-01-30 21:06:59	liesard	But then it was an anime, and now the second season is out
+2015-01-30 21:07:06	liesard	And it's super cool :3
+2015-01-30 21:07:39	%xero	liesard: yeah, i knew it was a manga
+2015-01-30 21:07:59	liesard	Yup
+2015-01-30 21:08:03	liesard	Wait, let me look it up
+2015-01-30 21:08:22	%xero	i just did after you said you were "watching" it
+2015-01-30 21:08:51	liesard	I /was/ watching it...
+2015-01-30 21:09:01	%xero	are you watching subs or dub?
+2015-01-30 21:09:05	liesard	subs
+2015-01-30 21:09:13	%xero	:high five:
+2015-01-30 21:09:14	liesard	dubs isn't out yet for season 2
+2015-01-30 21:09:41	liesard	Actually, when I watched season 1 it was dubs
+2015-01-30 21:09:51	liesard	But that was one of the first anime I watched and it didn't really bother me
+2015-01-30 21:09:59	liesard	The voices aren't that bad, really
+2015-01-30 21:11:08	%xero	i have always loved cartoons. so watching anime just seemed logical
+2015-01-30 21:11:43	liesard	Ok
+2015-01-30 21:11:46	%xero	i just finished the new ghost in the shell arise. meh. not as good as SAC
+2015-01-30 21:12:27	liesard	"SAC"?
+2015-01-30 21:12:34	%xero	stand alone complex
+2015-01-30 21:12:53	liesard	Oh, right
+2015-01-30 21:13:20	liesard	I haven't seen Ghost In The Shell
+2015-01-30 21:13:22	liesard	Is it good?
+2015-01-30 21:13:25	%xero	SSS solid state society was a great movie
+2015-01-30 21:13:35	%xero	yes. 100x yes
+2015-01-30 21:13:52	liesard	Ok
+2015-01-30 21:14:00	liesard	I have a lot of books to read, so that will have to w ait
+2015-01-30 21:14:01	liesard	*wait
+2015-01-30 21:14:11	%xero	the old 90s movies were pretty good as well. but SAC was when it got really good IMHO
+2015-01-30 21:14:33	%xero	as do i. i try and pick "tv days" and "reading days".
+2015-01-30 21:14:46	liesard	I haven't read in ages, so I'm trying to get back into it
+2015-01-30 21:14:55	%xero	now if i could only get "exercise days" in there too... :/
+2015-01-30 21:14:59	liesard	Hahahaha
+2015-01-30 21:15:10	%xero	what kind of books?
+2015-01-30 21:15:15	%xero	fiction?
+2015-01-30 21:15:21	liesard	Yeah
+2015-01-30 21:15:36	%xero	do you like cyberpunk / sci-fi?
+2015-01-30 21:15:42	liesard	I haven't read much of those
+2015-01-30 21:16:00	liesard	Most of the science-fiction I've found were all pretty old
+2015-01-30 21:16:00	%xero	neuromancer by william gibson is one of my fav books of all time.
+2015-01-30 21:16:10	liesard	And the writing style from that time isn't really my thing
+2015-01-30 21:16:15	liesard	I'll take a look at that
+2015-01-30 21:16:19	%xero	isaac asimov?
+2015-01-30 21:16:31	liesard	Yeah, stuff like that
+2015-01-30 21:16:46	liesard	I have about >10 books on my to read list, so I'll add that
+2015-01-30 21:16:52	liesard	And hopefully I'd have read it soon :P
+2015-01-30 21:18:02	%xero	snowcrash is another awesome book imho
+2015-01-30 21:18:41	liesard	What's it about?
+2015-01-30 21:19:19	%xero	http://en.wikipedia.org/wiki/Snow_Crash
+2015-01-30 21:19:20	mcp	Title: Snow Crash - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2015-01-30 21:19:36	%xero	it's hard to explain w/o giving things away
+2015-01-30 21:19:42	%xero	but it's another great cyberpunk book
+2015-01-30 21:19:46	liesard	Ok!
+2015-01-30 21:20:00	liesard	I'll add it to my list :3
+2015-01-30 21:22:30	<──	tnecniv (tnecniv@io-2A7262FA.wireless-pennnet.upenn.edu) has quit (Ping timeout: 181 seconds)
+2015-01-30 21:32:58	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-30 21:32:58	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-30 21:32:58	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-30 21:32:58	──	Channel #nixers: 60 nicks (2 ops, 1 halfop, 1 voice, 56 normals)
+2015-01-30 21:33:00	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-31 18:53:21	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-31 18:53:21	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-31 18:53:21	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-31 18:53:21	──	Channel #nixers: 57 nicks (2 ops, 1 halfop, 0 voices, 54 normals)
+2015-01-31 18:53:23	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-31 18:53:27	liesard	Hey guys, I have a serious problem
+2015-01-31 18:53:36	liesard	I think I misphrased that
+2015-01-31 18:53:39	liesard	Anyway
+2015-01-31 18:53:50	liesard	Whenever I open a terminal emulator, no text appears
+2015-01-31 18:54:05	mort	that's not nice of it
+2015-01-31 18:54:19	liesard	ikr :P
+2015-01-31 18:54:22	liesard	There were a bunch of errors with X.org/X/X11 but they all seemed unrelated
+2015-01-31 18:54:46	mort	have you tried another terminal emulator?
+2015-01-31 18:54:53	liesard	I don't have one installed
+2015-01-31 18:55:02	mort	install one
+2015-01-31 18:55:17	liesard	Ok
+2015-01-31 18:55:21	liesard	Is sed Ok?
+2015-01-31 18:55:38	mort	uh, isn't sed not a terminal emulator?
+2015-01-31 18:55:55	liesard	?????
+2015-01-31 18:56:07	liesard	Wait, shit, I'm thinking of something else
+2015-01-31 18:56:12	liesard	That one that suckless made
+2015-01-31 18:56:18	mort	oh
+2015-01-31 18:56:25	mort	rxvt-unicode should work at least
+2015-01-31 18:56:29	liesard	Oh shit, you're right
+2015-01-31 18:56:38	liesard	Yeah, I use urxvt normally, but it didn't work
+2015-01-31 18:56:46	mort	oh
+2015-01-31 18:56:49	liesard	Which is weird as hell, and is a weird-ass hell
+2015-01-31 18:56:51	mort	try gnome-terminal?
+2015-01-31 18:56:53	liesard	Ok
+2015-01-31 18:57:24	mort	you're probably thinking of st btw
+2015-01-31 18:57:30	mort	http://st.suckless.org/
+2015-01-31 18:57:31	mcp	Title: suckless.org st - simple terminal (at st.suckless.org)
+2015-01-31 18:57:41	liesard	Yes, that's the one
+2015-01-31 18:57:43	liesard	Thank you
+2015-01-31 18:57:52	liesard	Ok, I just installed gnome-terminal, and it works now
+2015-01-31 18:57:54	liesard	Thanks!
+2015-01-31 18:57:59	liesard	(Although it was really weird)
+2015-01-31 18:58:08	<──	libbro (gaiz@880C3F00.D41C4E27.89CA8AB.IP) has quit (Ping timeout: 182 seconds)
+2015-01-31 18:58:31	mort	maybe your .Xresources is broken?
+2015-01-31 18:59:23	rocx	Was it all pink?
+2015-01-31 18:59:43	rocx	If URxvt was all pink, then it was a broken .Xresource.s
+2015-01-31 19:00:06	mort	or he may somehow accidentally have made all colours black
+2015-01-31 19:00:59	──>	libbro (gaiz@4D9F976B.84552351.514E9CF5.IP) has joined #nixers
+2015-01-31 19:02:49	liesard	No, it wasn't all pink
+2015-01-31 19:03:01	liesard	Maybe I misplaced a character and that made the text the same colour as the background or something
+2015-01-31 19:03:04	liesard	I'll take a look
+2015-01-31 19:04:19	%xero	mort: i couldn't help but deobfuscate that h9rjs javascript http://git.io/FdMF == http://pub.iotek.org/p/1uKDdGY
+2015-01-31 19:04:21	mcp	Title: HTML9-Responsive-Boilerstrap-js/html9responsiveboilerstrap.js at master · impressivewebs/HTML9-Responsive-Boilerstrap-js · GitHub (at git.io)
+2015-01-31 19:04:50	mort	heh.
+2015-01-31 19:04:54	liesard	It all looks Ok, though :/
+2015-01-31 19:06:14	<──	libbro (gaiz@4D9F976B.84552351.514E9CF5.IP) has quit (Ping timeout: 182 seconds)
+2015-01-31 19:08:21	%xero	sorry bad link: http://pub.iotek.org/p/zJ4jSVS  <-- thats deobfuscated
+2015-01-31 19:08:35	liesard	I'm using st and I've changed the font to tewi but everything looks messed up
+2015-01-31 19:08:57	liesard	I've made it xft:tewi:size=8 and the dimensions are really messed up
+2015-01-31 19:11:39	liesard	Holy shit guys Life Is Strange looks amazing
+2015-01-31 19:11:45	liesard	I have to buy it
+2015-01-31 19:12:09	liesard	Aww, it's only on Windows
+2015-01-31 19:21:54	bajr	wtf is that lel
+2015-01-31 19:23:06	rocx	Sounds like an Indie Game(TM).
+2015-01-31 19:23:12	bajr	no
+2015-01-31 19:23:21	bajr	i mean xero's last link
+2015-01-31 19:24:09	──>	exp0sure (exp0sure@io-1A11868E.dsl.bell.ca) has joined #nixers
+2015-01-31 19:24:16	liesard	rocx: What's with the (TM)...?
+2015-01-31 19:25:28	rocx	s/(TM)/™/
+2015-01-31 19:25:29	regx	Sounds like an Indie Game™.
+2015-01-31 19:26:43	%xero	bajr: 12:19 ymbx │ good example: http://html9responsiveboilerstrapjs.com/ -- that's the source code of their framework. lol
+2015-01-31 19:27:12	bajr	haha, k
+2015-01-31 19:27:17	ymbx	xero: ?
+2015-01-31 19:27:39	ymbx	oh, lel
+2015-01-31 19:27:47	ymbx	nice source code
+2015-01-31 19:28:18	%xero	is that a cloud face or wtf?
+2015-01-31 19:28:27	liesard	rocx: ...
+2015-01-31 19:28:58	rocx	Sounds like, not "is". Never heard of it either.
+2015-01-31 19:29:21	liesard	Yeah, but still...
+2015-01-31 19:29:22	liesard	Anyway
+2015-01-31 19:29:24	liesard	It's awesome
+2015-01-31 19:29:31	liesard	I don't know if it's indie or not
+2015-01-31 19:30:01	rocx	Does it have pixel art?
+2015-01-31 19:30:08	liesard	It's 3D
+2015-01-31 19:30:13	liesard	Not very good, but still 3D
+2015-01-31 19:30:30	rocx	3D as in it tries or 3D as in "hurrr lofi polly gones"?
+2015-01-31 19:30:43	liesard	It tries
+2015-01-31 19:30:56	rocx	Then I doubt it would be an Indie Game08:24 -!- exp0sure [exp0sure@io-1A11868E.dsl.bell.ca] has joined #nixers
+2015-01-31 19:31:00	rocx	08:24 < liesard> rocx: What's with the (TM)...?
+2015-01-31 19:31:02	rocx	08:25 < rocx> s/(TM)/™/
+2015-01-31 19:31:08	liesard	Quite good quality, but not AAA-level
+2015-01-31 19:31:13	exp0sure	rocx, yes?
+2015-01-31 19:31:21	liesard	Yeah, it's published or something by Square Enix
+2015-01-31 19:31:24	rocx	liesard: Sorry. Clipboard apparently ruined.
+2015-01-31 19:31:29	exp0sure	haha
+2015-01-31 19:31:30	rocx	Then I doubt it's an Indie Game(TM).
+2015-01-31 19:31:49	liesard	Yeah, but why did you put the TM?
+2015-01-31 19:32:35	rocx	Regular indie games are the kind with pixel art, chiptune soundtracks, "lol metroidvania" likeness, and other indie game stereotypes.
+2015-01-31 19:32:38	thetornainbow	why would /proc/loadavg report different base numbers with two quad core CPUs on two different machines? both Arch, both 64-bit, same kernel, but laptop normally at 1.03-1.05 with no usage, desktop at 0.03-0.05 as reported by /proc/loadavg, htop shows similar CPU activity
+2015-01-31 19:33:11	liesard	rocx: Ooooh, so it's like a trademark
+2015-01-31 19:33:12	liesard	I see
+2015-01-31 19:33:20	liesard	thetornainbow: Why does it say you're the new songwriter...?
+2015-01-31 19:33:35	thetornainbow	liesard: did you not see my song about St. Nix?
+2015-01-31 19:33:44	thetornainbow	i rewrote Twas the Night Before Christmas
+2015-01-31 19:33:50	liesard	Oh
+2015-01-31 19:33:52	liesard	No I did not
+2015-01-31 19:34:36	thetornainbow	yep, then bajr changed the topic
+2015-01-31 19:34:47	thetornainbow	i feel honored
+2015-01-31 19:34:49	liesard	Ah, Ok
+2015-01-31 19:34:52	liesard	I would be, too
+2015-01-31 19:36:20	thetornainbow	haha, xero that's a fantastic link
+2015-01-31 19:36:26	thetornainbow	> Just attackclone the grit repo pushmerge
+2015-01-31 19:36:31	thetornainbow	hilarious
+2015-01-31 19:39:56	liesard	If you ever feel bored, play Color Symphony
+2015-01-31 19:39:59	liesard	It's awesome and free
+2015-01-31 19:41:00	liesard	Also has great music
+2015-01-31 19:42:13	thetornainbow	i've been playing Dragon Age. no need for boredom
+2015-01-31 19:42:24	liesard	Hahahahaha Ok
+2015-01-31 19:43:17	thetornainbow	that, Warframe, and kongregate.com
+2015-01-31 19:43:31	thetornainbow	erryday - at least when i have no work :)
+2015-01-31 19:43:56	liesard	How much free time do you have...?
+2015-01-31 19:45:18	<──	rocx (dave@io-56500E35.asm.bellsouth.net) has quit (Quit: leaving)
+2015-01-31 19:46:06	──>	libbro (gaiz@io-8D90F21D.piratenpartei-nrw.de) has joined #nixers
+2015-01-31 19:48:50	<──	XVII (y0@cool.name) has quit (Ping timeout: 181 seconds)
+2015-01-31 19:49:38	thetornainbow	almost none.
+2015-01-31 19:49:42	thetornainbow	heehee
+2015-01-31 19:49:47	liesard	:|
+2015-01-31 19:50:05	thetornainbow	i've played maybe six hours of Dragon Age over the past two weeks
+2015-01-31 19:50:32	liesard	Damn, that sucks
+2015-01-31 19:52:37	liesard	Ok, I'm going to revert to st
+2015-01-31 19:52:39	liesard	Bye~
+2015-01-31 19:53:05	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-01-31 19:53:05	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-01-31 19:53:05	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-01-31 19:53:05	──	Channel #nixers: 56 nicks (2 ops, 1 halfop, 0 voices, 53 normals)
+2015-01-31 19:53:07	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-01-31 19:53:08	liesard	Back
+2015-01-31 19:53:11	──>	rocx (dave@io-56500E35.asm.bellsouth.net) has joined #nixers
+2015-01-31 19:53:24	rocx	dcat: Thanks for that smear color scheme.
+2015-01-31 19:53:44	thetornainbow	st is nice, but i love muh urxvt
+2015-01-31 19:54:27	mort	hey, I need a TV series
+2015-01-31 19:54:35	mort	something light hearted preferably
+2015-01-31 19:54:44	mort	something like HIMYM, IT crowd, or arrested development
+2015-01-31 19:57:13	liesard	thetornainbow: I would use rxvt-unicode, but it stopped displaying text :/
+2015-01-31 19:57:20	thetornainbow	i've been watching Brooklyn Nine-nine, and New girl is pretty good too
+2015-01-31 19:57:30	mort	what are they about?
+2015-01-31 19:58:15	thetornainbow	Brooklyn Nine-nine is a lighthearted cop show with a bunch of comedians, Andre Baugher (sp?), Terry Crews, Andy Samberg, and others
+2015-01-31 19:58:57	mort	I think I'll try that
+2015-01-31 19:59:12	thetornainbow	New Girl is with Zooey Deschanel - she plays a girl who moves into an apartment with three guys from a Craigslist ad, it's hilarious
+2015-01-31 19:59:26	thetornainbow	oohh, if you haven't seen Community, don't watch those two shows, watch Community
+2015-01-31 19:59:33	mort	btw, I have no clue who any actors are
+2015-01-31 19:59:45	liesard	Do you know The Lonely Island?
+2015-01-31 19:59:48	mort	well, I know the name Jonny Depp, but that's pretty much the only actor I know of :P
+2015-01-31 19:59:56	liesard	Hahahahaha
+2015-01-31 19:59:59	mort	haven't seen community
+2015-01-31 20:00:14	mort	nor lonely island
+2015-01-31 20:00:15	thetornainbow	liesard: I love the Lonely Island
+2015-01-31 20:00:21	liesard	:P
+2015-01-31 20:00:27	mort	so k, communityit is
+2015-01-31 20:00:30	thetornainbow	mort: if you liked arrested dev. and IT crowd, Community is great
+2015-01-31 20:00:59	thetornainbow	it's the same smart humor, really well written and acted
+2015-01-31 20:01:05	%xero	watch archer
+2015-01-31 20:01:26	mort	5 seasons with a ton of episodes in each season also suggests that it'll last for a while
+2015-01-31 20:01:33	mort	xero, tried archer, wasn't that big of a fan
+2015-01-31 20:02:40	thetornainbow	yep
+2015-01-31 20:02:42	%xero	http://0.xero.nu/nope.gif :(
+2015-01-31 20:02:46	liesard	mort: Read books
+2015-01-31 20:02:53	liesard	I would recommend anything by Iain Banks
+2015-01-31 20:03:07	mort	but books are
+2015-01-31 20:03:08	mort	eh
+2015-01-31 20:03:09	mort	maybe
+2015-01-31 20:03:10	ymbx	xero: gif is too short
+2015-01-31 20:03:15	ymbx	it's noooooooooooooooopee
+2015-01-31 20:03:18	liesard	Books are fucking awesome
+2015-01-31 20:03:49	%xero	ymbx: lol
+2015-01-31 20:03:50	mort	they can be neat ya
+2015-01-31 20:03:54	ymbx	meh, most books are cancer
+2015-01-31 20:04:41	liesard	How so?
+2015-01-31 20:04:47	mort	I used to read quite a few books
+2015-01-31 20:05:04	ymbx	because most literary books are full of unnecessary bullshit
+2015-01-31 20:05:54	ymbx	e.g. "John entered the blue-painted room, which had a vase looking like it was made in the second world war. The vase remembered him of his grandmother, who died in the war. blablabla"
+2015-01-31 20:06:20	ymbx	I can't even read shit like that anymore.
+2015-01-31 20:06:35	mort	would you rather have it read "John entered the room."
+2015-01-31 20:06:44	ymbx	yes
+2015-01-31 20:06:51	liesard	ymbx: You're an asshat and should read anything modern
+2015-01-31 20:06:55	mort	sounds kinda boring
+2015-01-31 20:06:59	%xero	"most" is a subjective term. though i may kinda agree. there are /lots/ of great books.
+2015-01-31 20:07:37	──>	trey (trey@io-D007E7D6.gtcom.net) has joined #nixers
+2015-01-31 20:08:28	ymbx	of all the books I've read there was only one book that was written well
+2015-01-31 20:08:37	liesard	How many books have you read?
+2015-01-31 20:08:39	liesard	And what were they?
+2015-01-31 20:08:46	ymbx	lol, like 20 in total
+2015-01-31 20:08:48	liesard	And "well" is subjective
+2015-01-31 20:09:24	%xero	^ & what book
+2015-01-31 20:09:51	mort	I've read the LotR books, the harry potter books, the hobbit, the "the four and the one who makes bad worse" books (are they even a thing outside of norway?), DARLAH, the sworm, neopangea
+2015-01-31 20:09:59	mort	probably a bunch more which I can't remember
+2015-01-31 20:10:05	mort	but it's all a long while ago
+2015-01-31 20:10:23	liesard	Of course you thought they were boring
+2015-01-31 20:10:26	<──	trey (trey@io-D007E7D6.gtcom.net) has quit (Quit: Leaving)
+2015-01-31 20:10:36	ymbx	xero: it was called "A long way gone"
+2015-01-31 20:10:39	ymbx	terrific book
+2015-01-31 20:10:48	liesard	Oh wait, shit, that wasn't you
+2015-01-31 20:10:50	liesard	:|
+2015-01-31 20:11:06	ymbx	liesard: talking to me?
+2015-01-31 20:11:20	liesard	Yeah, I thought you wrote that list of books
+2015-01-31 20:11:22	liesard	But it was mort
+2015-01-31 20:12:22	ymbx	I liked the movies, lel.
+2015-01-31 20:12:50	ymbx	mort: "John entered the room" is only boring if the story is shit.
+2015-01-31 20:12:57	ymbx	which, for a lot of books, is true
+2015-01-31 20:13:06	liesard	Yeah, but the LotR and Harry Potter books are long and  boring
+2015-01-31 20:13:22	liesard	Especially LotR because it's old and even Tolkein got bored of it at the end
+2015-01-31 20:13:22	ymbx	I like books where the text is to-the-point, but the story is engaging.
+2015-01-31 20:13:33	mort	I liked them
+2015-01-31 20:13:37	liesard	Read The Wasp Factory
+2015-01-31 20:13:42	liesard	Just read it
+2015-01-31 20:13:44	liesard	No questions
+2015-01-31 20:13:46	ymbx	Most literary books seem of the kind long-and-drawn-out-bullshit-with-a-shit-story.
+2015-01-31 20:14:04	liesard	I only managed to read half of it before people around me got worried
+2015-01-31 20:14:07	liesard	'cause it's about crazy people
+2015-01-31 20:14:10	liesard	But basically yeah
+2015-01-31 20:14:11	liesard	Read it
+2015-01-31 20:14:47	mort	oh, and
+2015-01-31 20:14:49	mort	I've read the room
+2015-01-31 20:14:54	mort	that was a nice read too
+2015-01-31 20:15:13	ymbx	liesard: why would I read it?
+2015-01-31 20:15:33	mort	why would people get worried because you're reading a book about crazy people?
+2015-01-31 20:15:36	liesard	ymbx: Because it's not boring, to the point and has an interesting story
+2015-01-31 20:15:45	liesard	mort: Because there was a slight chance that I was crazy
+2015-01-31 20:15:47	liesard	I'm not, though
+2015-01-31 20:16:35	ymbx	meh
+2015-01-31 20:16:44	mort	what kind of crazy?
+2015-01-31 20:16:56	liesard	The main character killed three people
+2015-01-31 20:17:12	liesard	One of them was because "there could be only one"
+2015-01-31 20:17:15	mort	I mean, what kind of crazy was there a slight chance that you were
+2015-01-31 20:17:19	liesard	Oh, Ok
+2015-01-31 20:17:23	liesard	I dunno
+2015-01-31 20:17:34	liesard	Just the fact that I kept talking about all the ways I could kill people and all the people I could kill
+2015-01-31 20:17:42	mort	I see
+2015-01-31 20:17:43	liesard	And the teachers and my parents got seriously concerned
+2015-01-31 20:17:55	mort	you should watch hannibal
+2015-01-31 20:18:02	mort	it's related
+2015-01-31 20:18:10	liesard	I know
+2015-01-31 20:18:14	liesard	But a girl I hate watches it
+2015-01-31 20:18:16	liesard	So I'll pass on that
+2015-01-31 20:18:21	mort	what
+2015-01-31 20:18:24	ymbx	I watch it too.
+2015-01-31 20:18:32	ymbx	It's a really good show.
+2015-01-31 20:18:34	mort	do you also pass on oxygen because the girl you hate breathes it
+2015-01-31 20:18:42	mort	or maybe you pass on pizza because she likes eating pizza
+2015-01-31 20:18:46	liesard	No, but it makes me think of her
+2015-01-31 20:18:58	liesard	And I don't want to keep thinking of the girl I hate whenever I'm trying to enjoy something
+2015-01-31 20:19:08	mort	why do you hate her?
+2015-01-31 20:19:24	liesard	She's just being herself
+2015-01-31 20:19:28	ymbx	he got friendzoned hard m8
+2015-01-31 20:19:35	liesard	Fuck off
+2015-01-31 20:19:37	ymbx	and now he resents her
+2015-01-31 20:19:46	ymbx	see? he's still resentful
+2015-01-31 20:19:52	%xero	ymbx: read the count of monte cristo
+2015-01-31 20:21:15	ymbx	xero: liesard: there are probably a few good literary books. I just meant to say that the bulk of them is cancer, not all.
+2015-01-31 20:21:43	liesard	They're not cancer though
+2015-01-31 20:21:48	liesard	They're just not to your liking
+2015-01-31 20:22:33	mort	not to ymbx' liking === cancer
+2015-01-31 20:22:58	ymbx	well, I think so, because what the hell is the point of a hugely drawn-out story that includes a lot of shit non-relevant to the story?
+2015-01-31 20:23:12	ymbx	mort: that's not true
+2015-01-31 20:23:12	liesard	Well don't call it fucking cancer
+2015-01-31 20:23:41	liesard	Call it "boring and not to my liking"
+2015-01-31 20:24:27	ymbx	I dunno. Do you call a movie like "The son of the mask" or "avatar: tla" also "boring and not to my liking" or do you call it cancer?
+2015-01-31 20:24:44	mort	ATLA the TV show is amazing
+2015-01-31 20:25:00	liesard	ymbx: I do, actually
+2015-01-31 20:25:00	ymbx	yeah, I mean the movie
+2015-01-31 20:25:21	liesard	Because I don't call things cancer
+2015-01-31 20:25:31	liesard	I articulate what I didn't like about things that I don't like
+2015-01-31 20:25:48	ymbx	oh, you find the word cancer itself offensive (used in this context) ?
+2015-01-31 20:25:56	rocx	Does cancer trigger you?
+2015-01-31 20:26:02	liesard	No
+2015-01-31 20:26:05	liesard	I just think it's unfit
+2015-01-31 20:27:39	%xero	i was just saying based on the book you liked, here's another you may enjoy
+2015-01-31 20:28:26	ymbx	xero: ill keep it in mind, but I have developed such a strong dislike to reading that i dunno if ill ever read any literary book again
+2015-01-31 20:29:42	ymbx	liesard: are there any people that actually enjoy reading those kinds of books?
+2015-01-31 20:29:47	liesard	Probably
+2015-01-31 20:29:53	ymbx	because if there are, then I probably shouldn't call it cancer
+2015-01-31 20:29:58	liesard	There's every kind of person in the world
+2015-01-31 20:30:05	arianon	ymbx: there are people who enjoy literally eating shit
+2015-01-31 20:30:18	ymbx	yeah, okay, but I mean aside from the crazy ones
+2015-01-31 20:30:22	rocx	People into scat, maybe.;
+2015-01-31 20:30:32	ymbx	I mean a sizeable portion, like 10+%
+2015-01-31 20:31:06	liesard	Yeah, definitely
+2015-01-31 20:31:24	liesard	I mean, it wasn't until the 70s or something when books really started being fast-paced
+2015-01-31 20:31:40	liesard	So of course there's a significant portion of the population who enjoys slow-paced books
+2015-01-31 20:33:46	ymbx	hmm, okay
+2015-01-31 20:34:00	ymbx	well, okay then, I won't call it cancer
+2015-01-31 20:35:16	liesard	Cool
+2015-01-31 20:49:17	<──	libbro (gaiz@io-8D90F21D.piratenpartei-nrw.de) has quit (Ping timeout: 182 seconds)
+2015-01-31 21:11:27	──>	tnecniv (tnecniv@io-2A7262FA.wireless-pennnet.upenn.edu) has joined #nixers
+2015-02-01 10:38:21	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-02-01 10:38:21	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-02-01 10:38:21	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-02-01 10:38:21	──	Channel #nixers: 52 nicks (4 ops, 1 halfop, 0 voices, 47 normals)
+2015-02-01 10:38:23	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-02-01 10:38:23	liesard	o/
+2015-02-01 10:39:36	liesard	omg
+2015-02-01 10:39:37	liesard	brb
+2015-02-01 10:40:10	──>	liesard (liesard@fart.expert) has joined #nixers
+2015-02-01 10:40:10	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-02-01 10:40:10	──	Topic set by bajr on Mon, 26 Jan 2015 22:33:23
+2015-02-01 10:40:10	──	Channel #nixers: 52 nicks (4 ops, 1 halfop, 0 voices, 47 normals)
+2015-02-01 10:40:12	──	Channel created on Tue, 13 May 2014 20:59:00
+2015-02-01 10:40:18	liesard	rxvt-unicode can display text again!
+2015-02-01 10:40:19	liesard	\o/
+2015-02-01 11:04:14	~venam	so... Archlinux is now using those weird bsd like names for network interfaces
+2015-02-01 11:04:27	~venam	wlp2s0
+2015-02-01 11:06:11	liesard	It was always like that for me
+2015-02-01 11:06:15	liesard	I mean, for me it was wlp1s0
+2015-02-01 11:06:18	liesard	But yeah
+2015-02-01 11:06:43	~venam	my ethernet doesn't work anymore
+2015-02-01 11:06:45	~venam	wtf
+2015-02-01 11:12:26	liesard	Damn, that sucks
+2015-02-01 11:19:47	~venam	 link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+2015-02-01 11:20:00	~venam	the mac address if messed up
+2015-02-01 11:23:31	~venam	it works when I spoof another mac address
+2015-02-01 11:23:34	~venam	weird
+2015-02-01 11:24:14	~venam	fucked up systemd
+2015-02-01 11:28:47	<──	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has quit (Quit: WeeChat 1.1.1)
+2015-02-01 11:28:58	──>	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has joined #nixers
+2015-02-01 11:33:42	liesard	venam: Can't help you, sorry :P
+2015-02-01 11:38:48	~venam	made an alias called "fixmac"
+2015-02-01 11:38:54	~venam	...that's what you need with systemd
+2015-02-01 11:39:48	liesard	:|
+2015-02-01 11:48:47	<──	shaggy (shaggy@io-3AF99C9B.hsd1.ca.comcast.net) has quit (Quit: WeeChat 1.1.1)
+2015-02-01 11:52:58	liesard	brb
+2015-02-01 11:53:15	──>	liesard has joined #nixers
+2015-02-01 11:53:15	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-02-01 11:53:57	liesard	Back
+2015-02-01 16:38:51	──>	liesard has joined #nixers
+2015-02-01 16:38:51	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-02-01 16:38:56	liesard	Hi everyone!
+2015-02-01 16:39:01	XVII	hi liesard 
+2015-02-01 16:39:04	liesard	What's up?
+2015-02-01 16:39:16	ymbx	liesard: not my dick
+2015-02-01 16:39:34	liesard	Oh my
+2015-02-01 16:39:36	rocx	'Soup.
+2015-02-01 16:39:41	liesard	Hi rocx 
+2015-02-01 16:39:42	XVII	ymbx: i've never seen that function, but if that's the doc and your api is different i dont know, have you tried looking at the signature of the one you use?
+2015-02-01 16:39:45	liesard	I have a question
+2015-02-01 16:39:56	XVII	like in the header 
+2015-02-01 16:40:00	ymbx	i dont know what a signature is
+2015-02-01 16:40:08	liesard	Is it possible to use mpd across networks?
+2015-02-01 16:40:20	liesard	Like, say I'm not at home
+2015-02-01 16:40:29	liesard	Can I still stream music from my server using mpd+ncmpcpp?
+2015-02-01 16:40:35	XVII	ymbx: hum it's hard for me to explain it in english lol
+2015-02-01 16:40:45	XVII	ymbx: a signature of a function is like the "interface"
+2015-02-01 16:40:55	XVII	wait with examples is better
+2015-02-01 16:41:06	XVII	int MPI_Sendrecv(const void *sendbuf, int sendcount, MPI_Datatype sendtype,
+2015-02-01 16:41:06	XVII	    int dest, int sendtag, void *recvbuf, int recvcount,
+2015-02-01 16:41:06	XVII	    MPI_Datatype recvtype, int source, int recvtag,
+2015-02-01 16:41:06	XVII	    MPI_Comm comm, MPI_Status *status)
+2015-02-01 16:41:10	XVII	this is a signature
+2015-02-01 16:41:10	<──	D has kicked XVII (Stop flooding!)
+2015-02-01 16:41:16	──>	XVII has joined #nixers
+2015-02-01 16:41:17	liesard	Hahahahaha
+2015-02-01 16:41:17	XVII	sorry
+2015-02-01 16:41:18	ymbx	topcake
+2015-02-01 16:41:31	XVII	so, in the .h file
+2015-02-01 16:41:34	rocx	Quick question about program design: I'm making a program that says the time similar to a QLOCK but without the grid. Would that be better off having the program fetch the system time or as a filter and have whatever script send the `date` to it?
+2015-02-01 16:41:36	XVII	you should have the one you use
+2015-02-01 16:41:55	ymbx	I dont have any .h files
+2015-02-01 16:42:07	ymbx	you mean "mpi.h" ?
+2015-02-01 16:42:07	XVII	you dont include mpi.h?
+2015-02-01 16:42:10	XVII	yeh
+2015-02-01 16:42:32	XVII	in there you should find who is who
+2015-02-01 16:42:54	ymbx	mpirun --version gives 1.8.4 so I should be good
+2015-02-01 16:43:22	ymbx	oh, fuck, I forgot MPI_Comm comm and MPI_Status *status
+2015-02-01 16:43:26	ymbx	that makes 12 args
+2015-02-01 16:43:28	ymbx	-_-
+2015-02-01 16:43:35	<──	rocxshearingaid has quit (Client exited)
+2015-02-01 16:43:36	XVII	lol 
+2015-02-01 16:43:50	ymbx	I counted at Input Parameters
+2015-02-01 16:43:53	──>	rocxspeak has joined #nixers
+2015-02-01 16:43:57	ymbx	but those don't say the MPI things
+2015-02-01 16:44:05	XVII	bro i gotta go now, buy yeah, sendcount * sizeof etc should do the work i think
+2015-02-01 16:44:14	ymbx	okay, thanks XVII 
+2015-02-01 16:44:15	XVII	later _o/
+2015-02-01 16:44:19	ymbx	cya
+2015-02-01 16:44:32	liesard	Bye XVII 
+2015-02-01 16:48:39	<──	rocxspeak has quit (Client exited)
+2015-02-01 16:56:31	rocx	Back to that program design question...
+2015-02-01 16:58:32	ymbx	i dunno mate
+2015-02-01 17:00:48	<──	october has quit (Quit: leaving)
+2015-02-01 17:02:01	rocx	Filter it is.
+2015-02-01 17:02:40	ymbx	goddamnit, the whole Exchange_Borders void doesn't even run because i runs from 0 to 0
+2015-02-01 17:02:44	ymbx	plskillme
+2015-02-01 17:02:58	bajr	wow
+2015-02-01 17:04:10	ymbx	sendbuf = �, sendcount = 1, sendtype = �, dest = 0
+2015-02-01 17:04:15	ymbx	nice
+2015-02-01 17:04:38	bajr	>�
+2015-02-01 17:04:49	ymbx	I think I fucked up the printf
+2015-02-01 17:04:55	bajr	why do you have unicode there?
+2015-02-01 17:04:59	bajr	yeah, 
+2015-02-01 17:05:03	bajr	invalid memory bro
+2015-02-01 17:06:18	ymbx	so how do I printf a const?
+2015-02-01 17:06:26	──>	shaggy has joined #nixers
+2015-02-01 17:06:52	ymbx	not with %s
+2015-02-01 17:06:54	bajr	like a normal variable
+2015-02-01 17:07:00	bajr	you mean string literal?
+2015-02-01 18:25:12	──>	liesard has joined #nixers
+2015-02-01 18:25:12	──	Topic for #nixers is "Nixers.net http://nixers.net/showthread.php?tid=1555 |  RIP bro, http://www.unixhub.net/zygotb.html | thetornainbow is our new songwriter!"
+2015-02-01 18:25:19	liesard	Hey guys, I need some help with mpd
+2015-02-01 18:25:39	~venam	liesard: ask
+2015-02-01 18:25:46	liesard	I've set up the mpd configuration file with everything I need, but I'm getting an error:
+2015-02-01 18:25:57	liesard	Failed to bind to '85.5.16.85:6600': Cannot assign requested address
+2015-02-01 18:27:01	~venam	netstat -tulpen
+2015-02-01 18:27:06	~venam	check if the port is already in use
+2015-02-01 18:27:58	liesard	I did grep 6600 but nothing came up
+2015-02-01 18:28:58	~venam	bind it to localhost 
+2015-02-01 18:29:04	liesard	Ok
+2015-02-01 18:30:26	~venam	you can bind it to "any" also
+2015-02-01 18:30:33	liesard	Ok...
+2015-02-01 18:30:36	liesard	I forgot what that does
+2015-02-01 18:33:18	──>	sbrg has joined #nixers
+2015-02-01 18:36:35	liesard	venam: It kinda worked
+2015-02-01 18:36:44	liesard	But it ended up binding to 0.0.0.0
+2015-02-01 18:36:58	~venam	yeah, listen to anything
+2015-02-01 18:38:12	──>	dcli has joined #nixers
+2015-02-01 18:38:32	liesard	Right, but I need it to bind to my IP address
+2015-02-01 18:55:57	Andries	rtfm
+2015-02-01 18:58:06	liesard	k
+2015-02-01 18:58:29	liesard	Yeah, have you read MPD's manual?
+2015-02-01 18:58:39	liesard	It's 62 lines long and doesn't say anything
+2015-02-01 19:19:08	tnecniv	yeah mpd is dumb
+2015-02-01 19:20:26	bajr	is bind address the listen address?P
+2015-02-01 19:20:44	tnecniv	bajr: yeah
+2015-02-01 19:20:46	tnecniv	i think
+2015-02-01 19:21:05	bajr	oh wow
+2015-02-01 19:21:10	bajr	`man mpd.conf
+2015-02-01 19:21:11	bajr	`
+2015-02-01 19:21:14	bajr	is a thing
+2015-02-01 19:21:46	bajr	bind address is not in there
+2015-02-01 19:21:48	bajr	KEK
+2015-02-01 19:22:07	bajr	maybe i typed it wrong, my bad
+2015-02-01 19:33:25	──>	earsplit has joined #nixers
+2015-02-01 19:35:42	@fro	hello
+2015-02-01 19:36:52	liesard	Hi fro!
+2015-02-01 19:37:01	liesard	Ooh, you're an op
+2015-02-01 19:37:18	@fro	what does that have to do with anything?
+2015-02-01 19:37:27	liesard	Well you weren't before...
+2015-02-01 19:37:29	liesard	Right?
+2015-02-01 19:37:35	liesard	Or is my memory just really messed up?
+2015-02-01 19:37:43	──	Mode #nixers [-o fro] by fro
+2015-02-01 19:37:49	fro	maybe wasn't opped in the channel
+2015-02-01 19:38:04	liesard	Why did you take away your operator status...?
+2015-02-01 19:38:13	fro	don't need it!
+2015-02-01 19:38:24	liesard	Oh, Ok
+2015-02-01 19:38:28	liesard	That makes sense
+2015-02-01 19:38:30	fro	unless you plan on doing something worthy of being banned
+2015-02-01 19:38:40	liesard	Hahahaha of course not
+2015-02-01 19:38:41	fro	but then i can just op myself
+2015-02-01 19:39:22	liesard	Really?
+2015-02-01 19:39:27	fro	yeah
+2015-02-01 19:39:28	liesard	Even if you're not op?
+2015-02-01 19:39:30	liesard	Wow
+2015-02-01 19:39:36	──	Mode #nixers [+o fro] by fro
+2015-02-01 19:39:38	@fro	see
+2015-02-01 19:39:40	@fro	works
+2015-02-01 19:39:43	──	Mode #nixers [-o fro] by fro
+2015-02-01 19:44:33	Andries	.
+2015-02-01 19:47:47	OlaHughson	meow
+2015-02-01 19:48:34	<──	earsplit has quit (Ping timeout: 182 seconds)
+2015-02-01 19:48:44	liesard	Oh wow
+2015-02-01 19:48:48	liesard	That's p cool
+2015-02-01 19:49:48	fro	i reckon
+2015-02-01 19:51:32	Andries	yo fro
+2015-02-01 19:51:40	fro	what's up?
+2015-02-01 19:52:07	liesard	Ok, I'm going to school
+2015-02-01 19:52:12	liesard	Be back in ~15mins

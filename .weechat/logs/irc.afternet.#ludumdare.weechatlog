@@ -1,0 +1,1047 @@
+2015-01-27 19:40:41	-->	liesard (theemptyab@liesard.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 19:40:41	--	Topic for #ludumdare is "Ludum Dare | http://ludumdare.com | #LDJAM | Results for Ludum Dare 31: http://ludumdare.com/compo/ | Ludum Dare 32 - Coming April 17th, 2015"
+2015-01-27 19:40:41	--	Topic set by PoV (povrazor@povrazor.Users.AfterNET.Org) on Mon, 29 Dec 2014 10:05:32
+2015-01-27 19:40:41	--	Channel #ludumdare: 256 nicks (6 ops, 4 halfops, 0 voices, 246 normals)
+2015-01-27 19:40:43	--	Channel created on Thu, 08 Jul 2004 00:47:17
+2015-01-27 19:40:45	liesard	Back
+2015-01-27 19:41:24	wzl	mhh there are still two games i keep thinking back of and i never seem to find em
+2015-01-27 19:41:54	wzl	one was a puzzlegame on the atari, something with numbers, and there was a girly robocop thing 
+2015-01-27 19:42:14	Wing	wzl, don't make zoom out
+2015-01-27 19:42:17	wzl	i remember liking that, but no clue what it was actually abuot
+2015-01-27 19:42:22	wzl	wing, but its so good
+2015-01-27 19:42:22	wzl	:(
+2015-01-27 19:42:23	Wing	aseprite works fine without
+2015-01-27 19:42:24	<--	joao (joao@AN-E7D2511A.dedicated.allstream.net) has quit (Ping timeout)
+2015-01-27 19:42:31	wzl	well
+2015-01-27 19:42:35	<--	hobblygobbly (hobblygobb@2EA82D.22A72B.F862B8.88C9BD.IP) has quit (Ping timeout)
+2015-01-27 19:42:43	wzl	you dont work with huge space in ase
+2015-01-27 19:42:48	Wing	yeah
+2015-01-27 19:42:54	Wing	make a minimap!!
+2015-01-27 19:42:55	Wing	x)))
+2015-01-27 19:42:59	<--	Macario (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has quit (Ping timeout)
+2015-01-27 19:43:06	-->	SigMaulingMonkey (monkey@MaulingMonkey.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 19:43:45	wzl	i had a minimap, but zooming out beats a map anytime
+2015-01-27 19:44:06	wzl	also having a map requires some place to put it
+2015-01-27 19:44:14	wzl	i want to clean up the ui, not overburden it even more :P
+2015-01-27 19:45:30	-->	kraklegrand (efarhan@AN-CF1AE20A.epfl.ch) has joined #ludumdare
+2015-01-27 19:46:50	Wing	ah
+2015-01-27 19:46:53	Wing	well
+2015-01-27 19:46:55	Wing	then make a zoom out
+2015-01-27 19:47:02	wzl	i guess i should
+2015-01-27 19:47:07	wzl	better early than too late
+2015-01-27 19:47:47	<--	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has quit (EOF from client)
+2015-01-27 19:48:18	-->	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 19:48:43	Wing	yea
+2015-01-27 19:49:53	Wing	now if I'd get this thingle actually into a bootable state....
+2015-01-27 19:49:58	Wing	guess I'll see in a moment
+2015-01-27 19:50:15	<--	PhantomMat (PhantomMat@AN-775EAE92.nat.asu.edu) has quit (Quit: So long as you always maintain a sense of exploration, you will someday find the way out.)
+2015-01-27 19:51:19	<──	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has quit (Ping timeout)
+2015-01-27 19:52:36	──>	cwkx (cwkx@user-5af5348e.broadband.tesco.net) has joined #ludumdare
+2015-01-27 19:53:24	wzl	http://forums.tigsource.com/index.php?topic=3504.msg1104065#msg1104065
+2015-01-27 20:00:14	──>	joao (joao@AN-14E394D7.nhoce701.dsl.brasiltelecom.net.br) has joined #ludumdare
+2015-01-27 20:02:02	──>	theSAMA (qwebirc@AN-9A5D84B0.hsd1.wa.comcast.net) has joined #ludumdare
+2015-01-27 20:02:11	theSAMA	hola 
+2015-01-27 20:02:21	liesard	Hi theSAMA 
+2015-01-27 20:02:38	theSAMA	what up liesard? 
+2015-01-27 20:03:17	liesard	Not much
+2015-01-27 20:03:18	liesard	brb
+2015-01-27 20:06:28	liesard	Back
+2015-01-27 20:08:26	liesard	What's up w/ you?
+2015-01-27 20:09:14	<──	Pak (Pak@96C745.6F633F.4FE5F7.4EC29.IP) has quit (Read error: Connection reset by peer)
+2015-01-27 20:10:46	──>	Pak (Pak@96C745.6F633F.4FE5F7.4EC29.IP) has joined #ludumdare
+2015-01-27 20:11:32	 *	mentaldemon boots wing into the sky
+2015-01-27 20:11:41	mentaldemon	fly, Wing, fly!!!
+2015-01-27 20:12:00	liesard	:|
+2015-01-27 20:12:03	liesard	Anyway...
+2015-01-27 20:12:07	liesard	mentaldemon: How's your IRC client?
+2015-01-27 20:12:24	mentaldemon	liesard, oh shi- I still have to finish that before thursday -ish
+2015-01-27 20:12:32	liesard	Hahahaha
+2015-01-27 20:12:35	mentaldemon	thanks for reminding me
+2015-01-27 20:12:35	liesard	What's with the deadline?
+2015-01-27 20:12:36	──>	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 20:12:38	liesard	:P
+2015-01-27 20:12:39	liesard	np
+2015-01-27 20:12:41	──>	stefzekiller (stefzekill@AN-4D552972.dynamic.voo.be) has joined #ludumdare
+2015-01-27 20:12:51	──>	BurritoEclair (Clockwerk@AN-B0E23758.bstnma.fios.verizon.net) has joined #ludumdare
+2015-01-27 20:12:55	mentaldemon	I have a lot of projects to finish before I go on my internship on monday
+2015-01-27 20:12:58	mentaldemon	college...
+2015-01-27 20:13:21	liesard	Ah, Ok
+2015-01-27 20:13:24	liesard	Well good luck!
+2015-01-27 20:13:30	liesard	And if I can help, then just say the word
+2015-01-27 20:13:35	mentaldemon	haha, no worries
+2015-01-27 20:13:43	liesard	:3
+2015-01-27 20:14:59	──>	HardWorker (1@cli-nw.32.161.helios-nw.ru) has joined #ludumdare
+2015-01-27 20:15:32	wzl	album pls :D
+2015-01-27 20:16:22	Wing	mentaldemon, :DDD
+2015-01-27 20:16:30	Wing	also, fokkin' hellpo
+2015-01-27 20:16:31	Wing	-po
+2015-01-27 20:16:56	Wing	didn't work, not even with grub (grub whines something about the partitions being wrong even though they certainly aren't)
+2015-01-27 20:17:31	Wing	now I'm burning it on an DVD-disc, just to see if that makes a difference
+2015-01-27 20:18:06	mentaldemon	Wing, perkele?
+2015-01-27 20:18:11	Wing	perkele indeed
+2015-01-27 20:18:11	<──	vede (joshua@AN-E2FD968C.lightspeed.tulsok.sbcglobal.net) has quit (Ping timeout)
+2015-01-27 20:18:17	mentaldemon	or more like...
+2015-01-27 20:18:21	mentaldemon	"aaargh vittu!"
+2015-01-27 20:18:23	Wing	nah
+2015-01-27 20:18:41	Wing	it's still only windows, so at most 'vittu'
+2015-01-27 20:19:18	<──	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has quit (EOF from client)
+2015-01-27 20:19:23	mentaldemon	you use windows? "haista paska"
+2015-01-27 20:19:26	──>	other019 (Thunderbir@AN-D3365123.neoplus.adsl.tpnet.pl) has joined #ludumdare
+2015-01-27 20:19:37	──>	rxi (rxi@rxi.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 20:19:48	──>	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 20:19:53	Wing	mentaldemon, no, I'm trying to install it
+2015-01-27 20:20:03	mentaldemon	and that's my extent of finnish :P
+2015-01-27 20:20:04	wzl	mentaldemon, help :O http://forums.tigsource.com/index.php?topic=3504.msg1104065#msg1104065
+2015-01-27 20:20:12	DesertRock	rxi!
+2015-01-27 20:20:21	rxi	DesertRock!
+2015-01-27 20:20:30	DesertRock	Guess what?
+2015-01-27 20:20:32	Nimphious	That reminds me, I need to make a port 443 websocket IRC client for use at work, since that's the only port that's not blocked/filtered by the proxy.
+2015-01-27 20:20:43	rxi	DesertRock, teapot!
+2015-01-27 20:20:43	Wing	mentaldemon, oijoi, itsehän puhun ihan sujuvaa suomea
+2015-01-27 20:20:49	wzl	ooh rixi
+2015-01-27 20:20:56	DesertRock	Close!
+2015-01-27 20:21:02	Wing	mentaldemon, ja vois puhuu vaiks murteel ni jotku kääntöjutut ei tajuu mitää
+2015-01-27 20:21:03	mentaldemon	Wing, I could write a song using just those words and it would appeal to a great number of kids. no?
+2015-01-27 20:21:06	wzl	say, have you tried palette cycling in flash?
+2015-01-27 20:21:25	Wing	mentaldemon, yeah, unless you're selling it to finland
+2015-01-27 20:21:25	DesertRock	Close! I got around to playing knytt. Didn't finish it, but explored a fair amount.
+2015-01-27 20:21:37	──>	drnick (drnick@drnick.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 20:21:51	mentaldemon	Wing, I learned this from a classmate I had about 5 years back
+2015-01-27 20:22:20	rxi	wzl, erm, not cycling but just converting to greyscale then mapping that to a palette, which I guess is one step away
+2015-01-27 20:22:50	<──	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has quit (Ping timeout)
+2015-01-27 20:22:50	mentaldemon	she moved to the netherlands, still cursed in finnish after 2 years of ... whatcha call it... reintegration?
+2015-01-27 20:22:52	rxi	DesertRock, nice! I never completed it (yet?). What did you think?
+2015-01-27 20:22:55	wzl	mhh i just wonder if its feasable in a runtime environment
+2015-01-27 20:23:18	DesertRock	rxi: I liked it, giagantic
+2015-01-27 20:23:21	rxi	wzl, runtime environment?
+2015-01-27 20:23:25	wzl	*realtime
+2015-01-27 20:23:27	DesertRock	But I can see what you mean about the ambience and whatnot
+2015-01-27 20:23:31	wzl	aka game
+2015-01-27 20:23:31	wzl	:P
+2015-01-27 20:23:35	rxi	wzl, oh yeh. it'd be fine
+2015-01-27 20:24:22	rxi	wzl, heres the palette stuff I used in my GB jam game:  http://pastebin.com/cP62Ts79
+2015-01-27 20:24:58	mentaldemon	but, I like my arsenal of swearwords
+2015-01-27 20:24:59	wzl	alrightey, thanks :D
+2015-01-27 20:25:32	rxi	wzl, its in haxe rather than AS3, but the link is mainly so you can see the relevant flash API funcs
+2015-01-27 20:26:00	wzl	yea, i'll have to dig into that anyways
+2015-01-27 20:26:01	rxi	DesertRock, has it changed how you felt about realistic sounds + lo-fi graphics?
+2015-01-27 20:26:07	DesertRock	rxi: yeah
+2015-01-27 20:26:16	DesertRock	thinking about writing some platformer code right now
+2015-01-27 20:26:26	DesertRock	Not sure what framework I want to use yet
+2015-01-27 20:26:33	DesertRock	Yours has nothing in the way of sound :>
+2015-01-27 20:26:45	wzl	speaking of sound design
+2015-01-27 20:26:46	wzl	https://www.youtube.com/watch?v=qukCulDOJzg
+2015-01-27 20:26:48	DesertRock	So I'll probably use LOVE, but keep in mind the ability to switch frameworks later.
+2015-01-27 20:27:00	<──	araneae (dana@AN-3A67E72A.hsd1.or.comcast.net) has quit (Quit: This computer has gone to sleep)
+2015-01-27 20:27:22	rxi	DesertRock, sounds like a plan. Make sure to wrap everything if you might switch it over
+2015-01-27 20:27:29	DesertRock	rxi: yeah, thats the plan
+2015-01-27 20:28:50	──>	Macario (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has joined #ludumdare
+2015-01-27 20:29:42	<──	boredDevel (AndChat168@AN-A3B63CA8.cmdnnj.fios.verizon.net) has quit (Read error: EOF from client)
+2015-01-27 20:30:11	<──	other019 (Thunderbir@AN-D3365123.neoplus.adsl.tpnet.pl) has quit (Quit)
+2015-01-27 20:31:13	<──	Dominique_Sandy (JackPaff@AN-90DCE21C.bredband.tre.se) has quit (Ping timeout)
+2015-01-27 20:32:30	──>	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 20:34:14	──>	vede (joshua@AN-E2FD968C.lightspeed.tulsok.sbcglobal.net) has joined #ludumdare
+2015-01-27 20:35:11	<──	mtanton (mtanton@AN-337A55C4.hsd1.az.comcast.net) has quit (Ping timeout)
+2015-01-27 20:36:18	<──	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has quit (EOF from client)
+2015-01-27 20:36:45	──>	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 20:39:47	<──	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has quit (Ping timeout)
+2015-01-27 20:39:55	──>	araneae (dana@AN-3A67E72A.hsd1.or.comcast.net) has joined #ludumdare
+2015-01-27 20:40:18	──>	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 20:41:24	──>	hobblygobbly (hobblygobb@2EA82D.22A72B.F862B8.88C9BD.IP) has joined #ludumdare
+2015-01-27 20:42:07	DesertRock	Oh, rxi there is a new thing out called love-microphone that someone is working on. I'd take a look at it to see how he handles the audio callback issue.
+2015-01-27 20:42:47	rxi	DesertRock, yeh I remember seeing that, and looking into it. I'll refresh my memory, one sec
+2015-01-27 20:43:54	vegard1992	boyzzz
+2015-01-27 20:44:00	vegard1992	get on the twitch plays chess hype train
+2015-01-27 20:44:03	vegard1992	all aboarddd
+2015-01-27 20:44:08	liesard	Post link
+2015-01-27 20:44:14	vegard1992	its not ready yet
+2015-01-27 20:44:15	vegard1992	xd
+2015-01-27 20:44:20	liesard	D:
+2015-01-27 20:44:24	vegard1992	but soon
+2015-01-27 20:44:29	<──	joao (joao@AN-14E394D7.nhoce701.dsl.brasiltelecom.net.br) has quit (Ping timeout)
+2015-01-27 20:44:32	vegard1992	so i start the train now
+2015-01-27 20:44:35	vegard1992	and we arrive later
+2015-01-27 20:44:36	deniska	Twitch installs FreeBSD
+2015-01-27 20:44:38	vegard1992	8)
+2015-01-27 20:44:42	<──	HardWorker (1@cli-nw.32.161.helios-nw.ru) has quit (Quit)
+2015-01-27 20:44:44	──>	PhantomMat (PhantomMat@AN-F33D2AD2.ph.ph.cox.net) has joined #ludumdare
+2015-01-27 20:44:48	rxi	DesertRock, oh it looks like he uses the JIT FFI with openAL
+2015-01-27 20:44:52	deniska	We should have «Twitch runs a country» someday
+2015-01-27 20:45:01	liesard	Oh god no
+2015-01-27 20:45:25	vegard1992	lol
+2015-01-27 20:45:42	deniska	well, one without nukes
+2015-01-27 20:45:46	deniska	to make it safe
+2015-01-27 20:45:55	DesertRock	hardmode uses nukes
+2015-01-27 20:46:01	──>	exoticorn (exoticorn@AN-B0E30ADB.adsl.alicedsl.de) has joined #ludumdare
+2015-01-27 20:48:22	Bcadren	chicken in the bread pan picking at dough
+2015-01-27 20:54:19	DesertRock	No clue where to start with a platformer :>
+2015-01-27 20:54:24	<──	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has quit (EOF from client)
+2015-01-27 20:54:40	wzl	tiles
+2015-01-27 20:54:45	rxi	DesertRock, player
+2015-01-27 20:54:48	DesertRock	Programming wise
+2015-01-27 20:54:55	──>	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 20:55:20	wzl	basic environment so you can start moving around in it, implementing physics
+2015-01-27 20:55:24	<──	kiwizoom (kiwizoom@AN-9496AB5B.hfc.comcastbusiness.net) has quit (Read error: EOF from client)
+2015-01-27 20:55:28	rxi	DesertRock, get a green rectangle on screen, then add gravity, and then you need to make some kind of ground or collision or tiles so he stops falling off the screen
+2015-01-27 20:55:49	rxi	thats how I do it anyway, basically just trying to stop shit falling off the screen until I have a finished game.
+2015-01-27 20:55:57	<──	exoticorn (exoticorn@AN-B0E30ADB.adsl.alicedsl.de) has quit (EOF from client)
+2015-01-27 20:56:01	wzl	sounds reasonable
+2015-01-27 20:56:42	DesertRock	Alright then :3
+2015-01-27 20:56:55	wzl	you can do it!
+2015-01-27 20:56:59	DesertRock	Does it have to be green? I'm partial to a toned down brownish red
+2015-01-27 20:57:11	wzl	no green is essential for a successful project
+2015-01-27 20:57:16	wzl	it signalises hope
+2015-01-27 20:57:27	──>	stefzekiller_ (stefzekill@AN-4D552972.dynamic.voo.be) has joined #ludumdare
+2015-01-27 20:57:31	DesertRock	Ok, can it be a darker toned down green?
+2015-01-27 20:57:35	rxi	DesertRock, you use red rectangles for mobs and things-that-kill-you
+2015-01-27 20:57:40	wzl	yes but only slightly
+2015-01-27 20:57:44	──>	joao (joao@AN-14E394D7.nhoce701.dsl.brasiltelecom.net.br) has joined #ludumdare
+2015-01-27 20:57:51	DesertRock	Righto
+2015-01-27 20:57:57	<──	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has quit (Ping timeout)
+2015-01-27 20:58:14	rxi	DesertRock, my theory is, with really bright rectangles, is you don't accidentally leave them in since they stand out so much
+2015-01-27 20:58:19	──>	FrozenCow (FrozenCow@AN-A20E2C06.chello.nl) has joined #ludumdare
+2015-01-27 20:58:24	rxi	like a visual todo list
+2015-01-27 20:58:30	DesertRock	Yeah
+2015-01-27 20:58:39	DesertRock	I doubt I'll accidentally leave it in :>
+2015-01-27 20:59:11	wzl	but you'll be more pressed to replace it
+2015-01-27 20:59:21	──>	Udrian (Udrian@AN-82C41BBF.bredband.comhem.se) has joined #ludumdare
+2015-01-27 20:59:29	Udrian	o/
+2015-01-27 20:59:31	<──	stefzekiller_ (stefzekill@AN-4D552972.dynamic.voo.be) has quit (Quit: Quitte)
+2015-01-27 20:59:36	──>	stefzekiller_ (stefzekill@AN-4D552972.dynamic.voo.be) has joined #ludumdare
+2015-01-27 20:59:36	liesard	Hi Udrian 
+2015-01-27 20:59:41	rxi	DesertRock, lol, no I mean like, the benefit is when you get to the particle effects and stuff, where you might accidentally leave in the small yellow-orangeish sparks and your mind will sort of, ignore that they don't fit the style of the game
+2015-01-27 20:59:46	<──	stefzekiller (stefzekill@AN-4D552972.dynamic.voo.be) has quit (Ping timeout)
+2015-01-27 20:59:47	Udrian	liesard: how are you doing?
+2015-01-27 20:59:55	liesard	Quite well, thank you
+2015-01-27 21:00:01	liesard	I'm writing a brainfuck interpreter in C
+2015-01-27 21:00:04	liesard	How about you?
+2015-01-27 21:00:14	Udrian	liesard: Haha, that is a awesome way to spend your time
+2015-01-27 21:00:18	<──	araneae (dana@AN-3A67E72A.hsd1.or.comcast.net) has quit (Quit: This computer has gone to sleep)
+2015-01-27 21:00:20	liesard	Indeed :D
+2015-01-27 21:00:22	DesertRock	rxi: oh, yeah
+2015-01-27 21:00:24	Udrian	liesard: Tired, headache. but otherwise good
+2015-01-27 21:00:40	liesard	You should get some sleep
+2015-01-27 21:00:50	liesard	You'll probably feel better afterwards
+2015-01-27 21:00:51	Udrian	liesard: I just did
+2015-01-27 21:00:56	liesard	Oh :/
+2015-01-27 21:01:01	wzl	ood!
+2015-01-27 21:01:16	liesard	Udrian: Did you eat something?
+2015-01-27 21:01:23	Wonkyth	i should sleep
+2015-01-27 21:01:47	Udrian	wzl: dzl!
+2015-01-27 21:01:52	Udrian	liesard: Weeeelll...
+2015-01-27 21:01:57	Udrian	liesard: about that
+2015-01-27 21:02:03	liesard	:|
+2015-01-27 21:02:06	liesard	Go eat something
+2015-01-27 21:02:06	liesard	Now
+2015-01-27 21:02:07	Wonkyth	it being 7 am and all
+2015-01-27 21:02:43	liesard	Wonkyth: Uhh...
+2015-01-27 21:02:46	liesard	Sure, go for it
+2015-01-27 21:02:47	DesertRock	Oh, rxi, look at lunabot:
+2015-01-27 21:02:53	DesertRock	,seen udrian
+2015-01-27 21:02:53	lunabot	I have never seen that user speak in this channel
+2015-01-27 21:02:55	DesertRock	,seen Udrain
+2015-01-27 21:02:55	lunabot	I have never seen that user speak in this channel
+2015-01-27 21:03:03	DesertRock	,seen Udrian 
+2015-01-27 21:03:03	lunabot	Udrian last spoke in this channel 1 minute and 7 seconds ago
+2015-01-27 21:03:11	DesertRock	Whoops on spelling :>
+2015-01-27 21:03:17	liesard	Hahahaha
+2015-01-27 21:03:27	Wonkyth	liesard: but trey frey is playing D:
+2015-01-27 21:03:36	liesard	Uhh...?
+2015-01-27 21:03:36	DesertRock	but yeah, need to deal with caps in the name. iirc irc is case insensitive
+2015-01-27 21:03:37	Udrian	DesertRock: I'm not Udrain =<
+2015-01-27 21:03:54	DesertRock	Who's Udrain?
+2015-01-27 21:03:55	DesertRock	:>
+2015-01-27 21:03:58	rxi	DesertRock, some plugins are case sensitive on nicks, some arn't. I forgot what IRC uses, but..then changed my assumption between writing the two plugins
+2015-01-27 21:04:24	Udrian	DesertRock: No one, but a lot of people here misspell Udrian for Udrain xP
+2015-01-27 21:04:26	DesertRock	Yeah, I think it is case insensitive
+2015-01-27 21:05:04	rxi	DesertRock, also you can't PM it the ,seen request, as it does it on a per-channel basis
+2015-01-27 21:05:21	liesard	Ugh, I keep getting segfaults
+2015-01-27 21:05:36	DesertRock	rxi: yeah, noticed that. It makes more sense
+2015-01-27 21:05:38	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.0)
+2015-01-27 21:05:45	Udrian	liesard: Yeah, I might need food. I read that as seagulls and thought wtf
+2015-01-27 21:05:54	liesard	Hahahahaha
+2015-01-27 21:05:58	liesard	Yeah, you definitely need food
+2015-01-27 21:06:04	liesard	I'll see you back here then ;D
+2015-01-27 21:06:14	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 21:06:19	Sk3letor	hmm maybe I could waste last couple hours for scripting jamming.
+2015-01-27 21:06:22	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.0)
+2015-01-27 21:06:33	Wonkyth	liesard: http://www.twitch.tv/magfest/b/616005170 trey freeeeey
+2015-01-27 21:06:35	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 21:06:47	liesard	:|
+2015-01-27 21:06:49	Udrian	Wonkyth: How is it going down under?
+2015-01-27 21:07:07	<──	MrOtton (MrOtton@AN-401408E3.pools.vodafone-ip.de) has quit (EOF from client)
+2015-01-27 21:07:10	──>	MrOtton (MrOtton@AN-401408E3.pools.vodafone-ip.de) has joined #ludumdare
+2015-01-27 21:07:29	Wonkyth	Udrian: k
+2015-01-27 21:07:36	Wonkyth	Udrian: up over?
+2015-01-27 21:07:56	Udrian	Wonkyth: Pretty good, still need a lot of work done though
+2015-01-27 21:08:14	Sk3letor	any suggestions what I could try script? something small :9 ?
+2015-01-27 21:08:17	──>	crumpeted (chatzilla@AN-58AE373E.aztw.cable.virginm.net) has joined #ludumdare
+2015-01-27 21:08:24	DesertRock	Ok, thoughts to the start of my platformer? Right color of green? Am I doing this right? http://imgur.com/LPpnWxN
+2015-01-27 21:08:49	rxi	DesertRock, no too dim
+2015-01-27 21:08:55	rxi	you need #00ff00
+2015-01-27 21:09:01	DesertRock	rxi: but that burns my eyes
+2015-01-27 21:10:35	wzl	tahts the point
+2015-01-27 21:10:45	──>	Macario_ (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has joined #ludumdare
+2015-01-27 21:10:52	wzl	make it so you want to desperately replace it with something awesome
+2015-01-27 21:10:53	wzl	:D
+2015-01-27 21:11:20	liesard	:D
+2015-01-27 21:11:21	yaib	:D!
+2015-01-27 21:11:31	liesard	DesertRock: What does it even matter, anyways?
+2015-01-27 21:11:53	rxi	DesertRock, http://ludumdare.com/compo/wp-content/uploads/2014/12/new.gif
+2015-01-27 21:12:32	liesard	rxi: 10/10 camera movement
+2015-01-27 21:12:48	DesertRock	liesard: this this the beginning of everything. You can't start of a childs life by dressing him in clothes that burn your eyes!
+2015-01-27 21:13:00	rxi	liesard, <3
+2015-01-27 21:13:09	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.0)
+2015-01-27 21:13:13	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 21:13:18	liesard	DesertRock: Ok...
+2015-01-27 21:13:26	liesard	Just put whatever colour and then replace it with bitslap's work :P
+2015-01-27 21:13:30	DesertRock	haha
+2015-01-27 21:13:34	liesard	rxi: E>
+2015-01-27 21:13:37	DesertRock	bitslap!
+2015-01-27 21:13:45	<──	Macario_ (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has quit (Ping timeout)
+2015-01-27 21:14:10	bitslap	hah
+2015-01-27 21:14:41	rxi	DesertRock, done yet/
+2015-01-27 21:14:49	DesertRock	rxi: adding gravity
+2015-01-27 21:15:03	liesard	Damn, that makes me want to work on my platformer
+2015-01-27 21:15:11	wzl	do iiiiiiit
+2015-01-27 21:15:11	liesard	But I decided to put that aside and work on other things ;_;
+2015-01-27 21:15:12	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.0)
+2015-01-27 21:15:16	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 21:15:17	wzl	nooo platformers ftw
+2015-01-27 21:15:30	liesard	:P
+2015-01-27 21:15:47	──>	stefzekiller__ (stefzekill@host-85-201-186-104.dynamic.voo.be) has joined #ludumdare
+2015-01-27 21:17:09	──>	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 21:17:28	DesertRock	Hm, never done gravity for platformers before
+2015-01-27 21:17:41	wzl	uh oh
+2015-01-27 21:17:49	@Sol_HSA	how can you make platformer without gravity
+2015-01-27 21:17:50	liesard	It's really not hard at all
+2015-01-27 21:17:51	rxi	DesertRock, it goes down
+2015-01-27 21:17:58	@Sol_HSA	rxi: usually
+2015-01-27 21:18:02	liesard	Just have a variable called gravity or velocityX or something
+2015-01-27 21:18:04	rxi	yeh usually
+2015-01-27 21:18:05	wzl	well, you can make it tougher than it appears to be :P
+2015-01-27 21:18:07	DesertRock	rxi: good to know
+2015-01-27 21:18:08	<──	stefzekiller_ (stefzekill@AN-4D552972.dynamic.voo.be) has quit (Ping timeout)
+2015-01-27 21:18:09	liesard	And then just increment it every time
+2015-01-27 21:18:13	rxi	liesard, velocityX?
+2015-01-27 21:18:15	liesard	And then have the player move by that much
+2015-01-27 21:18:24	liesard	rxi: Yeah, in case it scrolls constantly
+2015-01-27 21:18:28	drnick	lol, velocityX
+2015-01-27 21:18:33	liesard	So that you would have velocityX and velocityY
+2015-01-27 21:18:37	drnick	someone didn't hear rxi
+2015-01-27 21:19:01	liesard	???
+2015-01-27 21:19:06	drnick	<rxi> DesertRock, it goes down
+2015-01-27 21:19:23	liesard	Yeah, I heard it
+2015-01-27 21:19:37	<──	Ulydev (Ulydev@i16-les03-ix2-176-181-125-104.dsl.dyn.abo.bbox.fr) has quit (EOF from client)
+2015-01-27 21:19:37	liesard	It was p funny, but I just didn't say anything about it
+2015-01-27 21:20:06	──>	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has joined #ludumdare
+2015-01-27 21:20:33	rxi	hm. DesertRock if you make the gravity go sideways people will call your innovative and you'll probably get loads of praise for it
+2015-01-27 21:20:45	rxi	unless it looks like fez
+2015-01-27 21:21:00	DesertRock	haha
+2015-01-27 21:21:27	wzl	did fez have horizontal gravity?
+2015-01-27 21:21:49	rxi	wzl, no but people just really hate anything that looks like fez, or that looks like cave story and they think looks like fez
+2015-01-27 21:22:02	wzl	i see 
+2015-01-27 21:22:18	DesertRock	Hm, limiting velocity, should I limit the vector magnitude or the x/y magnitude?
+2015-01-27 21:22:21	 *	crumpeted likes the fez look ._.
+2015-01-27 21:22:28	liesard	Yeah, I like it too :P
+2015-01-27 21:22:40	rxi	crumpeted, oh no, everyone loves the fez look, you just can't look like fez else everyone gets mardy for some reason
+2015-01-27 21:22:46	DesertRock	Its a good look, its just that if you make a game with the style people will start saying it looks like fez
+2015-01-27 21:22:57	crumpeted	true
+2015-01-27 21:23:00	rxi	look as close to possible to zelda as you can though, you can probably just copy and paste zelda tiles and everyone will love it
+2015-01-27 21:23:08	DesertRock	rxi: you should continue that loveDOS game that uses that style. Who cares what people say
+2015-01-27 21:23:08	<──	Ulydev (Ulydev@AN-C6790B3B.dsl.dyn.abo.bbox.fr) has quit (Ping timeout)
+2015-01-27 21:23:13	crumpeted	haha
+2015-01-27 21:23:30	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.0)
+2015-01-27 21:23:35	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 21:24:21	rxi	DesertRock, I've lost that somewhere, also it was for DOS
+2015-01-27 21:24:44	mentaldemon	Wing, I might have just discovered something epic
+2015-01-27 21:25:34	wzl	a porn mag?
+2015-01-27 21:25:54	mentaldemon	something musically epic
+2015-01-27 21:25:59	mentaldemon	and no. porn music isn't epic
+2015-01-27 21:26:03	DesertRock	aw :(
+2015-01-27 21:26:05	DesertRock	forgot about that
+2015-01-27 21:26:16	wzl	venetian snares did an album made of samples recorded while corpulating with his wife
+2015-01-27 21:26:21	DesertRock	mentaldemon: depends on if you are watching the adventure porn or not
+2015-01-27 21:26:35	wzl	it sounds different than you might expect though :P
+2015-01-27 21:26:58	<──	Dylan16807 (dylan@AN-1894F559.lightspeed.cntmoh.sbcglobal.net) has quit (Ping timeout)
+2015-01-27 21:27:10	Wing	mentaldemon, hmm hmm
+2015-01-27 21:27:18	Wing	mentaldemon, what exactly? ;3
+2015-01-27 21:28:57	mentaldemon	Wing, a leadup to a solo
+2015-01-27 21:29:08	Wing	haha
+2015-01-27 21:29:50	<──	tygon (tygon@AN-FDBB7CD7.hsd1.ca.comcast.net) has quit (Quit)
+2015-01-27 21:29:59	──>	Dylan16807 (dylan@AN-1894F559.lightspeed.cntmoh.sbcglobal.net) has joined #ludumdare
+2015-01-27 21:30:38	Sk3letor	toy guys are mean :(
+2015-01-27 21:31:33	DesertRock	Gravity: http://imgur.com/PIL2JTL
+2015-01-27 21:31:45	wzl	now make a floor :D
+2015-01-27 21:31:49	Wing	hmm I wonder if there's stuff I wanna save from this.. hmm
+2015-01-27 21:31:57	liesard	DesertRock: Yeah, put a floor
+2015-01-27 21:31:58	wzl	Wing, succeeded?
+2015-01-27 21:31:59	liesard	It's not that hard
+2015-01-27 21:32:30	DesertRock	Yeah, floor time
+2015-01-27 21:32:33	Wing	wzl, nah
+2015-01-27 21:32:49	Wing	wzl, but the 500GB hdd I was going to use already has Ubuntu on it too
+2015-01-27 21:32:53	Wing	a fresh install
+2015-01-27 21:33:04	wzl	heh
+2015-01-27 21:33:06	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.0)
+2015-01-27 21:33:07	rxi	DesertRock, nice
+2015-01-27 21:33:08	wzl	fallback plans eh
+2015-01-27 21:33:08	Wing	so... gonna just switch there, this hdd is about 100GB
+2015-01-27 21:33:17	<──	Tohuwabohu (tohuwabohu@AN-EAD1CAFB.dip0.t-ipconnect.de) has quit (Quit: Nettalk6 - www.ntalk.de)
+2015-01-27 21:33:56	DesertRock	rxi: stealing your tileset because I need a tileset
+2015-01-27 21:34:11	rxi	DesertRock, noooo (which one?)
+2015-01-27 21:34:15	──>	rnlf (flo@rnlf.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 21:34:28	rnlf	good evening
+2015-01-27 21:34:30	rxi	rnlf, \o/
+2015-01-27 21:34:34	<──	srjek (srjek@FC4511.BBFEF.DC55FC.E18428.IP) has quit (Ping timeout)
+2015-01-27 21:34:39	rnlf	rxi \\o//
+2015-01-27 21:34:44	<──	Pak (Pak@96C745.6F633F.4FE5F7.4EC29.IP) has quit (Ping timeout)
+2015-01-27 21:34:49	rxi	rnlf, how do?
+2015-01-27 21:34:55	rnlf	good good
+2015-01-27 21:34:58	rnlf	how about you?
+2015-01-27 21:35:07	DesertRock	rxi: actually, I'll just make a solid colors tilesheet
+2015-01-27 21:35:11	rxi	yeh good thanks
+2015-01-27 21:35:11	DesertRock	Heyo rnlf 
+2015-01-27 21:35:16	rnlf	yo DesertRock 
+2015-01-27 21:35:19	DesertRock	Got off phone so I can do it :>
+2015-01-27 21:35:32	liesard	Hi rn
+2015-01-27 21:35:33	──>	tygon (tygon@AN-FDBB7CD7.hsd1.ca.comcast.net) has joined #ludumdare
+2015-01-27 21:35:34	liesard	Hi rnlf 
+2015-01-27 21:35:37	rxi	DesertRock, nooo, use this one:  https://github.com/AdamAtomic/Mode/tree/master/src/data
+2015-01-27 21:35:46	rnlf	hey liesard 
+2015-01-27 21:35:56	rxi	rnlf, any more framework progress?
+2015-01-27 21:36:34	DesertRock	rxi: the "tech_tiles"?
+2015-01-27 21:36:35	rnlf	rxi, just yesterday evening, i just came home from work, so i guess i'm gonna do something now
+2015-01-27 21:36:48	rxi	DesertRock, yeh!
+2015-01-27 21:37:05	rxi	rnlf, still on wordwrapping?
+2015-01-27 21:37:49	rnlf	rxi, nope. that part is done. now i just need to add the comparitively boring rendering of the wrapped text
+2015-01-27 21:37:58	──>	srjek (srjek@AN-7790C79B.ece.uic.edu) has joined #ludumdare
+2015-01-27 21:38:05	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 21:38:23	rxi	rnlf, nice. Still going to have justified text?
+2015-01-27 21:38:28	rnlf	rxi, sure. why else would i have done all of yesterdays work?
+2015-01-27 21:38:35	rnlf	without justified text it would have been easy
+2015-01-27 21:38:59	rxi	rnlf, you may have done all of yesterdays work, hit a hurdle and then decided to give up on it out of frustration
+2015-01-27 21:39:06	rnlf	"add characters until line width is reached, trackback to beginning of word, render line with padding on one side"
+2015-01-27 21:39:28	rnlf	rxi, i never give up. sometimes i get bored and quit, but i never give up :-p
+2015-01-27 21:39:43	Sk3letor	can anyone suggest something good pratice for small time to script?
+2015-01-27 21:39:44	rnlf	i'm a highly trained professional, i am not allowed to give up :-p
+2015-01-27 21:40:25	wzl	" sometimes i get bored and quit, but i never give up"
+2015-01-27 21:40:29	wzl	best quote
+2015-01-27 21:40:29	wzl	:D
+2015-01-27 21:40:46	rnlf	also, TIL that it's a bad idea to keep wireshark capturing traffic for two days
+2015-01-27 21:40:51	rnlf	suddenly: swapping
+2015-01-27 21:41:14	rnlf	took me almost 20 minutes to quit wireshark from that point on
+2015-01-27 21:41:27	rxi	rnlf, lol, i'd be confused if I was using my computer and didn't hear swapping
+2015-01-27 21:41:40	──>	sorceress (sorceress@sorceress.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 21:41:40	──	Mode #ludumdare [+o sorceress] by X3
+2015-01-27 21:41:49	rnlf	rxi, haha. but that was at work, where i have a brandnew i7 with 16 gigs of ram :-p
+2015-01-27 21:42:18	DesertRock	hearing swapping?
+2015-01-27 21:42:24	rnlf	nope, feeling it
+2015-01-27 21:42:37	DesertRock	Ok, makes more sense :3
+2015-01-27 21:42:44	rnlf	laggy mouse pointer, irresponsive windows
+2015-01-27 21:42:57	DesertRock	"how do you hear ram swapping?"
+2015-01-27 21:43:05	rnlf	but you can hear it
+2015-01-27 21:43:09	rnlf	if you have a loud hdd
+2015-01-27 21:43:12	rxi	DesertRock, the sound of the harddrive churning
+2015-01-27 21:43:16	DesertRock	Hm, ok
+2015-01-27 21:43:56	rxi	its depressing when you're using hardware so old you have to explain it to other people
+2015-01-27 21:44:09	rnlf	rxi, lol. i remember all this stuff
+2015-01-27 21:44:21	rnlf	i once installed win95 on a 16mhz 486
+2015-01-27 21:44:27	rnlf	4mb of ram
+2015-01-27 21:44:32	rnlf	that is MEGA byte
+2015-01-27 21:44:33	<──	MrOtton (MrOtton@AN-401408E3.pools.vodafone-ip.de) has quit (EOF from client)
+2015-01-27 21:44:34	rnlf	not gigabyte
+2015-01-27 21:44:42	liesard	Yes, rnlf, we can read
+2015-01-27 21:44:44	Limb_Clock	heh
+2015-01-27 21:44:51	rnlf	liesard, some people don't know "MB"
+2015-01-27 21:44:52	Limb_Clock	even our 486 had 16 megs of ram
+2015-01-27 21:44:53	Limb_Clock	YEAH
+2015-01-27 21:44:57	Limb_Clock	WE WERE THE RICH PEOPLE
+2015-01-27 21:45:02	rxi	rnlf, for most my childhood I was using a 8mb pentium 1 with 9600 baud modem
+2015-01-27 21:45:14	rnlf	Limb_Clock, that was when my friends hat their P90s and similar
+2015-01-27 21:45:32	Limb_Clock	peft
+2015-01-27 21:45:53	──>	stefzekiller_ (stefzekill@AN-4D552972.dynamic.voo.be) has joined #ludumdare
+2015-01-27 21:45:53	rxi	I think I still have the modem
+2015-01-27 21:45:54	liesard	rnlf: WHAT D:
+2015-01-27 21:45:59	liesard	How do people not know MB...?
+2015-01-27 21:46:12	rnlf	liesard, i was exaggerating (i think) ;-)
+2015-01-27 21:46:18	liesard	One day, man
+2015-01-27 21:46:22	rnlf	my first computer was a 286 (9MHz in turbo mode), when all others had pentiums :-(
+2015-01-27 21:46:24	liesard	One day people will forget about KB and MB
+2015-01-27 21:46:40	rnlf	liesard, only the old folks will sit around the fire
+2015-01-27 21:46:46	liesard	Hahahahaha
+2015-01-27 21:46:50	rxi	rnlf, I've always been like 5 - 7 years behind
+2015-01-27 21:47:00	rnlf	telling their great-grandchildren stories of "bytes"
+2015-01-27 21:47:06	liesard	"Back in my day, megabytes of storage was expensive!"
+2015-01-27 21:47:10	rnlf	and how they never had enough of them
+2015-01-27 21:47:20	liesard	Hahahaha
+2015-01-27 21:47:37	rnlf	my video adapter has two orders of magnitude more memory than my first hdd
+2015-01-27 21:47:58	liesard	omg
+2015-01-27 21:48:04	liesard	That's ridiculous
+2015-01-27 21:48:11	rnlf	rxi, same for me, until i got my first job
+2015-01-27 21:48:12	<──	stefzekiller__ (stefzekill@host-85-201-186-104.dynamic.voo.be) has quit (Ping timeout)
+2015-01-27 21:48:26	DesertRock	rxi: that tileset doesn't have a very good background tile :>
+2015-01-27 21:48:28	rnlf	since then i always spent most of my money on cutting edge hardware, that i never used to full potential
+2015-01-27 21:48:32	<──	Limb_Clock (Leo@AN-ED9928A8.bb.dnainternet.fi) has quit (Ping timeout)
+2015-01-27 21:48:37	rxi	DesertRock, "background tile"?
+2015-01-27 21:48:42	rnlf	liesard, 16mb of hdd vs. 1.5GB of video ram :-p
+2015-01-27 21:48:50	──>	faziasJP (faz@AN-129BC410.fushizen.eu) has joined #ludumdare
+2015-01-27 21:48:51	DesertRock	w/e doesn't matter
+2015-01-27 21:49:14	liesard	rnlf: Wow.
+2015-01-27 21:49:17	rxi	rnlf, I think nowadays you can get away with a 7-year-old computer fairly well, like it was different back in the day I think
+2015-01-27 21:49:33	liesard	I still need to find a computer case, actually
+2015-01-27 21:49:39	rnlf	rxi, yeah. it's not that bad today
+2015-01-27 21:49:41	──>	araneae (dana@AN-3A67E72A.hsd1.or.comcast.net) has joined #ludumdare
+2015-01-27 21:49:55	rxi	though, some people insist on being sort of, shitty, for lack of a better word
+2015-01-27 21:50:08	DesertRock	Hm, not a huge fan of this tileset, w/e
+2015-01-27 21:50:21	rnlf	rxi, what do you mean?
+2015-01-27 21:50:50	rxi	rnlf, when certain software assumes it can just use a gigabyte of ram and assumes thats fine, though it doesn't seem entirely justified that it would.. or things like ubuntu's menu bar taking up like 300mb of ram, like seems totally unjustified
+2015-01-27 21:51:29	rnlf	rxi, oh yeah. my gf's eeepc can barely run ubuntu anymore. had to show her how to use xfce
+2015-01-27 21:51:30	rxi	like I'm fine if Rage or something takes 8 gbs of ram, but why is a menu bar with like 4 icons on it taking like 300
+2015-01-27 21:51:55	rnlf	rxi, but to be fair, it's probably just 300M of address space, not actual 300M of physical memory
+2015-01-27 21:52:33	──>	liesard (liesard@liesard.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 21:52:33	──	Topic for #ludumdare is "Ludum Dare | http://ludumdare.com | #LDJAM | Results for Ludum Dare 31: http://ludumdare.com/compo/ | Ludum Dare 32 - Coming April 17th, 2015"
+2015-01-27 21:52:33	──	Topic set by PoV (povrazor@povrazor.Users.AfterNET.Org) on Mon, 29 Dec 2014 10:05:32
+2015-01-27 21:52:33	──	Channel #ludumdare: 261 nicks (7 ops, 4 halfops, 0 voices, 250 normals)
+2015-01-27 21:52:35	──	Channel created on Thu, 08 Jul 2004 00:47:17
+2015-01-27 21:52:53	liesard	I am such an idiot
+2015-01-27 21:53:03	rxi	well it was running badly enough for me to check its RAM usage, basically its just not usable on 1GB out of ram, which seems sort of.. bad..
+2015-01-27 21:53:13	<──	fazias (faz@AN-E64646FE.bb.dnainternet.fi) has quit (EOF from client)
+2015-01-27 21:53:14	rnlf	rxi, yeah. that's true
+2015-01-27 21:53:22	──>	Alvarop (Alvaro@8D1E13.912825.54F519.4B72F8.IP) has joined #ludumdare
+2015-01-27 21:54:27	liesard	Portal and Portal 2 are on sale
+2015-01-27 21:54:30	liesard	But I don't have any money
+2015-01-27 21:54:31	liesard	;_;
+2015-01-27 21:54:38	mentaldemon	Wing, https://dl.dropboxusercontent.com/u/40809411/reaper/hardrocktest.wav
+2015-01-27 21:54:43	rxi	and I'm happy to miss out on certain things, erm like, things that seem like they'd so obviously need a massive amount of ram, but then you have like... a text editor taking up half a GB, or chrome swapping every time you start it but then 1080p video playing fine, and it feels like I dunno, certain software is just made badly
+2015-01-27 21:54:56	DesertRock	Got the map, time to figure out how to collide
+2015-01-27 21:55:03	mentaldemon	Wing, came up with that riff today :D
+2015-01-27 21:55:11	liesard	rxi: Yeah, that happens a lot
+2015-01-27 21:55:13	liesard	It's ridiculous
+2015-01-27 21:55:18	liesard	DesertRock: Collision detection is easy
+2015-01-27 21:55:22	liesard	But the collision itself isn't
+2015-01-27 21:55:47	DesertRock	liesard: yeah, I'll figure it out :>
+2015-01-27 21:55:47	rxi	like if 1080p video didn't work that'd make more sense as a thing "old hardware can't do", but when its a menu bar or a text editor it like, I can't think of any other reason besides someone being stupid or lazy
+2015-01-27 21:56:44	liesard	DesertRock: :D
+2015-01-27 21:57:04	rxi	its mostly fine, though, like lots of choice in terms of software, and you just avoid the troublesome things, but it does bring home like how odd it is when you have actual practical running examples of basically the same piece of software but not taking a GB of ram
+2015-01-27 21:57:07	@sorceress	rxi, most will wrongly blame their hardware for being inadequate, rather than the software being badly made 
+2015-01-27 21:57:16	DesertRock	I could look at how rxi did it, but that would be very slow ;)
+2015-01-27 21:57:41	liesard	rxi: There is a lot of software which is poorly made
+2015-01-27 21:57:58	liesard	The problem is that it's hard to make certain things
+2015-01-27 21:58:08	liesard	For example, browsers have to take up a lot of memory
+2015-01-27 21:58:13	liesard	Otherwise it will lack features
+2015-01-27 21:58:31	mentaldemon	features like not being able to take up memory
+2015-01-27 21:58:33	rxi	sorceress, yeh, its bad all round. liesard additionally, while I'm on my rant: I hate this stupid trivial shit people moan about, like using a linear search instead of a hash table when there are only 100 items, and it taking like an unmeasurable amount of time to run
+2015-01-27 21:58:43	rxi	and people will *freak out* about it
+2015-01-27 21:59:01	liesard	rxi: You know, suckless had the same stance as you
+2015-01-27 21:59:04	liesard	You know what they did?
+2015-01-27 21:59:10	liesard	They wrote their own software
+2015-01-27 21:59:19	rxi	and its like, can you concentrate on the software that uses 300mb of ram to show 4 icons rather than my software that takes 2 pico seconds to start up rather than 1
+2015-01-27 21:59:50	rxi	liesard, yeh it seems.. mainly fine, like enough alternatives that it isn't an *issue*, but it just seems such a backwards attitude people have
+2015-01-27 22:00:05	mentaldemon	rxi, whatcha think of elite dangerous? game itself was 15 gb ish... but there are 400 billion star systems to explore
+2015-01-27 22:00:15	liesard	rxi: Yeah, that's definitely true
+2015-01-27 22:00:33	liesard	But pretty much everything technology-related on the consumer side is going to shit
+2015-01-27 22:00:41	liesard	Wait, I don't think that's the right expression
+2015-01-27 22:00:44	liesard	Anyway, it's really bad
+2015-01-27 22:00:54	rxi	mentaldemon, I've no issue for that kind of stuff, that game looks amazing -- like things that seem like it *should* take up gigabytes. Its things that shouldn't take up such a massive amount of resources (eg, a text editor)
+2015-01-27 22:01:09	liesard	And people are trying to fix it with things like Wayland and IPv6 but it's just not easy
+2015-01-27 22:01:15	liesard	And it's not easy to convince everyone to change
+2015-01-27 22:01:26	liesard	FireFox and Chrome suck, but everyone uses it
+2015-01-27 22:01:43	──>	Shubshub (IceChat9@AN-495F020D.dyn.cust.vf.net.nz) has joined #ludumdare
+2015-01-27 22:01:50	liesard	It's going to be hard to move the consumers to better alternatives
+2015-01-27 22:02:06	mentaldemon	rxi, they use a number sequence like fibbonachi to send the client a sequence of numbers corresponding to the system that they're in. the client parses those numbers into stars, planets and such. 
+2015-01-27 22:02:15	mentaldemon	it is extremely efficient it seems
+2015-01-27 22:02:33	<──	mikembp (mikembp@5E6285.FDA8ED.5AFB4D.D80D7B.IP) has quit (Quit)
+2015-01-27 22:02:57	rxi	chome / firefox seem like, more justified in their resource use rather than "why is this tiny thing running so badly" -- like they are huge programs with just so many parts
+2015-01-27 22:03:12	liesard	rxi: Yeah, but certain things are unneeded
+2015-01-27 22:03:18	liesard	All they do is display web pages
+2015-01-27 22:03:23	liesard	And that's all they need to do
+2015-01-27 22:03:43	rxi	liesard, yeh, mozilla is working on their new browser arn't they, in Rust?
+2015-01-27 22:03:53	liesard	I haven't heard anything about that
+2015-01-27 22:03:54	Alfie275__	In the original Elite, they were planning to have 2**48 galaxies, but their publisher insisted on limiting it to 8
+2015-01-27 22:03:55	liesard	But it's possible
+2015-01-27 22:03:59	──	Alfie275__ is now known as Alfie275
+2015-01-27 22:04:26	──>	stefzekiller__ (stefzekill@host-85-201-186-104.dynamic.voo.be) has joined #ludumdare
+2015-01-27 22:04:47	mentaldemon	rxi, I helped out a classmate of mine by optimizing one of his applications. A ridiculous  amount of string comparisons, type casting and even array->list and back
+2015-01-27 22:04:58	mentaldemon	... seemed to be the problem
+2015-01-27 22:05:05	liesard	I mean, even the web is terrible
+2015-01-27 22:05:09	liesard	And that's the fault of the users
+2015-01-27 22:05:10	rxi	liesard, we can't really expect anything soon but, its good that people are starting with a clean slate on something as huge as webbrowsers, so long as people are reinventing wheels things actually have a good chance to improve
+2015-01-27 22:05:22	liesard	rxi: Yeah, definitely
+2015-01-27 22:05:34	liesard	The problem is that we don't have enough alternatives to the poor software
+2015-01-27 22:05:40	liesard	We don't have alternatives to PHP
+2015-01-27 22:05:44	liesard	At least, not any good ones
+2015-01-27 22:06:01	@sorceress	rxi, I feel that when a technology evolves quickly, a lot of things tend to be badly made
+2015-01-27 22:06:02	──>	Jacob123 (qwebirc@DF900E.853D7A.EEC228.5D5745.IP) has joined #ludumdare
+2015-01-27 22:06:05	mentaldemon	there's probably a good alternative to php out there. just very obscure
+2015-01-27 22:06:13	Jacob123	node.js
+2015-01-27 22:06:15	Jacob123	._.
+2015-01-27 22:06:18	@sorceress	it's only when technology evolves slowly, that there is a big push for efficiency
+2015-01-27 22:06:19	Jacob123	.-.
+2015-01-27 22:06:24	wzl	aw fuck it D:
+2015-01-27 22:06:31	wzl	i'll just restricttool usage if zoomed out
+2015-01-27 22:06:35	rxi	Jacob123, whats wrong with node.js?
+2015-01-27 22:06:36	liesard	sorceress: Yeah, that's how it always works
+2015-01-27 22:06:42	liesard	Same thing happened with Java
+2015-01-27 22:06:44	<──	stefzekiller_ (stefzekill@AN-4D552972.dynamic.voo.be) has quit (Ping timeout)
+2015-01-27 22:06:47	liesard	And so many programming languages
+2015-01-27 22:06:48	mentaldemon	hey wzl, how's this? https://dl.dropboxusercontent.com/u/40809411/reaper/hardrocktest.wav
+2015-01-27 22:06:59	Jacob123	rxi: Obscurity mostly
+2015-01-27 22:07:27	DesertRock	Its not very obscure :P
+2015-01-27 22:07:40	liesard	Hi Jacob123 
+2015-01-27 22:07:42	liesard	How's your game?
+2015-01-27 22:07:42	wzl	hey cool :D
+2015-01-27 22:07:51	mentaldemon	testing out them tones
+2015-01-27 22:07:56	wzl	i'd love to hear a bit more rhythm/groove in the rhythm guitorrrr
+2015-01-27 22:07:57	rxi	I've only played with node.js a little but I liked it :3
+2015-01-27 22:08:06	Jacob123	hi liesard 
+2015-01-27 22:08:09	Jacob123	good
+2015-01-27 22:08:16	liesard	Sweet
+2015-01-27 22:08:18	liesard	How far are you?
+2015-01-27 22:08:22	rxi	DesertRock, did you call my collision slow?
+2015-01-27 22:08:35	──>	Dominique_Sandy (JackPaff@AN-90DCE21C.bredband.tre.se) has joined #ludumdare
+2015-01-27 22:08:35	<──	Shubshub (IceChat9@AN-495F020D.dyn.cust.vf.net.nz) has quit (Quit: It's a dud! It's a dud! It's a du...)
+2015-01-27 22:08:48	mentaldemon	wzl, this is a 10 minute recording :P
+2015-01-27 22:08:52	wzl	:D
+2015-01-27 22:08:57	mentaldemon	wzl, proof of concept and tone :D
+2015-01-27 22:09:01	wzl	fair enough
+2015-01-27 22:09:12	wzl	sounds good though :D
+2015-01-27 22:09:16	mentaldemon	collecting riffs for my project. hoping to fit them together to make some songs
+2015-01-27 22:09:56	Jacob123	liesard: I'm getting lazy though, not creating the explosion anim
+2015-01-27 22:10:22	mentaldemon	wzl, though I am surprised the quick legato thingy at 31 seconds was timed correctly
+2015-01-27 22:10:35	wzl	mentaldemon,  https://www.youtube.com/watch?v=4iUh2gz79OA#t=81 :D
+2015-01-27 22:11:17	wzl	yeah good job :D
+2015-01-27 22:12:10	wzl	i want an explorer too
+2015-01-27 22:12:41	liesard	Jacob123: Hahaha
+2015-01-27 22:12:46	liesard	Yeah, same thing happens to me a lot ;P
+2015-01-27 22:12:50	liesard	*:P
+2015-01-27 22:13:30	wzl	also he just cant play slow :D
+2015-01-27 22:17:36	mentaldemon	haha
+2015-01-27 22:18:32	mentaldemon	I'm currently working more on accuracy than speed
+2015-01-27 22:19:10	wzl	i guess endurance is more important than speed D:
+2015-01-27 22:19:18	mentaldemon	playing fast and on time can be trained
+2015-01-27 22:19:36	mentaldemon	playing accurate is important to the whole soundscape
+2015-01-27 22:19:45	wzl	for sure
+2015-01-27 22:20:58	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.1)
+2015-01-27 22:21:09	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 22:21:31	keeyai	Nimphious: having multiple configs that get merged is on the list
+2015-01-27 22:21:49	keeyai	Nimphious: as is just keeping the things you mention in the db and having a useful interface to that
+2015-01-27 22:21:58	Jacob123	liesard: You saw mah little robot guy right?
+2015-01-27 22:22:05	liesard	No...
+2015-01-27 22:22:06	liesard	I don't think so
+2015-01-27 22:22:13	<──	Laughter (LoyID@AN-EAD1CAFB.dip0.t-ipconnect.de) has quit (Ping timeout)
+2015-01-27 22:22:17	Jacob123	http://en.wikipedia.org/wiki/Human_chess
+2015-01-27 22:22:19	Jacob123	woops
+2015-01-27 22:22:24	Jacob123	https://gfycat.com/AmusingHardArmadillo
+2015-01-27 22:23:35	<──	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has quit (Quit: WeeChat 1.1)
+2015-01-27 22:23:38	──>	roaet (roaet@668DAD.686CA1.1B1B59.905595.IP) has joined #ludumdare
+2015-01-27 22:23:40	wzl	urgh, i broke everything D:
+2015-01-27 22:23:54	wzl	zooming sucks
+2015-01-27 22:24:02	liesard	Jacob123: That's awesome :D
+2015-01-27 22:24:28	Jacob123	liesard: I need to anim it exploding when it dies
+2015-01-27 22:24:36	Jacob123	wzl: I want zoom though, do it for me
+2015-01-27 22:24:40	<──	Darkcoder (Darkcoder@AN-D92B7CBF.ishikawa.ocn.ne.jp) has quit (Quit: Leaving)
+2015-01-27 22:24:44	liesard	Oh yeah, that shouldn't be too hard
+2015-01-27 22:25:09	wzl	i want it too :(
+2015-01-27 22:26:30	──>	Macario_ (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has joined #ludumdare
+2015-01-27 22:26:34	Jacob123	liesard: Yeah, but laziness strikes and Obama tells me not to
+2015-01-27 22:26:44	liesard	Jacob123: Hahahahahaha
+2015-01-27 22:26:48	liesard	Reasonable :P
+2015-01-27 22:28:20	Jacob123	liesard: He tells me that this is not what the taxpayers want
+2015-01-27 22:29:24	liesard	Taxpayers don't want video games...?
+2015-01-27 22:29:26	liesard	:/
+2015-01-27 22:29:30	<──	Macario_ (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has quit (Ping timeout)
+2015-01-27 22:29:46	ReactorScram	Jacob123: Is this related to the contest you won
+2015-01-27 22:29:47	Jacob123	They don't want an explosion anim
+2015-01-27 22:29:53	ReactorScram	Was it a contest for explosion games
+2015-01-27 22:29:54	Jacob123	ReactorScram: nope
+2015-01-27 22:29:59	ReactorScram	oh ok
+2015-01-27 22:30:07	DesertRock	I don't recall this being on the latest ballot or survey
+2015-01-27 22:30:31	Jacob123	DesertRock: it was
+2015-01-27 22:30:34	Jacob123	Obama says so
+2015-01-27 22:30:34	ReactorScram	DesertRock: It was tacked on to a bill that allowed New York to zone more residential land
+2015-01-27 22:30:46	DesertRock	rxi: I'm sorry, I got tilemap loading in and checking for tile properties, but I have failed hooking it up to collision
+2015-01-27 22:30:52	DesertRock	I have failed :(
+2015-01-27 22:31:04	DesertRock	I ran out of itme
+2015-01-27 22:31:29	──>	stefzekiller_ (stefzekill@host-85-201-186-104.dynamic.voo.be) has joined #ludumdare
+2015-01-27 22:31:36	rxi	DesertRock, my collision is fine thankyouverymuch
+2015-01-27 22:32:09	liesard	Jacob123: Your presentation thingy is in April, right?
+2015-01-27 22:32:11	liesard	Or am I mistaken?
+2015-01-27 22:32:21	Jacob123	It is April
+2015-01-27 22:32:31	DesertRock	rxi: something about making each tile an entity give me the heeby jeebies
+2015-01-27 22:32:36	Jacob123	Although I will not be presenting with April... heh heh
+2015-01-27 22:32:52	rxi	DesertRock, I don't do that >:3
+2015-01-27 22:33:18	DesertRock	rxi: I thought you did
+2015-01-27 22:33:20	 *	DesertRock checks again
+2015-01-27 22:33:27	wzl	why would you do that D:
+2015-01-27 22:33:33	rxi	wzl, I don't!? No one does!
+2015-01-27 22:33:49	<──	stefzekiller__ (stefzekill@host-85-201-186-104.dynamic.voo.be) has quit (Ping timeout)
+2015-01-27 22:34:08	<──	gingerale (quassel@gingerale.Users.AfterNET.Org) has quit (Ping timeout)
+2015-01-27 22:35:04	 *	Jacob123 secretly changes his tile map editor
+2015-01-27 22:35:51	wzl	why the secrecy
+2015-01-27 22:36:01	rxi	DesertRock, also any slowness in my old base code is just from brevity in the implementation rather than the actual... techniques used; eg, creating too many closures and tables
+2015-01-27 22:36:03	──>	Jacob123_ (qwebirc@DF900E.853D7A.EEC228.5D5745.IP) has joined #ludumdare
+2015-01-27 22:36:08	Jacob123_	Dumb interwebz
+2015-01-27 22:36:33	 *	wzl slaps jacob123 around with a tileset
+2015-01-27 22:36:39	<──	rnlf (flo@rnlf.Users.AfterNET.Org) has quit (Ping timeout)
+2015-01-27 22:36:53	<──	Wonkyth (quassel@Wonkyth.Users.AfterNET.Org) has quit (Ping timeout)
+2015-01-27 22:36:58	DesertRock	rxi: Oh, I see what you did now
+2015-01-27 22:37:02	Jacob123_	wzl: What was that for?
+2015-01-27 22:37:10	wzl	just for fun
+2015-01-27 22:37:11	DesertRock	I just saw Tile = Entity:extend()
+2015-01-27 22:37:15	DesertRock	probably
+2015-01-27 22:37:45	rxi	DesertRock, you and rnlf and your lies
+2015-01-27 22:37:50	<──	X3 (X3@X3.AfterNET.Services) has quit (Restarting to fix CVE-2015-0235)
+2015-01-27 22:37:56	<──	Pietdagamer (CORRUPT@AN-77922FA2.chello.nl) has quit (Quit: Bye.)
+2015-01-27 22:38:00	DesertRock	rxi: I'm sorry :(
+2015-01-27 22:38:04	<──	Jacob123 (qwebirc@DF900E.853D7A.EEC228.5D5745.IP) has quit (Ping timeout)
+2015-01-27 22:38:11	Trangar	I should probably put this here: http://us.blizzard.com/en-us/company/careers/posting.html?id=1400050
+2015-01-27 22:39:01	──>	X3 (X3@X3.AfterNET.Services) has joined #ludumdare
+2015-01-27 22:39:01	──	Mode #ludumdare [+o X3] by *.afternet.org
+2015-01-27 22:39:03	DesertRock	rxi: well, in that case I'll probably do something similar to what you did
+2015-01-27 22:39:09	DesertRock	now that I read it fully
+2015-01-27 22:39:17	rxi	DesertRock, the new base code is much faster but uses identical collision detection techniques, though the resolution is new
+2015-01-27 22:39:35	wzl	Trangar, i wonder if they even consider your application if you mention dota 2 in it :P
+2015-01-27 22:39:46	DesertRock	rxi, resolution?
+2015-01-27 22:39:56	<──	Bender (Bender@AN-6BAE82C6.philpep.org) has quit (EOF from client)
+2015-01-27 22:40:08	rxi	DesertRock, what you do after you detect "hey these things hit each other"
+2015-01-27 22:40:45	Trangar	wzl, I never played dota? :P
+2015-01-27 22:40:57	wzl	it was hypothetical 
+2015-01-27 22:41:06	Trangar	I mean
+2015-01-27 22:41:19	Trangar	I don't see how they'd dislike that
+2015-01-27 22:41:25	DesertRock	rxi: oh right, I was thinking like percision resolution and whatnot
+2015-01-27 22:41:25	Trangar	"This guy plays videogames? How DARE he"
+2015-01-27 22:41:41	wzl	not sure, i think they went a bit sour when valve snagged it :P
+2015-01-27 22:41:56	rxi	DesertRock, yeh I realised thats probably what you meant after I typed it -- it can stack now, see:  https://dl.dropboxusercontent.com/u/36451301/sr/basecode.gif   it didn't used to stack
+2015-01-27 22:42:13	rxi	just because I didn't need that for whatever ludum dare game I wrote the basecode for
+2015-01-27 22:43:04	Sk3letor	https://dl.dropboxusercontent.com/u/73169970/Webplayer/Webplayer.html
+2015-01-27 22:43:05	DesertRock	rxi: what prevente stacking?
+2015-01-27 22:43:16	──>	metaldemon (metaldemon@C961AA.46DD4B.A62182.DD5E23.IP) has joined #ludumdare
+2015-01-27 22:43:41	──>	Wonkyth (quassel@Wonkyth.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 22:43:48	Gnx	got a sudden song inspiration: http://akseli.virtuaalipalvelin.net/gf_3.ogg
+2015-01-27 22:44:05	rxi	DesertRock, oh, well, nothing "prevented" it, I just used a system of having a separate "priority", such that something with a higher priority would push anything with a lower priority out of it if they collided, which is just *really* short to code
+2015-01-27 22:44:09	Jacob123_	liesard: If i leave the dead remains of the robots around, how amusing would that be?
+2015-01-27 22:44:35	liesard	Jacob123_: It would definitely fit the mood ;D
+2015-01-27 22:44:42	DesertRock	ah
+2015-01-27 22:44:43	<──	tygon (tygon@AN-FDBB7CD7.hsd1.ca.comcast.net) has quit (Ping timeout)
+2015-01-27 22:44:57	Jacob123_	Gnx: At first I thought you could play the piano really well, then it turned into dubstep
+2015-01-27 22:45:08	──>	tygon (tygon@AN-FDBB7CD7.hsd1.ca.comcast.net) has joined #ludumdare
+2015-01-27 22:45:57	Jacob123_	two basic colors of an explosion go!
+2015-01-27 22:46:07	Jacob123_	red nd orange? orange and black?
+2015-01-27 22:46:10	liesard	Yellow+orange
+2015-01-27 22:46:14	Jacob123_	^
+2015-01-27 22:46:28	rxi	DesertRock, which works well for most games if you think about it, but its nice to have the option of everything being an actual.. solid thing, being able to push things around or... stand on enemies' heads
+2015-01-27 22:46:47	DesertRock	yeah
+2015-01-27 22:46:56	DesertRock	What do you do to fix that?
+2015-01-27 22:47:13	DesertRock	Never played with physics + collisions too much
+2015-01-27 22:47:33	Gnx	Jacob123_: I think piano playing would be much more interesting if dubstep came out of them
+2015-01-27 22:47:51	Jacob123_	Gnx: Idk, I was never a fan of the dubstep
+2015-01-27 22:47:59	Gnx	me neither
+2015-01-27 22:48:20	Gnx	dubstep is kind of a stupid version of some cool electronic genres
+2015-01-27 22:48:32	DesertRock	er, if you PM me something to google, I will google it when I get back, got to head out now
+2015-01-27 22:50:20	wzl	gafferongames.com
+2015-01-27 22:50:24	wzl	for physics
+2015-01-27 22:53:03	wzl	what are the biggest tilesets you worked with?
+2015-01-27 22:53:07	wzl	or seen worked with
+2015-01-27 22:53:18	wzl	do poeple actually use 512x512?
+2015-01-27 22:53:19	wzl	or higher?
+2015-01-27 22:53:23	rxi	wzl, yeh
+2015-01-27 22:53:48	Gnx	1080p tiles motherfucker
+2015-01-27 22:53:50	wzl	mhh in that case the tileset picker should actually be detachable, right
+2015-01-27 22:54:29	Gnx	wzl: I've used silly sizes for tiling backgrounds etc.
+2015-01-27 22:54:36	<──	badgerdash (badgerdash@badgerdash.Users.AfterNET.Org) has quit (Ping timeout)
+2015-01-27 22:54:55	wzl	mhhhhhh
+2015-01-27 22:54:56	Gnx	like <some width>x<vertical screen height>
+2015-01-27 22:55:01	wzl	ui design sucks D:
+2015-01-27 22:55:15	wzl	that wouldnt matter in an editor i suppose
+2015-01-27 22:55:18	vegard1992	1080p tiles wt
+2015-01-27 22:55:20	vegard1992	lol
+2015-01-27 22:55:31	vegard1992	is your monitor a cinema 
+2015-01-27 22:56:50	──>	badgerdash (badgerdash@badgerdash.Users.AfterNET.Org) has joined #ludumdare
+2015-01-27 23:00:13	<──	antonijn (antonijn@AN-F5CD1783.dynamic.upc.nl) has left #ludumdare
+2015-01-27 23:01:36	<──	BearishMushroom (BearishMus@AN-2651D008.tbcn.telia.com) has quit (Read error: Connection reset by peer)
+2015-01-27 23:01:45	djdduty	That was delicious
+2015-01-27 23:01:54	djdduty	food <3
+2015-01-27 23:02:40	wzl	mhhh
+2015-01-27 23:02:51	<──	Jacob123_ (qwebirc@DF900E.853D7A.EEC228.5D5745.IP) has quit (Ping timeout)
+2015-01-27 23:02:53	wzl	is there a reason or need to always see the tileset?
+2015-01-27 23:02:53	rxi	nn #ludumdare 
+2015-01-27 23:03:01	wzl	nini
+2015-01-27 23:03:09	wzl	as compared to having it invoke with a key
+2015-01-27 23:03:12	<──	rxi (rxi@rxi.Users.AfterNET.Org) has quit (Quit)
+2015-01-27 23:03:22	deniska	vegard1992: http://i.imgur.com/6LxfrT1.jpg
+2015-01-27 23:03:39	vegard1992	lol
+2015-01-27 23:03:47	voxel	deniska: what are those.. chairs?
+2015-01-27 23:04:00	wzl	 i still think thats one of the better solitions, but it may not be everyones taste
+2015-01-27 23:04:03	deniska	dunno
+2015-01-27 23:04:05	<──	joao (joao@AN-14E394D7.nhoce701.dsl.brasiltelecom.net.br) has quit (EOF from client)
+2015-01-27 23:04:06	deniska	not my photo =)
+2015-01-27 23:05:24	Pent	is that civ?
+2015-01-27 23:06:05	deniska	yes
+2015-01-27 23:06:06	Deepflame	Yes
+2015-01-27 23:06:17	deniska	http://www.lib.ncsu.edu/spaces/game-lab
+2015-01-27 23:06:25	──>	Jishaxe (Joshius@8F73BB.FE1EC3.E2FC57.B47361.IP) has joined #ludumdare
+2015-01-27 23:06:31	Deepflame	Are those just pictures printed out, or is that actually a giant monitor array?
+2015-01-27 23:07:14	deniska	Christie® MicroTile® video wall, 20.3x5-ft., 16 x 5 tiles, 80 total tiles, 7472w x 1744h pixels
+2015-01-27 23:08:42	Deepflame	I wonder how expensive that is
+2015-01-27 23:08:59	Deepflame	I'm gonna go with 80k
+2015-01-27 23:09:47	──>	obskyr (obskyr@AN-C6148D9D.bredband.comhem.se) has joined #ludumdare
+2015-01-27 23:10:47	──>	mtanton (mtanton@AN-337A55C4.hsd1.az.comcast.net) has joined #ludumdare
+2015-01-27 23:12:23	<──	FrozenCow (FrozenCow@AN-A20E2C06.chello.nl) has quit (Ping timeout)
+2015-01-27 23:12:40	──>	awsumpwner27 (awsumpwner@AN-EF38180F.dynamic.mtsallstream.net) has joined #ludumdare
+2015-01-27 23:13:38	deniska	http://www.hermanmiller.com/products/seating/lounge-seating/spun-chair.html and apparently it is a chair
+2015-01-27 23:18:34	<──	Trangar (Trangar3@trangar.Users.AfterNET.Org) has quit (Quit: Leaving)
+2015-01-27 23:19:52	Bcadren	he's back! http://files.explosm.net/comics/Rob/four-eyes.png
+2015-01-27 23:20:02	<──	BurritoEclair (Clockwerk@AN-B0E23758.bstnma.fios.verizon.net) has quit (Ping timeout)
+2015-01-27 23:20:16	wzl	purpleshirtedeyestabber D:
+2015-01-27 23:21:48	liesard	purpleshirtedeyestabber :D
+2015-01-27 23:23:00	──>	brxtr__ (brxtr@AN-54F4CB46.cable.virginm.net) has joined #ludumdare
+2015-01-27 23:23:55	drnick	deniska, looks very unconfortable
+2015-01-27 23:25:27	<──	brxtr_ (brxtr@cpc15-warw15-2-0-cust189.3-2.cable.virginm.net) has quit (Ping timeout)
+2015-01-27 23:25:31	<──	brxtr__ (brxtr@AN-54F4CB46.cable.virginm.net) has quit (Quit: Leaving)
+2015-01-27 23:25:58	──>	Dezzles (Mibbit@EC1FC1.E2E622.2D12BC.6A508E.IP) has joined #ludumdare
+2015-01-27 23:26:02	awsumpwner27	deniska, I just imagine trying to sit and be steady only to have any small adjustment to be amplified, causing it to rock uncomfortably.
+2015-01-27 23:26:04	vegard1992	:D http://mrdoob.com/projects/chromeexperiments/ball-pool/
+2015-01-27 23:26:05	udo	looks like they needed unreasonably expensive furniture to go with that behemoth of a screen
+2015-01-27 23:26:23	──>	Zayron (Zayron@AN-17F51129.hfc.comcastbusiness.net) has joined #ludumdare
+2015-01-27 23:26:32	──>	brxtr (brxtr@cpc15-warw15-2-0-cust189.3-2.cable.virginm.net) has joined #ludumdare
+2015-01-27 23:27:38	wzl	why would webcontent  know its positioning within windows
+2015-01-27 23:27:46	wzl	*need to know
+2015-01-27 23:28:29	vegard1992	also if u didnt see this http://anasomnia.com/
+2015-01-27 23:28:37	vegard1992	o and i naerly finished twitch plays chess mang
+2015-01-27 23:28:45	vegard1992	just one nsaty bug to correct tomrrow
+2015-01-27 23:28:52	wzl	sweet
+2015-01-27 23:30:11	deniska	wzl: looking at the source, it uses accelerometer data
+2015-01-27 23:30:30	wzl	i see 
+2015-01-27 23:31:45	<──	vegard1992 (qwebirc@7F406B.A15953.198701.CA6D28.IP) has quit (Ping timeout)
+2015-01-27 23:31:47	<──	araneae (dana@AN-3A67E72A.hsd1.or.comcast.net) has quit (Quit: This computer has gone to sleep)
+2015-01-27 23:32:03	──>	Pak (Pak@96C745.6F633F.4FE5F7.4EC29.IP) has joined #ludumdare
+2015-01-27 23:32:04	obskyr	bahhh
+2015-01-27 23:32:16	deniska	I am more interested who thought to use shaking a window as an accelerometer mock? =)
+2015-01-27 23:32:18	obskyr	Does Lua have anything like `from x import *`?
+2015-01-27 23:32:46	obskyr	To not store the module in a variable, but rather just dump everything in the local scope where it's required.
+2015-01-27 23:33:50	awsumpwner27	Pretty sure require just does that.
+2015-01-27 23:34:19	obskyr	Does it?
+2015-01-27 23:34:46	deniska	no
+2015-01-27 23:34:54	obskyr	Doesn't `require("thing")` put everything defined in `thing` in a new table?
+2015-01-27 23:34:59	obskyr	I'm fairly certain it does.
+2015-01-27 23:35:07	──>	Knighty (Knighty@AN-94D7AC8E.wp.shawcable.net) has joined #ludumdare
+2015-01-27 23:35:22	obskyr	So you've automatically got things like `thing.doThing()` instead of just `doThing()`.
+2015-01-27 23:35:43	deniska	well
+2015-01-27 23:35:56	deniska	if inside a thing.lua you have global things, you will have global things
+2015-01-27 23:36:07	deniska	no matter if you assign it to something or not
+2015-01-27 23:36:18	wzl	https://dl.dropboxusercontent.com/u/12237727/Sketches/ungame/Editor/Current.PNG
+2015-01-27 23:36:19	obskyr	bah, but I don't want global things
+2015-01-27 23:36:21	wzl	https://dl.dropboxusercontent.com/u/12237727/Sketches/ungame/Editor/Mockup_1.PNG
+2015-01-27 23:36:23	obskyr	They're so... global.
+2015-01-27 23:36:42	wzl	comments on the positioning/structure?
+2015-01-27 23:36:43	obskyr	Maybe it's not always bad practice, though.
+2015-01-27 23:36:50	obskyr	Might actually be useful for my purposes.
+2015-01-27 23:37:05	awsumpwner27	Oh, local scope.
+2015-01-27 23:37:21	awsumpwner27	Yes, Lua is very global-y.
+2015-01-27 23:37:36	obskyr	Maybe I should just embrace it.
+2015-01-27 23:38:00	obskyr	Plus, I guess in LÖVE it's just plain useful to have things like the game object and input manager be global.
+2015-01-27 23:38:08	jonASS_lund	wzl: tilemap editor ?
+2015-01-27 23:38:14	wzl	jonASS_lund, yes
+2015-01-27 23:38:23	wzl	i wanna redesign the ui
+2015-01-27 23:38:35	awsumpwner27	I dunno what's in the spec, but the standard implementation actually has a limit on the number of global variables you can have in a script.
+2015-01-27 23:38:42	awsumpwner27	It's like 250.
+2015-01-27 23:38:45	obskyr	What?
+2015-01-27 23:38:46	<──	SequenceK (SKing@2.49.193.90) has quit (Quit: ERROR)
+2015-01-27 23:38:49	obskyr	That's a bit scary.
+2015-01-27 23:38:55	awsumpwner27	I mean LOCAL
+2015-01-27 23:38:57	awsumpwner27	dammit
+2015-01-27 23:39:02	obskyr	oh
+2015-01-27 23:39:09	wzl	jonASS_lund, most trouble i have with positioning the tileset
+2015-01-27 23:39:12	awsumpwner27	Limitation on local variables, gah
+2015-01-27 23:39:13	obskyr	That's a bit less scary, but still scary in a different way.
+2015-01-27 23:39:13	deniska	obskyr: lua's "use strict": setmetatable(_G, {__newindex=function (t, v) print("Undefined: " .. v); exit() end})
+2015-01-27 23:39:15	jonASS_lund	wzl: what's the difference between "tiles" and tilematrix ?
+2015-01-27 23:39:29	wzl	its mostly huge and takes up too much space or overlapswith the level
+2015-01-27 23:39:44	wzl	tiles show your tiling tools, brush, area, copy, eraser
+2015-01-27 23:40:00	wzl	tilematrix is a history of selected tiles
+2015-01-27 23:40:06	wzl	to quickly pick from them if desired
+2015-01-27 23:40:15	wzl	the tilesheet is not in there yet
+2015-01-27 23:40:27	wzl	will probably go to the bottom right, but that wastes so much space ;/
+2015-01-27 23:40:36	obskyr	deniska: Don't know how relevant that is, but might be useful, I guess.
+2015-01-27 23:40:40	jonASS_lund	wzl: I'd get rid of that bottom section altogether
+2015-01-27 23:40:54	jonASS_lund	wzl: have a right bar, split it in 2 sections
+2015-01-27 23:41:07	wzl	thats what i had before
+2015-01-27 23:41:11	jonASS_lund	you want that vertical space on a widescreen monitor (most laptops are)
+2015-01-27 23:41:25	wzl	i figured horizontal space is more important for level editing
+2015-01-27 23:41:29	jonASS_lund	wzl: was that "config" on the left side always visible ?
+2015-01-27 23:41:40	jonASS_lund	depends on the sort of game though ?
+2015-01-27 23:41:48	wzl	both sections can be collapsed actually
+2015-01-27 23:42:11	jonASS_lund	what was the biggest problem ?
+2015-01-27 23:42:26	deniska	"I could reorganize the code. Or use one little global variable instead…"  http://xkcd.com/292/
+2015-01-27 23:43:25	obskyr	deniska: It's either that or put EVERYTHING in one file...
+2015-01-27 23:43:54	iostream	http://youtube-eng.blogspot.se/2015/01/youtube-now-defaults-to-html5_27.html
+2015-01-27 23:43:55	wzl	mainly i dont like the whole structure and layout, i guess that could be fixed though
+2015-01-27 23:43:56	iostream	the future is now
+2015-01-27 23:44:01	wzl	biggest concern is the tileset
+2015-01-27 23:44:13	<──	pighead10 (pighead10@AN-96E7D379.cable.virginm.net) has quit (Read error: Connection reset by peer)
+2015-01-27 23:44:27	wzl	if people work with a 512 sized tileset the rightmost bar would need to be as wide, blocking half the screen
+2015-01-27 23:45:24	deniska	obskyr: you don't have to have everything global in lua
+2015-01-27 23:45:36	deniska	or rather even, anything global
+2015-01-27 23:45:39	<──	w4ffles (w4ffles@C6F16A.EE567.A35D13.F3D4F.IP) has quit (Quit)
+2015-01-27 23:45:59	obskyr	deniska: How do I require things without putting them in a table, then?
+2015-01-27 23:46:16	deniska	local thing = require("something")
+2015-01-27 23:46:27	jonASS_lund	wzl: how about supporting a scaled down view, i mean a 32x32 tile could easily be picked on a 4x4 or 8x8 block
+2015-01-27 23:46:31	deniska	why wouldn't you put a thing in a table? =)
+2015-01-27 23:46:35	<──	liesard (liesard@liesard.Users.AfterNET.Org) has left #ludumdare (Check out muh site! http://85.5.16.85/)
+2015-02-01 10:37:51	──>	liesard (liesard@liesard.Users.AfterNET.Org) has joined #ludumdare
+2015-02-01 10:37:51	──	Topic for #ludumdare is "Ludum Dare | http://ludumdare.com | #LDJAM | Now: MiniLD #56  Pick n Mix 2! | Ludum Dare 32 Coming April 17th, 2015"
+2015-02-01 10:37:51	──	Topic set by sorceress (sorceress@sorceress.Users.AfterNET.Org) on Fri, 30 Jan 2015 01:54:58
+2015-02-01 10:37:52	──	Channel #ludumdare: 227 nicks (6 ops, 2 halfops, 0 voices, 219 normals)
+2015-02-01 10:37:53	──	Channel created on Thu, 08 Jul 2004 00:47:17
+2015-02-01 10:37:54	liesard	o/
+2015-02-01 10:37:55	yaib	\o
+2015-02-01 10:40:31	──>	liesard (liesard@liesard.Users.AfterNET.Org) has joined #ludumdare
+2015-02-01 10:40:31	──	Topic for #ludumdare is "Ludum Dare | http://ludumdare.com | #LDJAM | Now: MiniLD #56  Pick n Mix 2! | Ludum Dare 32 Coming April 17th, 2015"
+2015-02-01 10:40:31	──	Topic set by sorceress (sorceress@sorceress.Users.AfterNET.Org) on Fri, 30 Jan 2015 01:54:58
+2015-02-01 10:40:31	──	Channel #ludumdare: 227 nicks (6 ops, 2 halfops, 0 voices, 219 normals)
+2015-02-01 10:40:33	──	Channel created on Thu, 08 Jul 2004 00:47:17
+2015-02-01 10:40:34	liesard	o/
+2015-02-01 10:40:36	yaib	o/!
+2015-02-01 10:40:36	yaib	\o
+2015-02-01 10:43:02	──>	Weloxux (hato@weloxux.Users.AfterNET.Org) has joined #ludumdare
+2015-02-01 10:43:07	<──	xrlk (axrlk@AN-D0046878.cpe.distributel.net) has quit (Quit: Leaving)
+2015-02-01 10:43:22	──>	wzl (wzl@AN-AF2819F2.dynamic.kabel-deutschland.de) has joined #ludumdare
+2015-02-01 10:46:18	sogvii	Yaib loop
+2015-02-01 10:46:31	sogvii	Or double response 
+2015-02-01 10:46:33	sogvii	Can't tell 
+2015-02-01 10:46:37	liesard	Hahahaha
+2015-02-01 10:46:44	liesard	Either way, it's awesome/weird/unexpected
+2015-02-01 10:46:50	sogvii	Mmhmm 
+2015-02-01 10:47:05	liesard	Indeed
+2015-02-01 10:47:13	DesertRock	Heyo wzl 
+2015-02-01 10:47:17	sogvii	Also, it shows that yaib doesn't worry about her own messages when responding to others 
+2015-02-01 10:47:23	wzl	heyo DesertRock 
+2015-02-01 10:47:34	sogvii	Actually that would mean it was a double response, not a loop 
+2015-02-01 10:47:45	liesard	Yeah
+2015-02-01 10:47:53	──>	ThatOtherPerson (ThatOtherP@735680.FFB3AE.144F2D.18BE38.IP) has joined #ludumdare
+2015-02-01 10:47:54	 *	liesard thinks about it for a second
+2015-02-01 10:47:58	liesard	Yup, that's definitely it
+2015-02-01 10:48:04	sogvii	So a yaib loop is impossible :(
+2015-02-01 10:48:25	liesard	D:
+2015-02-01 10:48:33	liesard	Well that means that yaib wasn't poorly designed
+2015-02-01 10:48:39	liesard	So that's good, I guess
+2015-02-01 10:48:44	sogvii	I need to make a bot that responds to yaib in such a way that a bot loop can exist 
+2015-02-01 10:49:17	liesard	Yes!
+2015-02-01 10:49:32	liesard	Just have it repeat everything yaib says
+2015-02-01 10:50:02	sogvii	No 
+2015-02-01 10:50:09	sogvii	Needs to have purpose 
+2015-02-01 10:50:38	liesard	Ok...
+2015-02-01 10:51:28	sogvii	Just make it contradict yaib 
+2015-02-01 10:51:31	sogvii	!objection 
+2015-02-01 10:51:31	yaib	Objection overruled!
+2015-02-01 10:51:40	sogvii	Objection sustained! 
+2015-02-01 10:52:04	liesard	But that doesn't allow an infinite loop...
+2015-02-01 10:52:06	liesard	!objection
+2015-02-01 10:52:07	yaib	Objection sustained!
+2015-02-01 10:52:11	liesard	Objection sustained!
+2015-02-01 10:52:18	liesard	Ok, that didn't work :|
+2015-02-01 10:52:24	sogvii	!objection overruled 
+2015-02-01 10:52:24	yaib	Objection sustained!
+2015-02-01 10:52:29	sogvii	Lol
+2015-02-01 10:52:34	liesard	Hahahahaha
+2015-02-01 10:53:02	──>	Macario (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has joined #ludumdare
+2015-02-01 10:53:17	wzl	http://vimeo.com/30798517 wonderfully animated (nsfw too)
+2015-02-01 10:53:58	<──	Mixer (qwebirc@AN-2170AB49.vic.bigpond.net.au) has quit (Quit: Page closed)
+2015-02-01 10:56:04	<──	Macario (Macario@AN-4FF6F15.nycmny.fios.verizon.net) has quit (Ping timeout)
+2015-02-01 10:56:55	──>	olligobber (olligobber@AN-EDA8C7E6.static.tpgi.com.au) has joined #ludumdare
+2015-02-01 10:57:22	<──	Ulydev (Ulydev@AN-C6B955C7.fbx.proxad.net) has quit (Quit)
+2015-02-01 10:58:02	──>	MidgeS (MidgeS@AN-F41BE546.travedsl.de) has joined #ludumdare
+2015-02-01 10:58:37	wzl	http://explosm.net/comics/3821/ :D
+2015-02-01 11:00:31	Jeviny	This game is already hard enough for me to play test
+2015-02-01 11:00:34	Jeviny	and I've been staring at it for 30 hours
+2015-02-01 11:00:42	Jeviny	so yeah
+2015-02-01 11:00:51	Jeviny	this will probably be one of the hardest, most fucking annoying piece of shit games LD has ever seen
+2015-02-01 11:00:56	wzl	lol Jeviny 
+2015-02-01 11:00:59	wzl	didnt you even sleep yet
+2015-02-01 11:01:06	Jeviny	I slept for like 5 hours yesterday
+2015-02-01 11:01:08	Jeviny	that was it
+2015-02-01 11:01:22	wzl	when was that
+2015-02-01 11:01:27	Jeviny	like
+2015-02-01 11:01:29	Jeviny	10 AM yesterday
+2015-02-01 11:01:36	Jeviny	I woke up at 3 PM 
+2015-02-01 11:01:45	wzl	ok then :P
+2015-02-01 11:01:45	Jeviny	right now it's 4:01 AM here
+2015-02-01 11:01:50	Jeviny	also you should get back in the stream :P
+2015-02-01 11:01:53	Jeviny	I'm playtesting this bitch
+2015-02-01 11:01:55	Jeviny	and its difficult
+2015-02-01 11:02:09	Jeviny	and remember, since I developed it its difficulty is already a bit numb on me
+2015-02-01 11:02:10	Jeviny	so, yeah
+2015-02-01 11:02:12	Jeviny	:P
+2015-02-01 11:02:44	wzl	uh someones playing demons crest on hitbox
+2015-02-01 11:04:15	──>	Gama11 (quassel@AN-A2FF15F8.dip0.t-ipconnect.de) has joined #ludumdare
+2015-02-01 11:04:44	wzl	wow they're hiding the channels you follow quite a bit
+2015-02-01 11:05:42	Jeviny	god damn it, the speed changes are annoying me
+2015-02-01 11:06:24	wzl	gameplay looks so compelling and challenging
+2015-02-01 11:06:26	wzl	~~~
+2015-02-01 11:07:25	<──	FireSlash (FireSlash@AN-E1E37384.hsd1.wa.comcast.net) has quit (Ping timeout)
+2015-02-01 11:14:14	──>	ragecryx (ragecryx@AN-A6FE97C8.dsl.dyn.forthnet.gr) has joined #ludumdare
+2015-02-01 11:15:49	──>	laaph (laaph@E5224B.BCAE92.153A1F.F76721.IP) has joined #ludumdare
+2015-02-01 11:17:22	<──	ragecryx (ragecryx@AN-A6FE97C8.dsl.dyn.forthnet.gr) has quit (Quit)
+2015-02-01 11:17:56	<──	GBGames (gberardi_@AN-7979E117.desm.qwest.net) has quit (Quit: Leaving)
+2015-02-01 11:18:12	<──	awsumpwner27 (awsumpwner@AN-EF38180F.dynamic.mtsallstream.net) has quit (Ping timeout)
+2015-02-01 11:18:54	──>	ThatOtherPerson_ (ThatOtherP@735680.FFB3AE.144F2D.18BE38.IP) has joined #ludumdare
+2015-02-01 11:19:24	<──	Furex (Furex@B62D3C:FB7B77:DCC8E3:C57FB8:IP) has quit (Ping timeout)
+2015-02-01 11:19:33	──>	Furex (Furex@9ADDCC:AA14B9:DCC8E3:C57FB8:IP) has joined #ludumdare
+2015-02-01 11:19:47	──>	Wonkyth_ (quassel@Wonkyth.Users.AfterNET.Org) has joined #ludumdare
+2015-02-01 11:20:48	──>	awsumpwner27 (awsumpwner@AN-EF38180F.dynamic.mtsallstream.net) has joined #ludumdare
+2015-02-01 11:20:52	<──	Wonkyth (quassel@Wonkyth.Users.AfterNET.Org) has quit (Ping timeout)
+2015-02-01 11:20:52	<──	ThatOtherPerson (ThatOtherP@735680.FFB3AE.144F2D.18BE38.IP) has quit (Ping timeout)
+2015-02-01 11:21:43	──>	Zhoot (Zhoot@zhoot.Users.AfterNET.Org) has joined #ludumdare
+2015-02-01 11:22:15	<──	ricky26 (quassel@3C84F7.CE399D.875F0D.E806BB.IP) has quit (Ping timeout)
+2015-02-01 11:22:34	──>	ricky26 (quassel@80.83.125.94) has joined #ludumdare
+2015-02-01 11:23:18	Crefossus	streamign some playcanvas http://www.twitch.tv/crefossus
+2015-02-01 11:23:39	awsumpwner27	SIGH
+2015-02-01 11:23:51	awsumpwner27	Time to write yet another buggy physics engine.
+2015-02-01 11:24:02	awsumpwner27	Wish me luck, folks.
+2015-02-01 11:24:07	Aelloon	don't make it buggy then
+2015-02-01 11:24:08	Aelloon	good luck
+2015-02-01 11:26:43	<──	ananasblau (ananasblau@A42DF4.CF4D13.F4A1B6.5B04A1.IP) has quit (Quit)
+2015-02-01 11:28:33	──>	FrozenCow (FrozenCow@AN-A20E2C06.chello.nl) has joined #ludumdare
+2015-02-01 11:32:56	Wonkyth_	awsumpwner27: yaaay
+2015-02-01 11:33:00	──	Wonkyth_ is now known as Wonkyth
+2015-02-01 11:33:15	Jeviny	Hey Wonkyth
+2015-02-01 11:33:27	Wonkyth	hey Jeviny 
+2015-02-01 11:33:29	Wonkyth	how's liff?
+2015-02-01 11:33:35	Jeviny	gid
+2015-02-01 11:33:57	Jeviny	My game is almost done, right now I'm just playtesting.
+2015-02-01 11:34:09	Jeviny	By the way, this game is a fucking bitch to playtest all the way through because it's almost impossible
+2015-02-01 11:34:25	Jeviny	like, there's about a 5% to 7% chance that you'll be able to beat this game
+2015-02-01 11:34:53	Jeviny	I made it fucktardedly difficult to fit the ragequit theme
+2015-02-01 11:35:01	wzl	if you wanted to make a fair game you shouldnt have made a runner x)
+2015-02-01 11:35:02	Jeviny	I'm trying to reach for as many themes, goals and limitations as I can this MiniLD, its nuts
+2015-02-01 11:35:14	Jeviny	I never wanted to make a fair game. ;)
+2015-02-01 11:35:32	Jeviny	Platformers are the same thing as runners anyways
+2015-02-01 11:35:37	Jeviny	its just that you choose when you get to move
+2015-02-01 11:36:46	──>	GBGames (gberardi_@AN-7979E117.desm.qwest.net) has joined #ludumdare
+2015-02-01 11:39:07	<──	Pietdagamer (CORRUPT@dhcp-077-250-224-176.chello.nl) has quit (Read error: Connection reset by peer)
+2015-02-01 11:39:19	──>	Pietdagamer (CORRUPT@AN-77922FA2.chello.nl) has joined #ludumdare
+2015-02-01 11:40:12	Wonkyth	Jeviny: add cheats :D
+2015-02-01 11:40:36	gingerale	Hmm.. Was thinking.. I believe my favourite video game story moment is from a Legend of Zelda game. That part in Twilight Princess where Midna is close to death and you're dropped in the field stuck in wolf form. 
+2015-02-01 11:41:04	──>	deniska (denis@deniska.Users.AfterNET.Org) has joined #ludumdare
+2015-02-01 11:41:38	Wonkyth	gingerale: heh
+2015-02-01 11:41:43	Wonkyth	hmm
+2015-02-01 11:42:12	Wonkyth	I think mine is when [spoiler] is [spoilered] by the [spoiler]
+2015-02-01 11:42:17	Wonkyth	in To The Moon :P
+2015-02-01 11:42:19	gingerale	You start rushing through everything in order to save your companion. And the game doesn't even force you to a direction. It didn't drop you in front of the castle or anything but rather the field. There's no timer, you could start running to any direction. But I've never heard of anyone who would even stop for a moment in order to get to the location you need to go.
+2015-02-01 11:42:29	gingerale	Oh yeah, To The Moon is on my to-play list
+2015-02-01 11:42:38	Wonkyth	do iiiit
+2015-02-01 11:43:50	Wonkyth	gingerale: srs, just set aside an evening some time
+2015-02-01 11:44:04	gingerale	Yeh, I'll need to dig it out sometime first
+2015-02-01 11:44:30	Wonkyth	lol
+2015-02-01 11:47:02	Wonkyth	Wait, when did I get all the Civ V expansions? o.O
+2015-02-01 11:47:09	Wonkyth	I mean, I'm not complaining
+2015-02-01 11:47:34	Wonkyth	I bought Civ V for 5$, and literally just got 100$+ worth of expansions
+2015-02-01 11:47:42	Jeviny	So, it *is* possible to beat my game
+2015-02-01 11:47:49	Wonkyth	Jeviny: teh lol
+2015-02-01 11:47:49	Jeviny	there's just a very small chance that anybody will be able to do it
+2015-02-01 11:47:54	<──	FARTRON (KISH@AN-E44383BF.hsd1.nj.comcast.net) has quit (Ping timeout)
+2015-02-01 11:47:57	Jeviny	Like
+2015-02-01 11:47:57	Jeviny	seirously
+2015-02-01 11:47:58	Jeviny	god damn
+2015-02-01 11:49:33	──>	FARTRON has joined #ludumdare
+2015-02-01 11:50:33	<──	liesard (liesard@liesard.Users.AfterNET.Org) has left #ludumdare (Check out muh site! http://85.5.16.85/)

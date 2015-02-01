@@ -1,0 +1,11 @@
+@-moz-document domain(tumblr.com) {
+
+  /* Wikipedia Minimalismo */
+
+  * {
+    border: none !important;
+  }
+  #new_post, .post_header, #tumblr_radar, .controls_section_radar, .recommended_tumblelogs, .spotlight, #sidebar_footer_nav, .sidebar_link, .avatar_align, #home_button, #discover_button, #fan_mail_controls, .l-footer, #post_wrapper::before {
+    display: none !important;
+  }
+}
