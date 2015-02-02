@@ -1,0 +1,84 @@
+# Creates terminal emulator
+"urxvt"
+	Mod4 + Return
+
+"centre"
+	Mod4 + c
+
+"focus next"
+	Mod4 + Right
+
+"focus prev"
+	Mod4 + Left
+
+"move down"
+	Mod4 + Control + Down
+
+"move up"
+	Mod4 + Control + Up
+
+"move right"
+	Mod4 + Control + Right
+
+"move left"
+	Mod4 + Control + Left
+
+"resize down"
+    Mod4 + Shift + Down
+
+"resize up"
+    Mod4 + Shift + Up
+
+"resize right"
+    Mod4 + Shift + Right
+
+"resize left"
+    Mod4 + Shift + Left
+
+"pfw >> ~/.groups/1"
+    Mod4 + 1
+
+"pfw >> ~/.groups/2"
+    Mod4 + 2
+
+"mapw -u `lsw` ; mapw -m `cat ~/.groups/1`"
+    Mod4 + Shift + 1
+
+"mapw -u `lsw` ; mapw -m `cat ~/.groups/2`"
+    Mod4 + Shift + 2
+
+"fullscreen `pfw`"
+    Mod4 + F
+
+"killw `pfw`"
+    Mod4 + Escape
+
+# Controls volume
+"amixer set Master 5%+ unmute && notify $(volume)"
+	XF86AudioRaiseVolume
+"amixer set Master 5%- unmute && notify $(volume)"
+	XF86AudioLowerVolume
+"amixer set Master toggle && notify $(volume)"
+	XF86AudioMute
+
+# Controls brightness
+"/usr/bin/xbacklight -inc 10"
+	XF86MonBrightnessUp
+"/usr/bin/xbacklight -dec 10"
+	XF86MonBrightnessDown
+
+# Print screen
+"scrot"
+	Print
+"scrot -s"
+	Shift + Print
+
+# Executes dmenu
+"dmenu_run"
+	Mod4 + d
+
+"j4-dmenu-desktop"
+	Mod4 + Shift + d
+
+"killall -9 swm"
+	Mod4 + Shift + E
