@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# onodera - onodera at openmailbox dot org
+# Displays installed packages
+
+# Get pkgcount
+packages="$(pacman -Q | wc -l)"
+
+# Echo pkgcount
+echo "You have $packages packages installed."
